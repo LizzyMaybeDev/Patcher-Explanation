@@ -32,7 +32,28 @@
 - **static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Low Animation Tick** - Lowers the amount of animations that happen a second from 1000 to 500. *default
 - **Instant World Swapping** - Remove the dirt screen and waiting time when switching a world. *default
-- **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
+- **Chunk Update Limit** - Specify the amount of updates that can happen a second.
+# Miscellaneous 
+- Remove Screen Bobbing - While using View Bobbing, only remove the view aspect but have the hand still - bounce around.
+- Better Camera - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
+- Crosshair Perspective - Remove the crosshair when in third person.
+- Better F1 - Hide nametags when in F1 mode.
+- Remove Ground Foliage - Stop plants/flower from rendering. (Requires Chunk reload (F3+A).
+- Smooth Scroll-to-Zoom Animation - Add a smooth animation when you scroll in and out while zoomed.
+- Smooth Zoom Animation - Add a smooth animation when you zoom in and out.
+- Zoom Smooth Camera - Remove the smooth camera effect when using zoom.
+- Zoom Sensitivity - Use a custom mouse sensitivity when zoomed. this is a percentage of your normal sensitivity 
+- Smooth Zoom Function - Change the smoothing function used in the smooth zooming animation.
+- Zoom Adjustment - Scroll when using OptiFine's zoom to adjust the zoom level.
+- Toggle to Zoom - Make OptiFine's zoom key a toggle instead of requiring you to hold it
+- Simplify FPS Counter - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
+- Remove Water Overlay - Remove the water texture overlay when underwater.
+- Show Own Nametag - See your own nametag in third person.
+- Clean View - Stop rendering your own potion effect particles.
+- Disable Text shadow - Remove shadows from text. (Can positively impact performance).
+- Alternate Text Shadow - Change the text shadow to only move down rather than moving to the side.
+- Add Text Shadow to Nametags - Render nametag with shadowed text.
+- Numerical Enchantments - Use readable numbers instead of roman numerals on enchants. *default
 - **Particle Culling** - Stop particles that aren't visible to the player from rendering. *default
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
