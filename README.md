@@ -21,7 +21,7 @@
 - **Disable Item Frames** - stop item frames from rendering
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Skulls** - Stop skulls from rendering. 
-- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well.
+- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering enabling this will stop those from rendering as well).
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
 - **Disable Gl Error Checking** - Disable unnecessary constant checking for errors in OpenGL. (Requires restart once toggled.) *default
@@ -37,7 +37,7 @@
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
 - **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
-- **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time. *Default
+- **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
 - **Don't Cull Player Nametags** - Render nametags even when the player and nametag are occluded. 
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
