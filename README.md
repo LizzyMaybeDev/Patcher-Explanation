@@ -16,10 +16,10 @@ Head Rotations // Resolve an issue where your head would not properly rotate whi
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 # Performance
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
-- **Disable mapped Item frames** - Stop item frames only with maps as their item from rendering
+- **Disable Mapped Item Frames** - Stop item frames only with maps as their item from rendering
 - **Disable Item Frames** - stop item frames from rendering
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
-- **Disable skulls** - Stop skulls from rendering. 
+- **Disable Skulls** - Stop skulls from rendering. 
 - **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
