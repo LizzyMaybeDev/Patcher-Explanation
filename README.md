@@ -19,7 +19,7 @@ Head Rotations // Resolve an issue where your head would not properly rotate whi
 - **Disable mapped Item frames** - Stop item frames only with maps as their item from rendering
 - **Disable Item Frames** - stop item frames from rendering
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
-- **Disable skulls** - Stop sakulls from rendering. 
+- **Disable skulls** - Stop skulls from rendering. 
 - **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
