@@ -17,11 +17,11 @@
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 # Performance
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
-- **Disable mapped Item frames** - Stop item frames only with maps as their item from rendering
+- **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering
 - **Disable Item Frames** - stop item frames from rendering
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
-- **Disable skulls** - Stop sakulls from rendering. 
-- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well.
+- **Disable Skulls** - Stop sakulls from rendering. 
+- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well).
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
 - **Disable Gl Error Checking** - Disable unnecessary constant checking for errors in OpenGL. (Requires restart once toggled.) *default
@@ -29,7 +29,7 @@
 - **Batch Model Rendering** - Render models in a single draw call, reducing the amount of OpenGL instructions performed a second. *default
 - **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in singleplayer)
 - **Remove Cloud Transparency** - Remove transparency from clouds.
-- **static Fog Color** - Simplify fog color creation with a static fog color. *default
+- **Static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Low Animation Tick** - Lowers the amount of animations that happen a second from 1000 to 500. *default
 - **Instant World Swapping** - Remove the dirt screen and waiting time when switching a world. *default
 - **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
@@ -37,7 +37,7 @@
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
 - **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
-- **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time. *Default
+- **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
 - **Don't Cull Player Nametags** - Render nametags even when the player and nametag are occluded. 
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
@@ -61,7 +61,7 @@
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Crosshair Perspective** - Remove the crosshair when in third person.
 - **Better F1** - Hide nametags when in F1 mode.
-- **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires Chunk reload (F3+A).
+- **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires Chunk reload (F3+A)).
 - **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
 - **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out.
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
