@@ -227,7 +227,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
 
-## Planned features for patcher
+## Known Planned features for patcher
 - Entity backface culling - WIP
 - Chat timestamps on hover - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - Fixed Entity Culling trying to cull particles causing some performance issues
