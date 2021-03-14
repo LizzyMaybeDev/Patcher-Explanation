@@ -195,29 +195,18 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 ## Patcher also had/has options that arent in the config which are 
 
-**Scoreboard Patch** - which fixed log spam but now is force enabled 
-
-**Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score. which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
-
-**Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
-
-**Startup Optimization** - Don't refresh resources twice during startup.
-
-**PathFinding optimization** (Cleanup blockaccess once processed).
-
-**TileEntity optimization** (cleanup removable tile//entities).
-
-**Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
-
-**Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
-
-**Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
-
-**Improve faster annotation searching**.
-
-**Rewrote data table search**.
-
-**Note that this is all public information and there is many many stuff that are in the code but are not made public**.
+- **Scoreboard Patch** - which fixed log spam but now is force enabled 
+- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score. which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
+- **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
+- **Startup Optimization** - Don't refresh resources twice during startup.
+- **PathFinding optimization** (Cleanup blockaccess once processed).
+- **TileEntity optimization** (cleanup removable tile//entities).
+- **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
+- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
+- **Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
+- **Improve faster annotation searching**.
+- **Rewrote data table search**.
+- **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 ## Known Planned features for patcher
 - Entity backface culling - WIP
