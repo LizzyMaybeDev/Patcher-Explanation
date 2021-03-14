@@ -171,6 +171,7 @@
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken
+---
 ## Patcher has 49 Default options and 136 options in general 16 of those are bug fixes (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones)
 
 ## Patcher also replaces 17 mods which are CaseCommands, CommandPatcher, CompactChat, CrossChat, frames+, ItemOptimizations, MouseBindFix, ResourceExploitFix, WindowedFullscreen, CleanView, FastChat ,MemoryFix, MouseDelayFix, NoCloseMyChat, VanillaEnhancements, VoidChat, BetterScaledGUI 
