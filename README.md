@@ -226,6 +226,14 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
 
 - In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
+
+## Planned features for patcher
+- Entity backface culling - WIP
+- Chat timestamps on hover - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
+- Fixed Entity Culling trying to cull particles causing some performance issues
+- The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods
+- Fix Scoreboard fix not fixing Scoreboard log spam bug
+- 1.12.2 Farm Selection Boxes now supports the hypixel.io ip  
 <div align = "center">
 
 # The End.
