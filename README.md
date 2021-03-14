@@ -6,7 +6,7 @@
 
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default	
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
-- **Culling Fix** - Fix false negatives in frustum Culling, creating sometimes invisible Chunks. (Can negatively impact performance)
+- **Culling Fix** - Fix false negatives in frustum culling, creating sometimes invisible Chunks. (Can negatively impact performance)
 - **Case Insensitive Commands** - Stop Vanilla commands from forcing case sensitivity. *default
 - **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an Entity. *default
 - **Keep Shaders on Perspective change** - Keep Vanilla shaders you're currently using while also being able to toggle Perspective. *default
@@ -98,7 +98,7 @@
 
 </div>
 
-- **Fire Overlay Height** - Change the height of the fire overlay
+- **Fire Overlay Height** - Change the height of the fire overlay.
 - **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
 - **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
 - **Enchantment Glance** - View the enchantments of the currently held item above your hotbar. *default
@@ -215,6 +215,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
 - **Improve faster annotation searching**.
 - **Rewrote data table search**.
+- **Fix Forge's mod list by changing "Search:\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 ## Known Planned features for patcher
