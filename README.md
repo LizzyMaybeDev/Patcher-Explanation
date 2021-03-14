@@ -77,3 +77,45 @@
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side.
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text.
 - **Numerical Enchantments** - Use readable numbers instead of roman numerals on enchants. *default
+# Quality of Life
+- **Fire Overlay Height** - Change the height of the fire overlay
+- **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
+- **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
+- **Enchantment Glance** - View the enchantments of the currently held item above your hotbar. *default
+- **Protection Percentage** - View how much total armor protection you have inside of your inventory. *default
+- **Projectile Protection Percentage** - View how much total projectile protection you have inside of your inventory. *default
+- **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer.) *default
+- **Log Optimizer** - Delete any files in the logs folder. as this usually can take up a lot of space. (These files are not recoverable once deleted.)
+- **Log Otimizer Amount** - Choose how many days old a file must be before deleted.
+- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots.)
+- **Image Preview Width** - The % of screen width to be used for image preview.
+- **Disable Achievements** - Remove achievement notification.
+- **Startup Notification** - Notify how long the game took to startup with a notification *default
+- **Smart Disconnect -** Choose between disconnecting or relogging when clicking the disconnect button. (Only works on multiplayer servers.)
+- **Nausea Effect** - Remove the nether portal appearing when clearing nausea.
+- **Container Backgrounds** - Remove the dark background inside of a container.
+- **Inventory Position** - Stop potion effects from shifting your inventory to the right. *default
+- **Fov Modifier** - Allow for modifying FOV change states.
+- **Sprinting Fov** - Modify your FOV when sprinting.
+- **Bow FOV** - Modify your FOV when pulling back a bow.
+- **Speed Fov** - Modify your FOV when having the speed effect.
+- **Slowness FOV** - Modify Your FOV when having the slowness effect.
+- **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
+- **Remove Inverted Colors from Crosshair** - Remove the inverted color effect on the crosshair.
+- **Clean Main Menu** - Remove the Realms button on the main menu as you need to be on the latest Mnecraft version to use Realms. *default
+- **Skin Refresher** - Add a button to the escape menu to refresh your current skin without needing to leave the server. (Also accessible with the command "/refreshskin".)
+- **GUI Crosshair** - Stop rendering the crosshair when in a GUI.
+- **Replace Open to Lan** - Remove the Open to Lan button when in multiplayer server with a button to quickly open your server list. (Will be reworked in the future to not kick you from the server.)
+- **Replaced Mods Warning** - Display on startup what mods you may have that are replaced by Patcher. *default
+- **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
+- Fullbright - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
+- **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright)
+- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
+- **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
+- **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
+- **Tab Opacity** - Allow for customizing tab opacity.
+- **Custom Tab Opacity** - Change the tab list opacity.
+- **Toggle Tab** - Hold tab open without needing to hold down the tab key.
+- **Number Ping** - Show a readable ping number in tab instead of bars.
+- **Instant Fullscreen** (windows only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work.)
+- **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
