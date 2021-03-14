@@ -20,7 +20,11 @@
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an Entity. *default
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
+<div align = "center">
+
 # Performance
+
+</div>
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
 - **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering
 - **Disable Item Frames** - stop item frames from rendering
@@ -61,7 +65,11 @@
 - **Entity Render Distance** - Stop rendering entities outside of the specified radius
 - **Disable Breaking Particles** - Remove block breaking particles for visibility.
 - **Item Searching** - Stop items from searching for extra items to combine with when the stack is already full. *default
+<div align = "center">
+
 # Miscellaneous 
+
+</div>
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still - bounce around.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Crosshair Perspective** - Remove the crosshair when in third person.
@@ -82,7 +90,11 @@
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side.
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text.
 - **Numerical Enchantments** - Use readable numbers instead of roman numerals on enchants. *default
+<div align = "center">
+
 # Quality of Life
+
+</div>
 - **Fire Overlay Height** - Change the height of the fire overlay
 - **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
 - **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
@@ -124,7 +136,11 @@
 - **Number Ping** - Show a readable ping number in tab instead of bars.
 - **Instant Fullscreen** (windows only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work.)
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
+<div align = "center">
+
 # Chat
+
+</div>
 - **Chat Keeper** - Keep chat when toggling fullscreen. *default
 - **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod.) *default
@@ -137,7 +153,11 @@
 - **Anti Clear Chat** - Remove blank messages from chat.
 - **Chat Timestamps** - Add timestamps before a message.
 - **Chat Timestamps Format** - Change the time format of Chat Timestamps, Examples: [3:24 PM] Steve: Hey!, [15:24] Steve: Hey!
+<div align = "center">
+
 # Screenshot
+
+</div>
 - **No Feedback** - Remove the messages from screenshots entirely.
 - **Compact Response** - Compact the message given when screenshotting.
 - **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
