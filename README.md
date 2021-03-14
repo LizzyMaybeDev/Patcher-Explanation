@@ -201,3 +201,32 @@
 
 **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
+<div align = "center">
+
+# Patcher FunFacts
+
+</div>
+
+- **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
+
+- **Fire Overlay Height** option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
+
+- **Downscale Pack Images** option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7
+
+- With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
+
+- In Patcher 3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining 
+
+- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render anything to later on get removed in 
+Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
+
+- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues.
+
+- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
+
+- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
+<div align = "center">
+
+# The End.
+
+</div>
