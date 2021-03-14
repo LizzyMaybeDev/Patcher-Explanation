@@ -25,6 +25,7 @@
 # Performance
 
 </div>
+
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
 - **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering
 - **Disable Item Frames** - stop item frames from rendering
@@ -70,6 +71,7 @@
 # Miscellaneous 
 
 </div>
+
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still - bounce around.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Crosshair Perspective** - Remove the crosshair when in third person.
@@ -95,6 +97,7 @@
 # Quality of Life
 
 </div>
+
 - **Fire Overlay Height** - Change the height of the fire overlay
 - **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
 - **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
@@ -141,6 +144,7 @@
 # Chat
 
 </div>
+
 - **Chat Keeper** - Keep chat when toggling fullscreen. *default
 - **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod.) *default
@@ -158,6 +162,7 @@
 # Screenshot
 
 </div>
+
 - **No Feedback** - Remove the messages from screenshots entirely.
 - **Compact Response** - Compact the message given when screenshotting.
 - **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
