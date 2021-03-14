@@ -225,6 +225,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - Fix Scoreboard fix not fixing Scoreboard log spam bug
 - 1.12.2 Farm Selection Boxes now supports the hypixel.io ip
 - Fix z-fighting issues with fluid stitching
+- Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
 
 <div align = "center">
 
