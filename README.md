@@ -171,6 +171,32 @@
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken
+<div align = "center">
+
+# Patcher FunFacts
+
+</div>
+
+- **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
+
+- **Fire Overlay Height** option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
+
+- **Downscale Pack Images** option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7
+
+- With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
+
+- In Patcher 3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining 
+
+- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render anything to later on get removed in 
+Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
+
+- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues.
+
+- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
+
+- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
+
+- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
 ---
 ## Patcher has 49 Default options and 136 options in general 16 of those are bug fixes (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones)
 
@@ -202,33 +228,6 @@
 
 **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
-<div align = "center">
-
-# Patcher FunFacts
-
-</div>
-
-- **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
-
-- **Fire Overlay Height** option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
-
-- **Downscale Pack Images** option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7
-
-- With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
-
-- In Patcher 3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining 
-
-- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render anything to later on get removed in 
-Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
-
-- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues.
-
-- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
-
-- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
-
-- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
-
 ## Known Planned features for patcher
 - Entity backface culling - WIP
 - Chat timestamps on hover - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
@@ -236,6 +235,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods
 - Fix Scoreboard fix not fixing Scoreboard log spam bug
 - 1.12.2 Farm Selection Boxes now supports the hypixel.io ip  
+
 <div align = "center">
 
 # The End.
