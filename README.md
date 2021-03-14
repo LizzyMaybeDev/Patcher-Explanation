@@ -174,6 +174,7 @@
 ## Patcher has 49 Default options and 136 options in general 16 of those are bug fixes (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones)
 
 ## Patcher also replaces 17 mods which are CaseCommands, CommandPatcher, CompactChat, CrossChat, frames+, ItemOptimizations, MouseBindFix, ResourceExploitFix, WindowedFullscreen, CleanView, FastChat ,MemoryFix, MouseDelayFix, NoCloseMyChat, VanillaEnhancements, VoidChat, BetterScaledGUI 
+
 ## Patcher also had/has options that arent in the config which are 
 **Scoreboard Patch** - which fixed log spam but now is force enabled 
 **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score. which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
