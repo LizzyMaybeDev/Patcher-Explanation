@@ -1,4 +1,9 @@
+<div align = "center">
+
 # Bug Fixes
+
+</div>
+
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default	
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum Culling, creating sometimes invisible Chunks. (Can negatively impact performance)
@@ -156,4 +161,5 @@
 **Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
 **Improve faster annotation searching**.
 **Rewrote data table search**.
+**Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
