@@ -119,3 +119,26 @@
 - **Number Ping** - Show a readable ping number in tab instead of bars.
 - **Instant Fullscreen** (windows only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work.)
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
+# Chat
+- **Chat Keeper** - Keep chat when toggling fullscreen. *default
+- **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
+- **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod.) *default
+- **Compact Chat time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
+- **Cross Chat** - Stop clearing chat when switching servers. *default
+- **Safe Chat Clicks** - Show the commmand or link that is ran/opened on click. 
+- **Shift Chat** - Holding shift while pressing enter will keep chat open.
+- **Transparent Chat** - Remove the background from chat. (Can positively impact performance)
+- **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance) 
+- **Anti Clear Chat** - Remove blank messages from chat.
+- **Chat Timestamps** - Add timestamps before a message.
+- **Chat Timestamps Format** - Change the time format of Chat Timestamps, Examples: [3:24 PM] Steve: Hey!, [15:24] Steve: Hey!
+# Screenshot
+- **No Feedback** - Remove the messages from screenshots entirely.
+- **Compact Response** - Compact the message given when screenshotting.
+- **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
+- **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
+- **Preview Scale** - Change the scale of the preview. smaller number is bigger.
+- **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
+- **Preview Animation** - Select an animation style for the screenshot preview. 
+- **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken
+
