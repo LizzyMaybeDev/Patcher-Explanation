@@ -219,14 +219,14 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 ## Known Planned features for patcher
-- Entity backface culling -  hides parts of the entity model that you cant see.
-- Chat timestamps on hover - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
-- Fixed Entity Culling trying to cull particles causing some performance issues
-- The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods
-- Fix Scoreboard fix not fixing Scoreboard log spam bug
-- 1.12.2 Farm Selection Boxes now supports the hypixel.io ip
-- Fix z-fighting issues with fluid stitching
-- Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
+- **Entity backface culling** -  hides parts of the entity model that you cant see.
+- **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
+- **Fixed Entity Culling trying to cull particles causing some performance issues**
+- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
+-** Fix Scoreboard fix not fixing Scoreboard log spam bug**
+- **1.12.2 Farm Selection Boxes now supports the hypixel.io ip**
+- **Fix z-fighting issues with fluid stitching**
+- **Fix some** [**formatting issues**](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
 - **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
 - **Stop "custom sky: texture not found" from spamming the log** - to prevent [this](https://media.discordapp.net/attachments/728064513605369866/820912276886126602/unknown.png).
 - **Port chat send delay** - Port the new chat send delay feature [Example](https://imgur.com/a/ewt6Gq1).
