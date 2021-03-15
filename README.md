@@ -227,7 +227,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - 1.12.2 Farm Selection Boxes now supports the hypixel.io ip
 - Fix z-fighting issues with fluid stitching
 - Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
-- **Fixed some smooth lighting issues** - Unknown.
+- **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
 - **Stop "custom sky: texture not found" from spamming the log** - to prevent [this](https://media.discordapp.net/attachments/728064513605369866/820912276886126602/unknown.png).
 - **Port chat send delay** - Port the new chat send delay feature [Example](https://imgur.com/a/ewt6Gq1).
 - **Improvements related to resource pack discovery menu** - Unknown.
