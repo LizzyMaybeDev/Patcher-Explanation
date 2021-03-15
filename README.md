@@ -215,7 +215,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
 - **Improve faster annotation searching**.
 - **Rewrote data table search**.
-- **Fix Forge's mod list by changing "Search:\" to "Search:".
+- **Fix Forge's mod list typo** by changing "Search:\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 ## Known Planned features for patcher
