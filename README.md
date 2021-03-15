@@ -234,7 +234,42 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
 -  **Added unfocused fps & sound volume** - Mostly unknown but i assume unfocused fps means when the game is unfocused you have a slider to lock fps to reduce unneeded performance hogging and a slider for volume when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and its now fixed, [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
+## Mods patcher replaces
+[CaseCommands](https://sk1er.club/mods/case_commands) - Sk1er LLC
 
+[CommandPatcher](https://sk1er.club/mods/command_patcher) - Sk1er LLC
+
+[CompactChat](https://sk1er.club/mods/compactchat) - Sk1er LLC
+
+[CrossChat](https://sk1er.club/mods/cross_chat) - Sk1er LLC
+
+[Frames+](https://frames.sk1er.club/) - Sk1er LLC
+
+[ItemOptimizations](https://sk1er.club/mods/item_optimization) - Sk1er LLC
+
+[MouseBindFix](https://sk1er.club/mods/mousebindfix) - Sk1er LLC
+
+[ResourceExploitFix](https://sk1er.club/mods/resourceexploitfix) - Sk1er LLC
+
+[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen) - Sk1er LLC
+
+[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview) - LainMI
+
+[FastChat](https://2pi.pw/mods/fastchat) - 2Pi
+
+[MemoryFix](https://prplz.io/memoryfix/) - prplz
+
+[MouseDelayFix](https://prplz.io/mousedelayfix/) - prplz
+
+[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/) - Cecer
+
+[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements) - OrangeMarshall
+
+[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/) - skyerzz
+
+[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8) - Moulberry
+
+# Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
 <div align = "center">
 
 # The End.
