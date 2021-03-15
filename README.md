@@ -223,7 +223,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
 - **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
--** Fix Scoreboard fix not fixing Scoreboard log spam bug**
+- **Fix Scoreboard fix not fixing Scoreboard log spam bug**
 - **1.12.2 Farm Selection Boxes now supports the hypixel.io ip**
 - **Fix z-fighting issues with fluid stitching**
 - **Fix some** [**formatting issues**](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
