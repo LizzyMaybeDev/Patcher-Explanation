@@ -4,173 +4,173 @@
 
 </div>
 
-- **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default	
-- **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
-- **Culling Fix** - Fix false negatives in frustum culling, creating sometimes invisible Chunks. (Can negatively impact performance)
-- **Case Insensitive Commands** - Stop Vanilla commands from forcing case sensitivity. *default
-- **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an Entity. *default
-- **Keep Shaders on Perspective change** - Keep Vanilla shaders you're currently using while also being able to toggle Perspective. *default
-- **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
-- **Arrow Lighting** - Stop Arrows attached to an Entity from messing up Entity lighting.
-- **Command Handling** - Fix Forge's command handler not Checking for a '/' at the start of a command. *default
-- **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
-- **Player Void Rendering** - Remove the black box around the player while in the void. *default
-- **Fluid Stitching** - Fix missing edges in fluids. "Requires Chunk reload (F3+a)." (May cause Z-Fighting against blocks that aren't full size.) *default
-- **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
-- **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an Entity. *default
-- **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
-- **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
+- **LAYERS In TaB** - FiXes soMETIMes PlaYErs NoT hAViNG a Hat layeR oN Tab. *dEfaulT	
+- **pARallAX FIX** - fIx The cAmEra bEInG tOo FAR baCK, SeeminGlY mAKinG YOuR eyEs be iN THE bAck of YOUR head.
+- **CULLing FIX** - fix FAlSE nEGativES iN fRUsTuM cULliNG, crEATing SOmETImEs INViSIBLe cHunKs. (cAn nEgaTIveLY imPAct PerfORmaNCe)
+- **CaSe InSenSItive comMandS** - sTop vanillA CoMmANdS fROm fOrCINg CaSE senSItiVitY. *DEfAULT
+- **HeAD rotATIoNS** - REsOLvE aN IsSue where yOUr HeaD WoULD NOt PRopErlY rotatE wHILE rIdiNg AN ENTity. *deFaULT
+- **keEp shaDERS on PeRSPEctiVE cHANGE** - KEEP VanILlA SHADERS yOu'RE cURreNTly uSING whILE aLSO BEinG ablE TO ToGGlE pERspECTivE. *DEfAulT
+- **resoURCe exPlOIt FiX** - FiX An EXpLoIt iN 1.8 alLoWINg sERveRs to loOk THRouGH DIRECtorIEs. *DEfauLT
+- **ArRoW LIGHTiNG** - StoP aRRowS AttacHeD To aN eNtiTY fROm MEssINg Up ENtItY lIGHTing.
+- **COMmaNd HANDlING** - FiX forge'S coMMaND HANDLER NOt checkiNG foR A '/' at The STArT oF A cOMMand. *dEFAult
+- **reSEt DEATH TiMErs** - rEsoLve an iSSUE Where chaNGing tHe FuLLSCReEN stAtE ON tHe gAme ovER ScrEeN wOUld lOck tHE bUTToNs. *DeFaUlT
+- **PlAyer Void rEnderIng** - ReMove tHE BlAcK boX AroUnD ThE pLAYER wHIlE in tHE vOID. *DEfauLT
+- **fluId stiTcHinG** - fIX MisSiNG EDges In FlUIDS. "RequIREs CHunK REloaD (F3+A)." (mAy CAusE Z-fIGHtinG AGAINst BloCks tHAt Aren't fuLl sizE.) *DEFAuLt
+- **FUlLscreEN fIx** - REsolve an iSsuE WhERE YOU coULD nOt mAXimizE the GAmE OnCE TOgglING FUlLSCReEN. *defAuLT
+- **Arm roTaTIOns** - RESoLVE aN iSsue WheRE YouR aRm RotATION WouLd be aNglEd UPWarDS wheN moUnTiNg AN EnTiTy. *deFAULt
+- **mouSE bInD fIX** - FIxEs An iSSuE wHere kEYBiNDS bOund tO moUSE BUtToNS dO nOT WoRk iN inventORIES. *deFAulT
+- **moUsE DElAY fiX** - reSOlve AN issuE WhEre YoUR CrOsSHaIr IS a tiCk behINd YOuR HEad poSItIon. *dEFAulT
 <div align = "center">
 
 # Performance
 
 </div>
 
-- **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
-- **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering
-- **Disable Item Frames** - stop item frames from rendering
-- **Disable Semitransparent Players** - Stop semitransparent players from rendering.
-- **Disable Skulls** - Stop sakulls from rendering. 
-- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well).
-- **Disable Enchantment Books** - Stop enchantment table books from rendering.
-- **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
-- **Disable Gl Error Checking** - Disable unnecessary constant checking for errors in OpenGL. (Requires restart once toggled.) *default
-- **Disable End Portals** - Stop end portals from rendering.
-- **Batch Model Rendering** - Render models in a single draw call, reducing the amount of OpenGL instructions performed a second. *default
-- **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in singleplayer)
-- **Remove Cloud Transparency** - Remove transparency from clouds.
-- **Static Fog Color** - Simplify fog color creation with a static fog color. *default
-- **Low Animation Tick** - Lowers the amount of animations that happen a second from 1000 to 500. *default
-- **Instant World Swapping** - Remove the dirt screen and waiting time when switching a world. *default
-- **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
-- **Particle Culling** - Stop particles that aren't visible to the player from rendering. *default
-- **Static Particle Color** - Disable particle lighting checks each frame. *default
-- **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
-- **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
-- **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
-- **Don't Cull Player Nametags** - Render nametags even when the player and nametag are occluded. 
-- **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
-- **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
-- **Check Armorstand Rules** - Don't cull armorstands that have a marker set in their entity rules. This will result in a lot of unculled armorstands in places like Hypixel Skyblock, but will provide better entity visibility, while losing out on some performance improvements.
-- **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default
-- **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default
-- **Optimized Item Renderer** - Cache information about items, avoiding recalculating everything about it every frame. *default
-- **Optimized Resource Pack Discovery** - Optimize the time it takes to open the resource packs GUI. (Does not work with Labymod's RP24 addon.) *default
-- **Downscale Pack Images** - Change all pack icons to 64x64 to reduce memory usage. *default
-- **Disable Attached Arrows** - Stop arrows that are attached to a player from Rendering. 
-- **Disable Moving Arrows** - Stop arrows that are airborne from rendering.
-- **Disable Grounded Arrows** - Stop arrows that are in the ground from rendering.
-- **Disable Shadowed Text** - Remove shadows from text. (can positively improve performance.)
-- **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default
-- **Entity Render Distance Toggle** - Toggle allowing a custom entity render distance
-- **Entity Render Distance** - Stop rendering entities outside of the specified radius
-- **Disable Breaking Particles** - Remove block breaking particles for visibility.
-- **Item Searching** - Stop items from searching for extra items to combine with when the stack is already full. *default
+- **DiSAble NAMETaGS boXEs** - ReMOvE the TRansPArENt box aRouNd tHE NAmETaG.
+- **DISablE MAPpeD IteM frAmes** - STOP ItEM frAMES only wITH maPs as tHEIr itEm FRoM REnDeRINg
+- **disable ITem FRaMes** - SToP itEM frAmEs FROm rENDERiNG
+- **DISaBle seMITrAnSparENt PLAYerS** - StOP SEmitrAnspAreNT pLaYeRS From rENdERinG.
+- **DisablE skuLLS** - STOp sakuLLs from rEnDeriNg.
+- **DIsaBLE ARmoRsTANds** - StOP armoRStAnDs frOM RenDERiNg (aRmOrSTAndS aRe cOMMonly used foR npc NameTAg ReNDerIng. ENABLiNg ThiS Will stOP ThoSE frOm RenDErInG As wEll).
+- **disable eNcHAntmeNT boOkS** - sTOp EnCHAnTMEnT taBlE BOOks FroM rENDering.
+- **DiSabLe EnCHAntMent glinT** - DISABLe the eNcHaNTMENt gLINT on EnChANTEd itEMS/potions.
+- **dIsaBLE gL eRrOr cHecKINg** - DISABLE uNNecEssary CONSTANt chECkIng For ERroRs in oPeNgL. (rEQUIres ReStart OncE tOGGleD.) *DeFauLt
+- **disAblE eND PORtals** - Stop END poRTaLS frOm REndEriNG.
+- **batcH MODEL ReNDerInG** - RENDer moDelS in a sInGLE DRaw calL, REDUcinG ThE AmOunt Of oPenGl InsTRUCTionS PeRFOrMED a SecONd. *defauLt
+- **DisAblE mOb sPAwNiNG** - rEDUcE MEmOrY USAGE by DisAblIng tHe chECK foR MOB spAWnInG despitE tHE SEt Game RuLe. (THiS wiLl DIsABLE Mob SPAwning in SInGlEPlaYER)
+- **REmOVe cLOud TRANSpaREnCY** - REMOve transpArENcY From CLouDs.
+- **static fOG ColOR** - SimplIFy FOG colOr cREAtion WITH A STAtIc FOG COlOR. *DEFaULT
+- **Low aniMatioN tIck** - loWERs tHe AMount oF ANiMatIOnS THaT HAPpeN A sEcoNd FRom 1000 tO 500. *deFAuLT
+- **inStaNT WorLd SWApPINg** - rEMOVe tHE DIrT scREEn AnD WAitinG TiMe When SWItcHiNg A WOrlD. *DeFAult
+- **cHuNK upDATE lImIt** - SpEcIfy thE AmouNt OF UPDAtES ThAT CAN hAppEn A seCOnd.
+- **PArtiCLe cuLlIng** - StOP PaRTicleS THaT ArEn'T vIsiBle To tHe plaYer fRoM ReNdering. *dEfAUlT
+- **sTatiC pARticLe CoLor** - DISable particle LIGHTinG CHeCkS eACh fRaMe. *DEfAUlt
+- **eNTity culliNG** - StOp ENtiTIeS thaT ARen't vISible tO thE playeR FrOM RenDeRing. *DefAULT
+- **ENtity cuLLiNg INterVaL** - The AMOuNt Of tImE iN ms BETwEEn OCCLUSiOn cHeCks fOR entitIES. shorTer PERioDs ARe More cOsTlY tOwarD PeRfORMANcE but PROViDE tHe MoST ACcURAtE iNfOrMaTION. lOwER VaLUeS REcomMended iN CompetITIVE eNviRoNMentS.
+- **SmArt EnTitY culLinG** - SToP ENtITY cuLLinG EffEcT wHEn USiNG opTIfiNE sHADERs. (DuE To thE WAy OPTIFINE ShaDeRS WORk, We ARe uNabLE to mAKE eNTity culLing cOmpaTiBlE at thIS Time). *DEfaulT
+- **don'T CUll pLAYeR NAMeTagS** - REnDER nAMEtAgS eVeN WhEn THe pLaYEr anD nAMEtAg aRE occLUDEd.
+- **DOn't CULL ENtItY NAMeTAgs** - RENdeR NAmEtAgs EVEN wHEn ThE eNTITY ANd NAMETaG are ocCLUDED.
+- **DON'T cULL ArmORStANd namEtAgS** - rENder NAMEtags eVen wHen the ARMOUR sTAND iS oCcluDeD.
+- **checK aRMORstand rUlEs** - DON't culL armorSTanDS THaT HavE A mArkEr SET In tHeir ENTIty RULeS. this WILL RESULt In a loT OF UNcULLED ArMoRStANDs iN PLaces lIKe hYpixeL skYblOCK, bUt WILL prOviDE beTTer ENtity vISIbIlitY, wHiLe LOsinG OuT ON sOME PERFORMANCE iMprOvemenTs.
+- **opTImIZed FoNt ReNDerer** - usE ModerN rendEriNg tEcHnIQuEs tO ImproVe font rENDERer PerForManCE. *deFauLt
+- **OPTiMIzed cloUD RENDErer** - uSe MODern rEnderinG TechNiQUeS To iMPRoVE CLOUd RENDereR perForMAnCe. *dEFauLt
+- **OpTIMiZeD itEM reNDerEr** - cAche INfORMAtiOn AbOUt iTEMS, avoiDing RecALcuLatInG evERyThiNG abOut iT EvERY fRAMe. *DeFAUlt
+- **oPTImIzEd ResOurCE paCk dISCoveRy** - OpTIMize THe Time iT taKEs to open The reSOuRcE PACKs GuI. (DOeS nOT WoRk WITh labymoD's RP24 addON.) *DEFAult
+- **dOwNsCAle PacK iMaGES** - cHAnGe ALl pACK ICoNs To 64x64 tO redUce MEMory usAGe. *dEFault
+- **DiSABle AttAcHed arROws** - StOp Arrows That ARE ATtaChEd To A PlAYEr frOM REnDeriNg.
+- **DiSaBle movInG ARrOWS** - StOP ARROws ThaT ARe AirboRNE fRoM ReNDerIng.
+- **diSAblE GrOUNdEd arROWS** - SToP aRRows THaT aRE iN ThE GROUND FRoM RENdeRinG.
+- **DiSAbLe shaDoweD Text** - ReMOvE ShadOWs From TeXt. (CAN positivELy imProVE PERfOrmANCE.)
+- **CaChe fONT datA** - CAChe fonT dAta ALLoWInG fOr It tO BE reUSeD MULtIPLE TImes BeForE NEeDIng rECAlCULaTION. *DefauLt
+- **EntiTY ReNDEr distance TogGLe** - tOgGLE AlLoWING A CUsTom EntItY reNdEr disTANce
+- **ENTiTY renDer diStaNcE** - STOp rendeRinG Entities OUtsIdE of tHe SPecifiEd RaDiUs
+- **disABle BReakINg PARTicLES** - rEMove BLock bREakiNG pArtIclEs foR viSIbilITY.
+- **ITEM seaRcHiNg** - STOp IteMS FROM SeaRcHiNg FoR ExTRA iteMS To COmBine WIth WhEn THe StaCk IS alreADy FULl. *dEfaUlt
 <div align = "center">
 
 # Miscellaneous 
 
 </div>
 
-- **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still - bounce around.
-- **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
-- **Crosshair Perspective** - Remove the crosshair when in third person.
-- **Better F1** - Hide nametags when in F1 mode.
-- **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires Chunk reload (F3+A)).
-- **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
-- **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out.
-- **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
-- **Zoom Sensitivity** - Use a custom mouse sensitivity when zoomed. this is a percentage of your normal sensitivity 
-- **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
-- **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
-- **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it
-- **Simplify FPS Counter** - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
-- **Remove Water Overlay** - Remove the water texture overlay when underwater.
-- **Show Own Nametag** - See your own nametag in third person.
-- **Clean View** - Stop rendering your own potion effect particles.
-- **Disable Text shadow** - Remove shadows from text. (Can positively impact performance).
-- **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side.
-- **Add Text Shadow to Nametags** - Render nametag with shadowed text.
-- **Numerical Enchantments** - Use readable numbers instead of roman numerals on enchants. *default
+- **rEMOvE SCREEN BoBBING** - WHile usinG vIEW bObBinG, ONLY REmOvE tHe ViEw aSpEcT BUT hAve the HAND sTilL - boUnCe aRounD.
+- **beTter CaMeRa** - stOp bLOCKs Such aS GRASs aND TAll PlANtS frOm aFfeCTiNg YoUr fOv As dOnE IN 1.14+. *defAuLt
+- **CRossHAIr peRSPecTIVe** - RemOVe thE croSSHair WheN in THiRD PeRson.
+- **bETTeR F1** - HidE nAmetags WHEn In f1 mOde.
+- **RemOvE GRoUnD FOlIAge** - STOP PlANTs/flower fROM ReNDERInG. (ReQuIres chUnK reLOaD (f3+A)).
+- **SmOOtH scrolL-TO-zoom ANimatioN** - AdD a sMOoTh AnIMaTIoN WHEN You sCroLL in aND OuT WhiLE ZoOmED.
+- **SMoOtH zOom AniMatIOn** - AdD A SmOotH ANIMATiON wHEn YOu zoOm In and out.
+- **ZOoM SMOotH cAmera** - rEmovE tHe smooTh CAMEra EfFecT WHEn UsinG zOOM.
+- **ZOOm sEnsiTIViTy** - UsE a cUstoM MOuse seNsitivITy wheN zooMeD. this iS A PErCENtagE of your NormAl SenSITiVITy
+- **SmooTh zoOm FUNCTIoN** - CHAnGe THe sMOothing FunCTIoN uSeD In THe SMOoth zoOmInG aNiMaTIoN.
+- **ZoOM aDjUstMeNT** - ScrOll WhEN UsiNG optIFiNE'S zOOM TO adJUSt tHE zOOM LEVel.
+- **ToGGLE tO zOOm** - maKE Optifine'S zoom Key A toggle InSTeaD oF ReQUiRING yOU TO HoLD it
+- **SIMPLIFy fps cOuNTeR** - remOVE THe ADDItioNs oPTiFiNE L5 aNd abOvE mAkES tO tHE debug sCReeN FpS CoUNTEr. *default
+- **rEMovE wAteR OvERLAy** - RemoVE THe WAtEr teXTURE OVerlAY when undeRwateR.
+- **sHoW OwN nAMEtAG** - seE YOUr oWn NAmETAG In ThIRD peRsON.
+- **cLEan View** - STOp renDeRinG yOuR OWn pOTIoN efFEcT paRTIcLes.
+- **dIsaBle TEXt ShAdOW** - rEMoVE ShADoWs FrOM text. (CAN PoSiTivELY iMpAct peRforMaNCE).
+- **AlteRnaTe TeXt shaDow** - ChanGE the TeXT sHADow TO ONly mOvE dowN RaTheR THAN MOviNg To THe sidE.
+- **ADd TExt SHaDow TO NAMeTaGs** - rENDER nAmeTaG with shaDoWed TEXt.
+- **NuMericAL EnCHAnTMenTs** - usE rEaDabLE numBers INsTEad OF Roman NUMeRAlS on enCHAnts. *DeFaULT
 <div align = "center">
 
 # Quality of Life
 
 </div>
 
-- **Fire Overlay Height** - Change the height of the fire overlay.
-- **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
-- **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
-- **Enchantment Glance** - View the enchantments of the currently held item above your hotbar. *default
-- **Protection Percentage** - View how much total armor protection you have inside of your inventory. *default
-- **Projectile Protection Percentage** - View how much total projectile protection you have inside of your inventory. *default
-- **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer.) *default
-- **Log Optimizer** - Delete any files in the logs folder. as this usually can take up a lot of space. (These files are not recoverable once deleted.)
-- **Log Otimizer Amount** - Choose how many days old a file must be before deleted.
-- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots.)
-- **Image Preview Width** - The % of screen width to be used for image preview.
-- **Disable Achievements** - Remove achievement notification.
-- **Startup Notification** - Notify how long the game took to startup with a notification *default
-- **Smart Disconnect -** Choose between disconnecting or relogging when clicking the disconnect button. (Only works on multiplayer servers.)
-- **Nausea Effect** - Remove the nether portal appearing when clearing nausea.
-- **Container Backgrounds** - Remove the dark background inside of a container.
-- **Inventory Position** - Stop potion effects from shifting your inventory to the right. *default
-- **Fov Modifier** - Allow for modifying FOV change states.
-- **Sprinting Fov** - Modify your FOV when sprinting.
-- **Bow FOV** - Modify your FOV when pulling back a bow.
-- **Speed Fov** - Modify your FOV when having the speed effect.
-- **Slowness FOV** - Modify Your FOV when having the slowness effect.
-- **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
-- **Remove Inverted Colors from Crosshair** - Remove the inverted color effect on the crosshair.
-- **Clean Main Menu** - Remove the Realms button on the main menu as you need to be on the latest Mnecraft version to use Realms. *default
-- **Skin Refresher** - Add a button to the escape menu to refresh your current skin without needing to leave the server. (Also accessible with the command "/refreshskin".)
-- **GUI Crosshair** - Stop rendering the crosshair when in a GUI.
-- **Replace Open to Lan** - Remove the Open to Lan button when in multiplayer server with a button to quickly open your server list. (Will be reworked in the future to not kick you from the server.)
-- **Replaced Mods Warning** - Display on startup what mods you may have that are replaced by Patcher. *default
-- **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
-- Fullbright - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
-- **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright)
-- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
-- **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
-- **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
-- **Tab Opacity** - Allow for customizing tab opacity.
-- **Custom Tab Opacity** - Change the tab list opacity.
-- **Toggle Tab** - Hold tab open without needing to hold down the tab key.
-- **Number Ping** - Show a readable ping number in tab instead of bars.
-- **Instant Fullscreen** (windows only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work.)
-- **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
+- **FIRe OveRlAy HEIght** - chANGE tHE hEIGhT Of tHe fIre OvErlay.
+- **dAMaGe GlANCe** - ViEw tHe DAmAGE vaLUe oF tHE CUrRENTLy HelD iTem aboVe YoUR hOtbar. *deFaUlt
+- **ITeM CoUNt glANCE** - VIew tHE aMoUNt OF thE CuRReNTlY hELd ITeM aBove YOUr hoTbAr. *dEFauLT
+- **eNcHaNtMENt glANCe** - VIew THE eNChANTmENtS OF the currENtly Held ITem above yOUR hoTbAr. *DEFAulT
+- **pROtEctIOn PErCeNTAGE** - VIew how muCh ToTAL Armor PROTeCtioN yOU HAVE iNsIde OF YOuR InVEntoRy. *DEFaULT
+- **PrOJECtiLE prOteCtION PErCENTAGE** - viEw hOw mUCH TotAl pROJecTILE PrOtECTION You hAvE iNsiDe OF yOUR INVentOry. *DEfaULt
+- **1.12 Farm SElECTIon boXEs** - repLAcE The selEctioN Box fOR CrOps wItH thE 1.12 vaRiAnt. (oNLY WorKs ON hYpiXEL & SINGLEpLAYEr.) *dEFAulT
+- **LOG OPtimizEr** - DElEtE ANy fiLEs iN THE LOgS FOLder. aS tHIS uSUAlLy cAn tAKe up a loT OF spAce. (thESe FiLeS aRe NOT recOVERaBLe ONCE DElEted.)
+- **lOG OTIMIzER AmOUnt** - ChoOse hoW MaNy days OLD A fILE must Be BeFOre dEletEd.
+- **ImaGe prEvIeW** - pREViEW IMagE lInKS WHeN hoVerINg ovER A supporteD UrL. PREsS SHIFT TO uSE FullscreeN cONtROL to reNDEr in nAtIVE Image RESOlUTIon. (cUrRENtly SUPported: ImGUr, dISCoRd, BaDLiON SCreenSHOTs.)
+- **IMaGe pREvIew wIDTH** - the % Of ScReEN WIdth TO Be usED foR IMaGe PREvIeW.
+- **dISabLE AcHiEVeMentS** - rEMOve achiEVEMeNt nOTIficatioN.
+- **StaRTuP notifiCATIon** - NOtIFy hOW LONG ThE gAMe toOK To StartUP With a NoTIFICAtION *dEfAULT
+- **smArt discoNnECt -** cHOOsE BetwEen DIsCoNNectiNg OR reLOggING when CLICking THE DIsCoNnEct BUTTON. (OnlY WOrKS on mUlTIpLayeR seRVErs.)
+- **nAuSea eFfEct** - REMove The NeTheR pORtAL apPEaRinG wHEN clearIng NAusEA.
+- **CONtainEr BAckGROundS** - REmoVe tHE DARk baCkgroUNd iNSidE Of A cOnTaInEr.
+- **InvEnTORy pOSItIoN** - stoP potIOn efFEcts fRoM sHifTinG YoUr InVeNtorY TO thE rIgHT. *deFaulT
+- **fOV moDIfIeR** - alLow For mODiFYIng FOV ChAnGe stATes.
+- **spRiNtinG FoV** - MODIFy yOUr fOV WHeN sPRInTIng.
+- **Bow Fov** - ModIfY YOUR foV WHEN PuLLInG BAck A BOW.
+- **SPEed fOV** - MoDIFY yOUR FOv WhEN HAVIng ThE Speed eFFECt.
+- **sLOwneSS fOv** - MODiFY yOur fov When HavIng ThE SLOWneSS efFeCt.
+- **remOVe WAtEr FOv** - REMOVE tHE cHaNGE Of fOV WhEN UnDerwatER (DoeS noT REquirE FOV modifiER TO be ENAbled)
+- **REMOVE InVErTED colOrS FrOM cRossHair** - ReMOve THe INvErTED CoLOR EFfEct oN tHe CROSshAir.
+- **CLEAN MaIN MeNu** - RemoVE tHE ReAlms BuTTON On THE maIN MenU AS you NeeD to be oN the laTeST MNecRAfT VERsiOn To use ReaLms. *defAulT
+- **skin REFReshEr** - ADD a butToN TO THe Escape MEnu to RefREsh yOUR CURrent SKin WIthOUT NEeDiNG to LeAVE tHE sErVer. (aLso aCCesSiBlE WITh ThE coMmaNd "/refRESHSkiN".)
+- **gui croSsHAIR** - SToP rendERING THE cRosShaIr When iN a GuI.
+- **rEplacE oPEn tO lAN** - REMovE tHe Open To LaN ButtON whEn iN MuLtiplAYEr SeRver WItH A butTon to quicklY OPEN Your SErVER LISt. (Will be REWoRkED in ThE futurE to nOt KiCk yOu frOM thE SeRVer.)
+- **repLACeD MoDs WARning** - DisPlay on StArtuP whAT MOds yOu MaY HavE tHat ArE RePLacED By pAtCHEr. *dEfAuLt
+- **bETTer KeYbiNd HANDlING** - MAKE KEYs re-ReGisTEr WHEN cLoSiNg a Gui, likE IN 1.12+. *dEFAUlt
+- fullBRighT - remove LIghTiNG uPDAtEs, InCReaSiNG VIsIbilItY. (REqUirEs ChUNK rEloAD (f3+a)). (CaN pOsItively iMpAct PErFOrmAnCE.) *deFAuLT
+- **sMART fulLbRIghT** - aUtoMAtIcaLlY DisabLe THe FulLBriGht EFfeCT WheN USinG OPtIfINe sHadErs. (REQuirEs fULLBrIGHt)
+- **sKy HeIght** - rEmOve ThE fLIckERING EffeCT FRom the voID wHEN PaSSING BETWeEN Y lEVeL 63. *defAULt
+- **tab height** - MOVe ThE Tab OVerlAY DoWn N AmoUNt of pIxelS WHeN thERE'S AN AcTIvE boSsbar.
+- **SET tAb hEIGHt** - cHoOSe HOw mANY Pixels Down the TaB WIlL gO whEN thERE'S aN aCTiVe BoSsBar
+- **taB OpaCity** - alLOW fOR cUsTOmiZIng Tab opAciTy.
+- **CuSToM TAB OPaCiTY** - ChAnge THe tAb list oPAciTY.
+- **ToGgLE TAb** - Hold taB opeN wiThoUT NEEdiNG tO HOLD dOwN tHe tAb Key.
+- **NuMBER PING** - Show A REaDabLe PiNg nUMBer iN TAB insTeAd Of bARS.
+- **InsTaNT fUlLscREEN** (WINdoWs OnLy) - iNSTanT SwITchiNG beTWEEN FuLl screEn And NON FULLsCrEen mOdeS. (WInDOwED FULlscrEen mUSt aLsO be eNabLEd fOR tHis To WORK.)
+- **wInDOwEd fUllSCreEN** - iMpLEMeNT wiNDowed fuLLscrEEN in MINecRaFT aLLOWinG you To DRaG Your MouSE oUtSIDE The WIndow
 <div align = "center">
 
 # Chat
 
 </div>
 
-- **Chat Keeper** - Keep chat when toggling fullscreen. *default
-- **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
-- **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod.) *default
-- **Compact Chat time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
-- **Cross Chat** - Stop clearing chat when switching servers. *default
-- **Safe Chat Clicks** - Show the commmand or link that is ran/opened on click. 
-- **Shift Chat** - Holding shift while pressing enter will keep chat open.
-- **Transparent Chat** - Remove the background from chat. (Can positively impact performance)
-- **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance) 
-- **Anti Clear Chat** - Remove blank messages from chat.
-- **Chat Timestamps** - Add timestamps before a message.
-- **Chat Timestamps Format** - Change the time format of Chat Timestamps, Examples: [3:24 PM] Steve: Hey!, [15:24] Steve: Hey!
+- **CHAT kEepeR** - KEep cHAt WHEn tOgGlInG FUlLsCREEN. *dEFAult
+- **cHAT PosiTiON** - MOvE ThE ChAT uP 12 PIXeLs tO STOp iT from oVeRlAPPIng ThE heAlTh bAR, aS DOne In 1.12+.
+- **cOmPAcT cHAt** - clEAn Up cHaT By sTacKInG DupLicATe mESSAges (does not WOrK wItH labYMod.) *DEfAuLt
+- **CoMPaCT CHaT tiMe** - CHaNGe HOw long BeFoRe OlD mEsSAGES are NO LoNGER CoMpAcTeD. (MeasurEd iN sEcONDs.)
+- **croSS CHaT** - sTOp CLEariNG cHaT whEN SWiTcHiNG SERVERS. *DEfault
+- **sAFe chaT ClICks** - sHow the cOMMmaNd Or lINK THat is RAN/oPeNEd On CliCK.
+- **ShifT chAt** - hOldING ShIft wHiLe PReSSing eNtER WIll kEEp chat oPeN.
+- **tRAnSPArEnT cHat** - remoVE The BaCkGROunD frOm chAt. (cAn POsItIvEly ImpaCT PeRfoRmance)
+- **TRaNSpArENT CHat inpUt FIElD** - rEMOve tHE BACkgroUNd fRoM CHAT's iNPUt FIeld. (cAn PoSItIveLy IMPACT PerFoRMAnCE)
+- **aNti cLeaR CHat** - REMOvE BLaNK MeSsaGeS frOm Chat.
+- **Chat tiMESTAMpS** - aDd tIMesTAmps BEFore A MEssAGe.
+- **cHAT TiMESTampS forMaT** - CHANGe THE TIMe Format oF cHAT tiMestAMPS, exAMPlEs: [3:24 PM] sTevE: HEY!, [15:24] stEvE: hey!
 <div align = "center">
 
 # Screenshot
 
 </div>
 
-- **No Feedback** - Remove the messages from screenshots entirely.
-- **Compact Response** - Compact the message given when screenshotting.
-- **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
-- **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
-- **Preview Scale** - Change the scale of the preview. smaller number is bigger.
-- **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
-- **Preview Animation** - Select an animation style for the screenshot preview. 
-- **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken
+- **No feEDbACk** - REMovE The MesSAGEs FRoM SCReenshots EntIREly.
+- **CompACt rESPOnsE** - ComPact THe meSsagE giVen whEn scrEENshoTtiNG.
+- **sCREenSHOt ManAgER** - ChaNge tHe waY ScrEenShotTInG wOrKs aS A WhOLe, cReatiNg a wHoLE NEW pRocEsS TO ScrEensHOTTing SuCH aS upLoaDing tO IMGuR, COPYING to cliPbOArD, Etc. *dEFaULT
+- **prEViEw tiMe** - ADjust How lONG tHE PrevIew ShOuLD stAy On sCREen bEFORE slIdING Out. TiMe Is MeasurEd In sEcONdS.
+- **preVIEW ScALE** - CHAngE thE sCaLE of The prEvIeW. sMalLeR NuMbER is BiggEr.
+- **sCReEnSHOt PrEVIEW** - PReVIew tHE LOOk of yOUr SCREENSHOt when TaKEN iN The BOTToM riGht corNEr.
+- **pREVIEw ANImAtion** - SELECT aN anIMatioN styLE foR THe scREensHOt prEvIeW.
+- **aUTo COpY ScrEENShot** - aUToMAtIcally COpy ScREenSHOTS to the CLIPBOarD WhEN TakEN
 <div align = "center">
 
 # Patcher FunFacts
