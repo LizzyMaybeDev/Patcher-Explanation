@@ -225,7 +225,6 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Fix z-fighting issues with fluid stitching**
 - **Fix some** [**formatting issues**](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
 - **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
-- **Stop "custom sky: texture not found" from spamming the log** - to prevent [this](https://media.discordapp.net/attachments/728064513605369866/820912276886126602/unknown.png).
 - **Port chat send delay** - Port the new chat send delay feature [Example](https://imgur.com/a/ewt6Gq1).
 - **Improvements related to resource pack discovery menu** - Unknown.
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
