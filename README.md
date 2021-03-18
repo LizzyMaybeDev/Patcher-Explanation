@@ -198,9 +198,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
 ---
-## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones)
-
-## Patcher also replaces 17 mods which are CaseCommands, CommandPatcher, CompactChat, CrossChat, frames+, ItemOptimizations, MouseBindFix, ResourceExploitFix, WindowedFullscreen, CleanView, FastChat, MemoryFix, MouseDelayFix, NoCloseMyChat, VanillaEnhancements, VoidChat, BetterScaledGUI 
+## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
 ## Patcher also had/has options that arent in the config which are 
 
@@ -212,10 +210,9 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **TileEntity optimization** (cleanup removable tile//entities).
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
 - **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
-- **Fixed crippling performance issues with large amounts of particles caused by an improper obfuscation mapping**.
 - **Improve faster annotation searching**.
 - **Rewrote data table search**.
-- **Fix typo in Forge's mod list** by changing "Search:\" to "Search:".
+- **Fix typo in Forge's mod list** by changing "Search:\\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 ## Known Planned features for patcher
