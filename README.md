@@ -230,10 +230,11 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
 -  **Added unfocused fps & sound volume** - Mostly unknown but i assume unfocused fps means when the game is unfocused you have a slider to lock fps to reduce unneeded performance hogging and a slider for volume when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and its now fixed, [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
-- **Renamed anti clear chat to remove blank messages**
-- **Renamed container backgrounds to remove container backgrounds**
-- **Reworked a lot of option descriptions**
+- **Renamed anti clear chat to remove blank messages** - Self explanatory
+- **Renamed container backgrounds to remove container backgrounds** - Self explanatory
+- **Reworked a lot of option descriptions** - Unknown
 - **Force enabled some options** - Unknown
+- **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
 ## Mods patcher replaces
 [CaseCommands](https://sk1er.club/mods/case_commands) - Sk1er LLC
 
