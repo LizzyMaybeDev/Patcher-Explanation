@@ -233,7 +233,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Renamed anti clear chat to remove blank messages** - Self explanatory
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory
 - **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example [Disable GL Error Checking](https://images-ext-2.discordapp.net/external/oLaqhhWXYRP1j0LDSKpDD5Mi-JeFXCq0k2A-InSHe3c/https/i.imgur.com/iWDx9bB.png)
+- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, disable gl error checking, disable mob spawning,  cross chat, chat keeper
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
 ## Mods patcher replaces
 [CaseCommands](https://sk1er.club/mods/case_commands) - Sk1er LLC
