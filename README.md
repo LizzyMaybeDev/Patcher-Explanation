@@ -225,24 +225,25 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 ## Known Planned Features for Patcher
 
-- **Entity backface culling** -  hides parts of the entity model that you cant see.
+- **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
 - **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
 - **Fix Scoreboard fix not fixing Scoreboard log spam bug**
-- **1.12.2 Farm Selection Boxes now supports the hypixel.io ip**
+- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
 - **Fix z-fighting issues with fluid stitching**
 - **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
 - **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
-- **Port chat send delay** - Port the new chat send delay feature [Example](https://imgur.com/a/ewt6Gq1).
+- **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
 - **Improvements related to resource pack discovery menu** - Unknown.
+- **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
--  **Added unfocused fps & sound volume** - Mostly unknown but i assume unfocused fps means when the game is unfocused you have a slider to lock fps to reduce unneeded performance hogging and a slider for volume when the game is unfocused.
+-  **Added unfocused fps & sound volume** - Lower FPS and sound when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and its now fixed, [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
 - **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, cross chat, chat keeper, particle culling, static fog color, optimized resourcepack discovery
+- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, cross chat, chat keeper, particle culling, static fog color, optimized resourcepack discovery.
 - **Removed disable mob spawning** - It was useless.
 - **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
