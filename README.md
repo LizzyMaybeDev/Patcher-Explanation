@@ -20,6 +20,7 @@
 - **Player Void Rendering** - Remove the black box around the player while in the void. *default
 - **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
+
 <div align = "center">
 
 # Performance
@@ -66,6 +67,7 @@
 - **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
 - **Static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
+
 <div align = "center">
 
 # Miscellaneous 
@@ -92,6 +94,7 @@
 - **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity when zoomed. this is a percentage of your normal sensitivity 
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
+
 <div align = "center">
 
 # Quality of Life
@@ -139,6 +142,7 @@
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
 - **Fullbright** - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
+
 <div align = "center">
 
 # Chat
@@ -157,6 +161,7 @@
 - **Shift Chat** - Holding shift while pressing enter will keep chat open.
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance) 
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance)
+
 <div align = "center">
 
 # Screenshot
@@ -171,6 +176,7 @@
 - **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
 - **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
+
 <div align = "center">
 
 # Patcher FunFacts
