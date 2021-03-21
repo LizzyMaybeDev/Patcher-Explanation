@@ -20,6 +20,7 @@
 - **Player Void Rendering** - Remove the black box around the player while in the void. *default
 - **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
+
 <div align = "center">
 
 # Performance
@@ -45,7 +46,7 @@
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Shadowed Text** - Remove shadows from text. (can positively improve performance.)
-- **Disable Skulls** - Stop sakulls from rendering. 
+- **Disable Skulls** - Stop skulls from rendering. 
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Player Nametags** - Render nametags even when the player and nametag are occluded. 
@@ -66,6 +67,7 @@
 - **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
 - **Static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
+
 <div align = "center">
 
 # Miscellaneous 
@@ -92,6 +94,7 @@
 - **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity when zoomed. this is a percentage of your normal sensitivity 
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
+
 <div align = "center">
 
 # Quality of Life
@@ -138,7 +141,8 @@
 - **Tab Opacity** - Allow for customizing tab opacity.
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
-- Fullbright - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
+- **Fullbright** - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
+
 <div align = "center">
 
 # Chat
@@ -157,6 +161,7 @@
 - **Shift Chat** - Holding shift while pressing enter will keep chat open.
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance) 
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance)
+
 <div align = "center">
 
 # Screenshot
@@ -171,6 +176,7 @@
 - **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
 - **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
+
 <div align = "center">
 
 # Patcher FunFacts
@@ -194,16 +200,18 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
 
-- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
+- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
+
+- /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
 
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
 ---
 ## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
-## Patcher also had/has options that arent in the config which are 
+## Nonconfigurable Patcher Options
 
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
-- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score. which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
+- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **PathFinding optimization** (Cleanup blockaccess once processed).
@@ -215,61 +223,66 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Fix typo in Forge's mod list** by changing "Search:\\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
-## Known Planned features for patcher
-- **Entity backface culling** -  hides parts of the entity model that you cant see.
+## Known Planned Features for Patcher
+
+- **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
 - **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
 - **Fix Scoreboard fix not fixing Scoreboard log spam bug**
-- **1.12.2 Farm Selection Boxes now supports the hypixel.io ip**
+- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
 - **Fix z-fighting issues with fluid stitching**
-- **Fix some** [**formatting issues**](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)
+- **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
 - **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
-- **Port chat send delay** - Port the new chat send delay feature [Example](https://imgur.com/a/ewt6Gq1).
+- **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
 - **Improvements related to resource pack discovery menu** - Unknown.
+- **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
--  **Added unfocused fps & sound volume** - Mostly unknown but i assume unfocused fps means when the game is unfocused you have a slider to lock fps to reduce unneeded performance hogging and a slider for volume when the game is unfocused.
+-  **Added unfocused fps & sound volume** - Lower FPS and sound when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and its now fixed, [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
 - **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, disable gl error checking, disable mob spawning,  cross chat, chat keeper,particle culling, static fog color, optimized resourcepack discovery and completely removed disable mob spawning for being useless.
-- **Fixed parallax fix from removing crosshair on F3 - Self explanatory.
+- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, cross chat, chat keeper, particle culling, static fog color, optimized resourcepack discovery.
+- **Removed disable mob spawning** - It was useless.
+- **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
-## Mods patcher replaces
-[CaseCommands](https://sk1er.club/mods/case_commands) - Sk1er LLC
 
-[CommandPatcher](https://sk1er.club/mods/command_patcher) - Sk1er LLC
+## Mods Patcher Replaces
 
-[CompactChat](https://sk1er.club/mods/compactchat) - Sk1er LLC
+- **[CaseCommands](https://sk1er.club/mods/case_commands)** - Sk1er LLC
 
-[CrossChat](https://sk1er.club/mods/cross_chat) - Sk1er LLC
+- **[CommandPatcher](https://sk1er.club/mods/command_patcher)** - Sk1er LLC
 
-[Frames+](https://frames.sk1er.club/) - Sk1er LLC
+- **[CompactChat](https://sk1er.club/mods/compactchat)** - Sk1er LLC
 
-[ItemOptimizations](https://sk1er.club/mods/item_optimization) - Sk1er LLC
+- **[CrossChat](https://sk1er.club/mods/cross_chat)** - Sk1er LLC
 
-[MouseBindFix](https://sk1er.club/mods/mousebindfix) - Sk1er LLC
+- **[Frames+](https://frames.sk1er.club/)** - Sk1er LLC
 
-[ResourceExploitFix](https://sk1er.club/mods/resourceexploitfix) - Sk1er LLC
+- **[ItemOptimizations](https://sk1er.club/mods/item_optimization)** - Sk1er LLC
 
-[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen) - Sk1er LLC
+- **[MouseBindFix](https://sk1er.club/mods/mousebindfix)** - Sk1er LLC
 
-[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview) - LainMI
+- **[ResourceExploitFix](https://sk1er.club/mods/resourceexploitfix)** - Sk1er LLC
 
-[FastChat](https://2pi.pw/mods/fastchat) - 2Pi
+- **[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen)** - Sk1er LLC
 
-[MemoryFix](https://prplz.io/memoryfix/) - prplz
+- **[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview)** - LainMI
 
-[MouseDelayFix](https://prplz.io/mousedelayfix/) - prplz
+- **[FastChat](https://2pi.pw/mods/fastchat)** - 2Pi
 
-[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/) - Cecer
+- **[MemoryFix](https://prplz.io/memoryfix/)** - prplz
 
-[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements) - OrangeMarshall
+- **[MouseDelayFix](https://prplz.io/mousedelayfix/)** - prplz
 
-[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/) - skyerzz
+- **[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/)** - Cecer
 
-[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8) - Moulberry
+- **[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements)** - OrangeMarshall
+
+- **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
+
+- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
 # Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
 <div align = "center">
