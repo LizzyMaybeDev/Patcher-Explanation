@@ -200,10 +200,10 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 ---
 ## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
-## Patcher also had/has options that arent in the config which are 
+## Nonconfigurable Patcher Options
 
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
-- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score. which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
+- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **PathFinding optimization** (Cleanup blockaccess once processed).
@@ -215,7 +215,8 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Fix typo in Forge's mod list** by changing "Search:\\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
-## Known Planned features for patcher
+## Known Planned Features for Patcher
+
 - **Entity backface culling** -  hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
@@ -233,43 +234,46 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
 - **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, disable gl error checking, disable mob spawning,  cross chat, chat keeper,particle culling, static fog color, optimized resourcepack discovery and completely removed disable mob spawning for being useless.
-- **Fixed parallax fix from removing crosshair on F3 - Self explanatory.
+- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, cross chat, chat keeper, particle culling, static fog color, optimized resourcepack discovery
+- **Removed disable mob spawning** - It was useless.
+- **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
-## Mods patcher replaces
-[CaseCommands](https://sk1er.club/mods/case_commands) - Sk1er LLC
 
-[CommandPatcher](https://sk1er.club/mods/command_patcher) - Sk1er LLC
+## Mods Patcher Replaces
 
-[CompactChat](https://sk1er.club/mods/compactchat) - Sk1er LLC
+- **[CaseCommands](https://sk1er.club/mods/case_commands)** - Sk1er LLC
 
-[CrossChat](https://sk1er.club/mods/cross_chat) - Sk1er LLC
+- **[CommandPatcher](https://sk1er.club/mods/command_patcher)** - Sk1er LLC
 
-[Frames+](https://frames.sk1er.club/) - Sk1er LLC
+- **[CompactChat](https://sk1er.club/mods/compactchat)** - Sk1er LLC
 
-[ItemOptimizations](https://sk1er.club/mods/item_optimization) - Sk1er LLC
+- **[CrossChat](https://sk1er.club/mods/cross_chat)** - Sk1er LLC
 
-[MouseBindFix](https://sk1er.club/mods/mousebindfix) - Sk1er LLC
+- **[Frames+](https://frames.sk1er.club/)** - Sk1er LLC
 
-[ResourceExploitFix](https://sk1er.club/mods/resourceexploitfix) - Sk1er LLC
+- **[ItemOptimizations](https://sk1er.club/mods/item_optimization)** - Sk1er LLC
 
-[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen) - Sk1er LLC
+- **[MouseBindFix](https://sk1er.club/mods/mousebindfix)** - Sk1er LLC
 
-[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview) - LainMI
+- **[ResourceExploitFix](https://sk1er.club/mods/resourceexploitfix)** - Sk1er LLC
 
-[FastChat](https://2pi.pw/mods/fastchat) - 2Pi
+- **[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen)** - Sk1er LLC
 
-[MemoryFix](https://prplz.io/memoryfix/) - prplz
+- **[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview)** - LainMI
 
-[MouseDelayFix](https://prplz.io/mousedelayfix/) - prplz
+- **[FastChat](https://2pi.pw/mods/fastchat)** - 2Pi
 
-[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/) - Cecer
+- **[MemoryFix](https://prplz.io/memoryfix/)** - prplz
 
-[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements) - OrangeMarshall
+- **[MouseDelayFix](https://prplz.io/mousedelayfix/)** - prplz
 
-[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/) - skyerzz
+- **[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/)** - Cecer
 
-[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8) - Moulberry
+- **[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements)** - OrangeMarshall
+
+- **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
+
+- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
 # Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
 <div align = "center">
