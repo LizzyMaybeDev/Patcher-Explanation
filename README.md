@@ -45,7 +45,7 @@
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Shadowed Text** - Remove shadows from text. (can positively improve performance.)
-- **Disable Skulls** - Stop sakulls from rendering. 
+- **Disable Skulls** - Stop skulls from rendering. 
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Player Nametags** - Render nametags even when the player and nametag are occluded. 
@@ -194,7 +194,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
 
-- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering 
+- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
 
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
 ---
