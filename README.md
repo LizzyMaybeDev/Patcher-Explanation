@@ -196,6 +196,8 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
 
+- /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
+
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
 ---
 ## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
