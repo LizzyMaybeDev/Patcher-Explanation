@@ -138,7 +138,7 @@
 - **Tab Opacity** - Allow for customizing tab opacity.
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
-- Fullbright - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
+- **Fullbright** - Remove lighting updates, increasing visibility. (Requires Chunk reload (F3+A)). (Can positively impact performance.) *default
 <div align = "center">
 
 # Chat
