@@ -215,7 +215,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **PathFinding optimization** (Cleanup blockaccess once processed).
-- **TileEntity optimization** (cleanup removable tile//entities).
+- **TileEntity optimization** (Cleanup removable tile//entities).
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
 - **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
 - **Improve faster annotation searching**.
