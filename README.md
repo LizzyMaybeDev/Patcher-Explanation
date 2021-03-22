@@ -5,7 +5,7 @@
 </div>
 
 - **Command Handling** - Fix Forge's command handler not Checking for a '/' at the start of a command. *default
-- **Case Insensitive Commands** - Stop Vanilla commands from forcing case sensitivity. *default
+- **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
