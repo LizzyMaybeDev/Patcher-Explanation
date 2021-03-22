@@ -31,7 +31,7 @@
 - **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default
 - **Check Armorstand Rules** - Don't cull armorstands that have a marker set in their entity rules. This will result in a lot of unculled armorstands in places like Hypixel Skyblock, but will provide better entity visibility, while losing out on some performance improvements.
 - **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
-- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. enabling this will stop those from rendering as well).
+- **Disable Armorstands** - Stop armorstands from rendering (Armorstands are commonly used for npc nametag rendering. Enabling this will stop those from rendering as well).
 - **Disable Attached Arrows** - Stop arrows that are attached to a player from Rendering. 
 - **Disable Breaking Particles** - Remove block breaking particles for visibility.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
@@ -39,7 +39,7 @@
 - **Disable End Portals** - Stop end portals from rendering.
 - **Disable Gl Error Checking** - Disable unnecessary constant checking for errors in OpenGL. (Requires restart once toggled). *default
 - **Disable Grounded Arrows** - Stop arrows that are in the ground from rendering.
-- **Disable Item Frames** - stop item frames from rendering.
+- **Disable Item Frames** - Stop item frames from rendering.
 - **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering.
 - **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in singleplayer).
 - **Disable Moving Arrows** - Stop arrows that are airborne from rendering.
@@ -61,7 +61,7 @@
 - **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default
 - **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default
 - **Optimized Item Renderer** - Cache information about items, avoiding recalculating everything about it every frame. *default
-- **Optimized Resource Pack Discovery** - Optimize the time it takes to open the resource packs GUI. (Does not work with Labymod's RP24 addon.) *default
+- **Optimized Resource Pack Discovery** - Optimize the time it takes to open the resource packs GUI. (Does not work with Labymod's RP24 addon). *default
 - **Particle Culling** - Stop particles that aren't visible to the player from rendering. *default
 - **Remove Cloud Transparency** - Remove transparency from clouds.
 - **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default
