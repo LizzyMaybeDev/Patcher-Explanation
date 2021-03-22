@@ -233,7 +233,7 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 - **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
 - **Fix z-fighting issues with fluid stitching**
 - **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
-- **Fixed some smooth lighting issues** - Fix [this](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png).
+- **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**
 - **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
 - **Improvements related to resource pack discovery menu** - Unknown.
 - **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
