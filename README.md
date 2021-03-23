@@ -170,7 +170,7 @@
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Preview Scale** - Change the scale of the preview. smaller number is bigger.
 
-## Nonconfigurable Patcher Options
+## Nonconfigurable Patcher settings
 
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
