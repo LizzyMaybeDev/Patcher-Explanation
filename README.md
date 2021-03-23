@@ -277,6 +277,8 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
+- **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
+
 # Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
 <div align = "center">
 
