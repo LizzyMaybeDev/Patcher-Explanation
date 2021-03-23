@@ -45,7 +45,7 @@
 - **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity when zoomed. This is a percentage of your normal sensitivity.
-- **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out.
+- **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out. - **Suggested by Pug#5853**
 - **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
 - **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
 - **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it.
@@ -178,9 +178,11 @@
 
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
 
-- **Fire Overlay Height** option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
+- **Patcher was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
 
-- **Downscale Pack Images** option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7
+- **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
+
+- **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7
 
 - With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
 
