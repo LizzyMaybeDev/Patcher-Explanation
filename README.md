@@ -275,6 +275,8 @@ Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Un
 
 - **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
 
+- **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Forge_User_27352545
+
 - **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
 # Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
