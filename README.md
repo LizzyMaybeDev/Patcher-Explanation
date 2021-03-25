@@ -230,6 +230,8 @@
 - **Removed disable mob spawning** - It was useless.
 - **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
+- **Remove optifine's custom ALT+F3** - Self explanatory.
+- **Fix crashing issue with hychat** - Self explanatory.
 
 ## Mods Patcher Replaces
 
