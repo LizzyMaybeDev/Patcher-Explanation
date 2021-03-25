@@ -1,8 +1,4 @@
-<div align = "center">
-
 # Bug Fixes
-
-</div>
 
 - **Command Handling** - Fix Forge's command handler not Checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
@@ -23,11 +19,7 @@
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
 
-<div align = "center">
-
 # Miscellaneous 
-
-</div>
 
 - **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires chunk reload (F3+A)).
 - **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer). *default
@@ -70,11 +62,7 @@
 - **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work).
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
 
-<div align = "center">
-
 # Performance
-
-</div>
 
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
 - **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
@@ -116,11 +104,7 @@
 - **Remove Cloud Transparency** - Remove transparency from clouds.
 - **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in singleplayer).
 
-<div align = "center">
-
 # Screens
-
-</div>
 
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
@@ -155,11 +139,7 @@
 - **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
 - **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
 
-<div align = "center">
-
 # Screenshot
-
-</div>
 
 - **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
@@ -186,11 +166,7 @@
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 - **Save Chat when toggling fullscreen**.
 
-<div align = "center">
-
 # Patcher FunFacts
-
-</div>
 
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
 
