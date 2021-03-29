@@ -1,6 +1,6 @@
 # Bug Fixes
 
-- **Command Handling** - Fix Forge's command handler not Checking for a '/' at the start of a command. *default
+- **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
