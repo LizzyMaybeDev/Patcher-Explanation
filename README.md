@@ -220,7 +220,7 @@
 - **Improvements related to resource pack discovery menu** - Unknown.
 - **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
 - **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
--  **Added unfocused fps & sound volume** - Lower FPS and sound when the game is unfocused.
+- **Added unfocused fps & sound volume slider** - Lower FPS and sound when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and it's now fixed: [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
@@ -234,6 +234,7 @@
 - **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
 - **Cache current cpu information** - Currently mc checks what cpu you have all the time while you're ingame which is useless. (this feature may or may not be a thing its unconfirmed)
 - **Better armorstand culling** - Unknown (this feature may or may not be a thing its unconfirmed)
+- **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved. (this feature may or may not be a thing its unconfirmed)
 
 ## Mods Patcher Replaces
 
