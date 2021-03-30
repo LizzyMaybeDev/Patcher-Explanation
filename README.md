@@ -202,17 +202,17 @@
 
 - With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
 
-- In patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
+- In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
 
-- In patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining 
+- In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining 
 
-- In patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
+- In Patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
 
 - In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
 
-- In patcher 1.4 they fixed over 40 vanilla bugs.
+- In Patcher 1.4 they fixed over 40 vanilla bugs.
 
-- In patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
+- In Patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
 
 - Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues, heres a [list](https://gist.github.com/asbyth/ee15ae790e54ea28754dfc8657c531e9) of some.
 
