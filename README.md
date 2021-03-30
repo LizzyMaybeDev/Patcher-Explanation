@@ -148,7 +148,7 @@
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Preview Scale** - Change the scale of the preview. smaller number is bigger.
 
-## Nonconfigurable Patcher settings
+# Nonconfigurable Patcher settings
 
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
@@ -205,7 +205,7 @@
 ---
 ## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
-## Known Planned Features for Patcher
+# Known Planned Features for Patcher
 
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
@@ -236,7 +236,7 @@
 - **Save a bit of rendering time** - Unknown.
 - **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved.
 
-## Mods Patcher Replaces
+# Mods Patcher Replaces
 
 - **[CaseCommands](https://sk1er.club/mods/case_commands)** - Sk1er LLC
 
