@@ -40,7 +40,7 @@
 - **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out. - **Suggested by Pug#5853**
 - **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
 - **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
-- **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it. - **Suggested by [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/727392685563838475) / [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/768100485210177556) / [me](https://canary.discord.com/channels/411619823445999637/411620521382510592/745287314154192906)**
+- **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it. - **Suggested by [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/727392685563838475) / [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/768100485210177556) / [me](https://inv.wtf/firedotexe)**
 - **Simplify FPS Counter** - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
 - **Nausea Effect** - Remove the nether portal appearing when clearing nausea.
 - **Disable Achievements** - Remove achievement notification.
