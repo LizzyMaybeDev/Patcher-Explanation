@@ -225,7 +225,7 @@
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
 - **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
 - **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example Disable GL Error Checking, head rotations, sky height, mouse bind fix, arrow lighting, fluid stitching, fullscreen fix, reset death timers, command handling, mouse delay fix, arm rotation, item searching, cross chat, chat keeper, particle culling, static fog color, optimized resourcepack discovery.
+- **Force enabled some options** - For example Disable GL Error Checking, Head Rotations, Sky Height, MouseBindFix, Arrow Lighting, Fluid Stitching, Fullscreen Fix, Reset Death Timers, Command Handling, MouseDelayFix, Arm Rotation, Item Searching, Cross Chat, Chat Keeper, Particle Culling, Static Fog Color, Optimized Resourcepack Discovery.
 - **Removed disable mob spawning** - It was useless.
 - **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
