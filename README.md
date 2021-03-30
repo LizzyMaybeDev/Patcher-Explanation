@@ -3,32 +3,50 @@
 <div align = "center">
 
 ### Chat
+
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
+
 ### Entities
+
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
+
 ### General
+
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
 - **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum culling, creating sometimes invisible Chunks. (Can negatively impact performance)
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default	
+
 ### Movement
+
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
 - **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity. *default
+
 ### Rendering
+
 - **Player Void Rendering** - Remove the black box around the player while in the void. *default
 - **Fluid Stitching** - Fix missing edges in fluids. "Requires Chunk reload (F3+a)". (May cause Z-Fighting against blocks that aren't full size). *default
+
 ### Screen
+
 - **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
+
 ### Security
+
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
+
 ### Window
+
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
+
 ### World
+
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
+
 </div>
 
 # Miscellaneous 
