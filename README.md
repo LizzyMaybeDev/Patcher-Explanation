@@ -3,67 +3,53 @@
 <div align = "center">
 
 ### Chat
-
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
-
 ### Entities
-
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
-
 ### General
-
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
 - **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum culling, creating sometimes invisible Chunks. (Can negatively impact performance)
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default	
-
 ### Movement
-
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
 - **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity. *default
-
 ### Rendering
-
 - **Player Void Rendering** - Remove the black box around the player while in the void. *default
 - **Fluid Stitching** - Fix missing edges in fluids. "Requires Chunk reload (F3+a)". (May cause Z-Fighting against blocks that aren't full size). *default
-
 ### Screen
-
 - **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
-
 ### Security
-
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
-
 ### Window
-
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
-
 ### World
-
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
-
 </div>
 
 # Miscellaneous 
-
+### Blocks
 - **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires chunk reload (F3+A)).
 - **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer). *default
+### Field of View 
 - **Fov Modifier** - Allow for modifying FOV change states.
 - **Sprinting Fov** - Modify your FOV when sprinting.
 - **Bow FOV** - Modify your FOV when pulling back a bow.
 - **Speed Fov** - Modify your FOV when having the speed effect.
 - **Slowness FOV** - Modify Your FOV when having the slowness effect.
 - **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
+### General
 - **Crosshair Perspective** - Remove the crosshair when in third person.
 - **Log Optimizer** - Delete any files in the logs folder, as this usually can take up a lot of space. (These files are not recoverable once deleted).
 - **Log Otimizer Amount** - Choose how many days old a file must be before deleted.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Better F1** - Hide nametags when in F1 mode.
+- **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
+### Optifine
 - **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity when zoomed. This is a percentage of your normal sensitivity.
@@ -72,11 +58,13 @@
 - **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
 - **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it. - **Suggested by [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/727392685563838475) / [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/768100485210177556) / [me](https://canary.discord.com/channels/411619823445999637/411620521382510592/745287314154192906)**
 - **Simplify FPS Counter** - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
+### Overlays
 - **Nausea Effect** - Remove the nether portal appearing when clearing nausea.
 - **Disable Achievements** - Remove achievement notification.
 - **Fire Overlay Height** - Change the height of the fire overlay.
 - **Remove Water Overlay** - Remove the water texture overlay when underwater.
 - **Remove Inverted Colors from Crosshair** - Remove the inverted color effect on the crosshair.
+### Rendering
 - **Fullbright** - Remove lighting updates, increasing visibility. "Requires chunk reload (F3+A)". (Can positively impact performance). *default
 - **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright). - Suggested by [jacob#9999](https://canary.discord.com/channels/411619823445999637/411620521382510592/761567628388335626)
 - **Show Own Nametag** - See your own nametag in third person.
@@ -86,11 +74,12 @@
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side. - **Suggested by [Aktimoose#3001](https://canary.discord.com/channels/411619823445999637/411620521382510592/762279014303662090) with a [visual example](https://media.discordapp.net/attachments/411620521382510592/762279100915908629/unknown.png)**
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text. - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/705408054920871966) / [4Fluffin#2181](https://canary.discord.com/channels/411619823445999637/411620521382510592/712753614497644634) / [LRX#6974](https://canary.discord.com/channels/411619823445999637/411620521382510592/743866604088983563)**
 - **Disable Text shadow** - Remove shadows from text. (Can positively impact performance).
+### Tab
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Number Ping** - Show a readable ping number in tab instead of bars.
+### Window
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
 - **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work).
-- **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
 
 # Performance
 
