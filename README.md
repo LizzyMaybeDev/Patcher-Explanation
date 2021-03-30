@@ -164,6 +164,7 @@
 - **Fix typo in Forge's mod list** by changing "Search:\\" to "Search:".
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 - **Save Chat when toggling fullscreen**.
+- **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
 
 # Patcher FunFacts
 
