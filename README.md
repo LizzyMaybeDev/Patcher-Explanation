@@ -231,6 +231,9 @@
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
 - **Remove optifine's custom ALT+F3** - Self explanatory.
 - **Fix crashing issue with hychat** - Self explanatory.
+- **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
+- **Cache current cpu information** - Currently mc checks what cpu you have all the time while you're ingame which is useless. (this feature may or may not be a thing its unconfirmed)
+- **Better armorstand culling** - Unknown (this feature may or may not be a thing its unconfirmed)
 
 ## Mods Patcher Replaces
 
