@@ -1,4 +1,3 @@
-
 # Bug Fixes
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
