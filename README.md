@@ -1,6 +1,6 @@
 
-# Bug Fixes
 <div align = "center">
+# Bug Fixes
 
 ### Chat
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
@@ -29,7 +29,6 @@
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
 ### World
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
-</div>
 
 # Miscellaneous 
 ### Blocks
@@ -80,6 +79,7 @@
 ### Window
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
 - **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work).
+</div>
 
 # Performance
 
