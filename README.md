@@ -14,7 +14,7 @@
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
-- **Better Keybind Handling** - Make keys re—register when closing a GUI, like in 1.12+. *default
+- **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance)
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
@@ -51,7 +51,7 @@
 - **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity value when zoomed in. This is a percentage of your normal sensitivity.
 - **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out. - **Suggested by Pug#5853**
-- **Smooth Scroll—to—Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
+- **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
 - **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
 - **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it. - **Suggested by [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/727392685563838475) / [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/768100485210177556) / [me](https://inv.wtf/firedotexe)**
 - **Simplify FPS Counter** - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
@@ -189,7 +189,7 @@
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 - **Save Chat when toggling fullscreen**.
-- **Implement new fast—graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
+- **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
   
 </details>
 
@@ -245,7 +245,7 @@
 - **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
 - **Fix Scoreboard fix not fixing Scoreboard log spam bug**
 - **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
-- **Fix z—fighting issues with fluid stitching**
+- **Fix z-fighting issues with fluid stitching**
 - **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
 - **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**
 - **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
