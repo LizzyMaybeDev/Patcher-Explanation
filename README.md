@@ -4,7 +4,7 @@
 
 </div>
 
-<!——suppress HtmlDeprecatedAttribute ——>
+<!--suppress HtmlDeprecatedAttribute -->
 
 <details>
   <summary>Bug Fixes</summary><br/>
@@ -189,14 +189,14 @@
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 - **Save Chat when toggling fullscreen**.
-- **Implement new fast—graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020—08—25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020—08—25_12.18.34.png).
+- **Implement new fast—graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
   
 </details>
 
 <details>
   <summary>Patcher FunFacts</summary><br/>
   
-- Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher—Explanation#mods—patcher—replaces) 17 mods
+- Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
 
@@ -292,7 +292,7 @@
 
 - **[WindowedFullscreen](https://sk1er.club/mods/sk1er_fullscreen)** - Sk1er LLC
 
-- **[CleanView](https://www.curseforge.com/minecraft/mc—mods/cleanview)** - LainMI
+- **[CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview)** - LainMI
 
 - **[FastChat](https://2pi.pw/mods/fastchat)** - 2Pi
 
@@ -300,15 +300,15 @@
 
 - **[MouseDelayFix](https://prplz.io/mousedelayfix/)** - prplz
 
-- **[NoCloseMyChat](https://hypixel.net/threads/forge—modification—noclosemychat—for—mc—1—8.1260752/)** - Cecer
+- **[NoCloseMyChat](https://hypixel.net/threads/forge-modification-noclosemychat-for-mc-1-8.1260752/)** - Cecer
 
-- **[VanillaEnhancements](https://www.curseforge.com/minecraft/mc—mods/vanilla—enhancements)** - OrangeMarshall
+- **[VanillaEnhancements](https://www.curseforge.com/minecraft/mc-mods/vanilla-enhancements)** - OrangeMarshall
 
 - **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
 
-- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3—xkF8)** - Moulberry
+- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
-- **[Fullbright](https://www.curseforge.com/minecraft/mc—mods/fullbright)** - Unknown
+- **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
 
 </details>
 
