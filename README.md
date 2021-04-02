@@ -115,9 +115,7 @@
   
 </details>
 
-<details>
-  <summary>Screens</summary>
-  
+## Screens
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
@@ -152,7 +150,7 @@
 - **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
   
 <details>
-  <summary>Screenshots</summary>
+  <summary>Screenshots</summary><br/>
 
 - **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
