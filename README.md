@@ -115,11 +115,13 @@
   
 </details>
 
-## Screens
+<details>
+  <summary>Screens</summary>
+  
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
-- **Compact Chat Time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
+- **Compact Chat time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
 - **Anti Clear Chat** - Remove blank messages from chat.
 - **Shift Chat** - Holding shift while pressing enter will keep chat open.
 - **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
@@ -149,6 +151,7 @@
 - **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
 - **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
   
+</details>
 <details>
   <summary>Screenshots</summary><br/>
 
@@ -173,7 +176,7 @@
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **PathFinding optimization** (Cleanup blockaccess once processed).
-- **TileEntity optimization** (Cleanup removable tile//entities).
+- **TileEntity optimization** (Cleanup removable tile entities).
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
 - **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
 - **Improve faster annotation searching**.
