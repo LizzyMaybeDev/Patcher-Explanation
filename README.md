@@ -119,7 +119,7 @@
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
-- **Compact Chat time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
+- **Compact Chat Time** - Change how long before old messages are no longer compacted. (Measured in seconds.)
 - **Anti Clear Chat** - Remove blank messages from chat.
 - **Shift Chat** - Holding shift while pressing enter will keep chat open.
 - **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
