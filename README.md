@@ -235,7 +235,7 @@
 </details>
 
 <details>
-  <summary>Known Planned Features for Patchere</summary><br/>
+  <summary>Known Planned Features for Patcher</summary><br/>
   
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
