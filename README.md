@@ -1,4 +1,9 @@
-# Bug Fixes
+# Patcher Features
+<br/><br/>
+<!--suppress HtmlDeprecatedAttribute -->
+<details>
+  <summary>Bug Fixes</summary><br/>
+  
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
@@ -17,8 +22,12 @@
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
+  
+</details> 
 
-# Miscellaneous 
+<details>
+  <summary>Miscellaneous</summary><br/>
+  
 - **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires chunk reload (F3+A)).
 - **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer). *default
 - **Fov Modifier** - Allow for modifying FOV change states.
@@ -59,9 +68,12 @@
 - **Number Ping** - Show a readable ping number in tab instead of bars.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
 - **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work).
+  
+</details>
 
-# Performance
-
+<details>
+  <summary>Performance</summary>
+  
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
 - **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
 - **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/761634374361546763) / Already planned when [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/762373914167869440) Suggested it**
@@ -101,9 +113,12 @@
 - **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default - Alternative explanation **Upload cloud geometry to the GPU, resulting in much faster cloud rendering.**
 - **Remove Cloud Transparency** - Remove transparency from clouds.
 - **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in singleplayer).
+  
+</details>
 
-# Screens
-
+<details>
+  <summary>Screens</summary><br/>
+  
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
@@ -136,8 +151,9 @@
 - **Tab Opacity** - Allow for customizing tab opacity.
 - **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
 - **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
-
-# Screenshot
+  
+  <details>
+ <summary>Screenshot</summary>
 
 - **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
@@ -148,8 +164,17 @@
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Preview Scale** - Change the scale of the preview. smaller number is bigger.
 
-## Nonconfigurable Patcher settings
+    <br>
+  </details>
+  
+  
+</details>
 
+# Other
+
+<details>
+  <summary>Nonconfigurable Patcher settings</summary><br/>
+  
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
@@ -164,8 +189,13 @@
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 - **Save Chat when toggling fullscreen**.
 - **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
+  
+</details>
 
-# Patcher FunFacts
+<details>
+  <summary>Patcher FunFacts</summary><br/>
+  
+- Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
 
@@ -202,11 +232,12 @@
 - /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
 
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
----
-## Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
+    
+</details>
 
-## Known Planned Features for Patcher
-
+<details>
+  <summary>Known Planned Features for Patchere</summary><br/>
+  
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
@@ -236,8 +267,12 @@
 - **Save a bit of rendering time** - Unknown.
 - **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved.
 - **Resolve issues with commands that have casing in them** - any command with a case in its name broke because of the case insensitive commands feature, that will change in the next version(s).
+  
+</details>
 
-## Mods Patcher Replaces
+<details>
+  <summary>Mods Patcher Replaces</summary><br/>
+  
 
 - **[CaseCommands](https://sk1er.club/mods/case_commands)** - Sk1er LLC
 
@@ -274,8 +309,13 @@
 - **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
 
 - **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
+  
+</details>
 
-# Credits to [Asbyth](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b)
+# Credits to 
+- [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the "[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")" part.
+- [Sirnapkin1334](https://github.com/napkin) for having a cool readme that i can steal from.
+- [Chachy](https://github.com/ChachyDev) and [Microcontrollers](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for contributing.
 <div align = "center">
 
 # The End.
