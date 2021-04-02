@@ -116,7 +116,7 @@
 </details>
 
 <details>
-  <summary>Screens</summary><br/>
+  <summary>Screens</summary>
   
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
@@ -151,8 +151,8 @@
 - **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
 - **Set Tab Height** - Choose how many pixels down the tab will go when there's an active bossbar
   
-  <details>
- <summary>Screenshot</summary>
+<details>
+  <summary>Screenshots</summary>
 
 - **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
@@ -162,10 +162,6 @@
 - **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
 - **Preview Animation** - Select an animation style for the screenshot preview. 
 - **Preview Scale** - Change the scale of the preview. smaller number is bigger.
-
-    <br>
-  </details>
-  
   
 </details>
 
