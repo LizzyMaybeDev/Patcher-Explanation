@@ -1,9 +1,4 @@
-<div align = "center">
-
 # Patcher Features
-
-</div>
-
 <!--suppress HtmlDeprecatedAttribute -->
 
 <details>
