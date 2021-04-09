@@ -205,6 +205,8 @@
 
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
 
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is which is /fov 340282356779733661637539395458142568447
+
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
 
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7,
