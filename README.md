@@ -86,7 +86,7 @@
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Item Frames** - Stop item frames from rendering.
-- **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering. - **Suggested by DJtheRedstoner#6408**
+- **Disable Mapped Item frames** - Stop item frames only with maps as their item from rendering. - **Suggested by [Duel#0969](https://canary.discord.com/channels/411619823445999637/411620457754787841/765679834118357034) / [DJtheRedstoner#6408](https://canary.discord.com/channels/411619823445999637/411620521382510592/766016290938683415)**
 - **Disable Grounded Arrows** - Stop arrows that are in the ground from rendering.
 - **Disable Attached Arrows** - Stop arrows that are attached to a player from Rendering. 
 - **Disable Skulls** - Stop skulls from rendering. 
