@@ -12,7 +12,7 @@
 - **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance)
-- **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
+- **Layers In Tab** - Fixes sometimes players not having a hat layer on[](url) tab. *default
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
 - **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity. *default
@@ -109,7 +109,7 @@
 - **Static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Low Animation Tick** - Lowers the amount of animations that happen a second from 1000 to 500. *default
 - **Batch Model Rendering** - Render models in a single draw call, reducing the amount of OpenGL instructions performed a second. *default
-- **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default - Alternative explanation: **Upload cloud geometry to the GPU, resulting in much faster cloud rendering.**
+- **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default - Alternative explanation: **[Upload cloud geometry to the GPU, resulting in much faster cloud rendering](https://twitter.com/asbythh/status/1249024695846023168).**
 - **Remove Cloud Transparency** - Remove transparency from clouds.
 - **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in single player).
   
@@ -184,6 +184,14 @@
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
 - **Save Chat when toggling fullscreen**.
 - **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
+- **Force tooltips to render above potion effects.**
+- **Optimized Skin Loading.**
+- **Resolve the player not hearing when their own armor breaks.**
+- **Resolve Minecraft sometimes never saving options.**
+- **Resolve bleeding text color, causing several rendering issues with transparent HUD elements.**
+- **Async Texture Updating.**
+- **Optimizations related to armorstands & player states.**
+- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 </details>
