@@ -12,7 +12,7 @@
 - **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
 - **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
 - **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance)
-- **Layers In Tab** - Fixes sometimes players not having a hat layer on[](url) tab. *default
+- **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
 - **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity. *default
