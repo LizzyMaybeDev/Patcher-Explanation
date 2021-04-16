@@ -253,7 +253,7 @@
 - **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
 - **Fix Scoreboard fix not fixing Scoreboard log spam bug**
 - **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
-- **Fix z-fighting issues with fluid stitching**
+- **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png)
 - **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
 - **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**
 - **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
@@ -272,10 +272,12 @@
 - **Remove optifine's custom ALT+F3** - Self explanatory.
 - **Fix crashing issue with hychat** - Self explanatory.
 - **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
-- **Cache current cpu information** - Unknown.
+- **Cache current CPU information** - Unknown.
 - **Save a bit of rendering time** - Unknown.
 - **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved.
 - **Resolve issues with commands that have casing in them** - any command with a case in its name broke because of the case insensitive commands feature, that will change in the next version(s).
+- **Disable view bobbing effect when holding map** - Self explanatory.
+- **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
   
 </details>
 
@@ -323,7 +325,7 @@
 # Credits to
 
 - [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part.
-- [Sirnapkin1334](https://github.com/SirNapkin1334/) for having a cool readme that I can steal from.
+- [Sirnapkin1334](https://github.com/napkin) for having a cool readme that I can steal from.
 - [Chachy](https://github.com/ChachyDev), [Microcontrollers](https://www.youtube.com/watch?v=dQw4w9WgXcQ), [Proudmuslim](https://github.com/proudmuslim-dev) for contributing.
 <div align = "center">
 
