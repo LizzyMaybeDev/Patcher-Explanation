@@ -4,7 +4,6 @@
 <details>
   <summary>Bug Fixes</summary><br/>
 
-# Bug fixes
 - **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
@@ -28,8 +27,7 @@
 
 <details>
   <summary>Miscellaneous</summary><br/>
-  
-# Miscellaneous
+
 - **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires chunk reload (F3+A)).
 - **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer). *default
 - **FOV Modifier** - Allow for modifying FOV change states.
@@ -75,8 +73,7 @@
 
 <details>
   <summary>Performance</summary>
-  
-# Performance
+
 - **Entity Culling** - Stop entities that aren't visible to the player from rendering. *default
 - **Entity Culling Interval** - The amount of time in ms between occlusion checks for entities. Shorter periods are more costly toward performance but provide the most accurate information. Lower values recommended in competitive environments.
 - **Smart Entity Culling** - Stop entity culling effect when using OptiFine shaders. (Due to the way OptiFine shaders work, we are unable to make Entity Culling compatible at this time). *Default - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/761634374361546763) / Already planned when [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/762373914167869440) Suggested it**
@@ -120,8 +117,7 @@
 
 <details>
   <summary>Screens</summary>
-  
-# Screens
+
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
 - **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
@@ -175,8 +171,7 @@
 
 <details>
   <summary>Nonconfigurable Patcher Settings</summary><br/>
-
-# Nonconfigurable Patcher Settings  
+ 
 - **Scoreboard Patch** - which fixed log spam but now is force enabled 
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
@@ -204,7 +199,6 @@
 <details>
   <summary>Patcher FunFacts</summary><br/>
 
-# Patcher FunFacts  
 - Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
 
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
@@ -254,7 +248,6 @@
 <details>
   <summary>Known Planned Features for Patcher</summary><br/>
   
-# Known Planned Features for Patcher
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
@@ -291,7 +284,7 @@
 
 <details>
   <summary>Mods Patcher Replaces</summary><br/>
-# Mods Patcher Replaces
+
 - **[CaseCommands](https://sk1er.club/mods/case_commands)** - Sk1er LLC
 
 - **[CommandPatcher](https://sk1er.club/mods/command_patcher)** - Sk1er LLC
