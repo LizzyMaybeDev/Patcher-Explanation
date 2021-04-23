@@ -194,6 +194,9 @@
 - **Resolve bleeding text color, causing several rendering issues with transparent HUD elements.**
 - **Optimizations related to armorstands & player states.**
 - **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
+- **AsyncModDiscoverer** - Unknown
+- **AsyncBlockAndItems** - Unknown
+- **ReflectionOptimizations** - Unknown
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
 
 </details>
