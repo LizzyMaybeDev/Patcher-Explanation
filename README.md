@@ -198,7 +198,7 @@
 - **AsyncBlockAndItems** - Register blocks & items at the same time instead of one after another
 - **ReflectionOptimizations** - Unknown
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
-
+- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: Moulberry)**
 </details>
 
 <details>
