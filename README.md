@@ -285,6 +285,7 @@
 - **Resolve issues with commands that have casing in them** - any command with a case in its name broke because of the case insensitive commands feature, that will change in the next version(s).
 - **Disable view bobbing effect when holding map** - Self explanatory.
 - **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
+- **Fix shadows on sized withers** - Properly scale shadows on withers that are not the default size.
   
 </details>
 <details>
