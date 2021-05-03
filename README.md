@@ -257,7 +257,7 @@
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
 - **Fixed Entity Culling trying to cull particles causing some performance issues**
-- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mods**
+- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs**
 - **Fix Scoreboard fix not fixing Scoreboard log spam bug**
 - **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
 - **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png)
