@@ -237,15 +237,15 @@
 - **[MC-72397](https://bugs.mojang.com/browse/MC-72397)**: Alex Model Displays Items Incorrectly
 - **[MC-72494](https://bugs.mojang.com/browse/MC-72494)**: In Statistics screen 'm' is the same unit for both minutes and meters
 - **[MC-74764](https://bugs.mojang.com/browse/MC-74764)**: Particle "largeexplode", "hugeexplosion" and “sweepattack” not showing when using the front view (twice F5)
-- **[MC-76899*](https://bugs.mojang.com/browse/MC-76899)*: Dragging items with the middle mouse button causes block count to go negative
+- **[MC-76899](https://bugs.mojang.com/browse/MC-76899)**: Dragging items with the middle mouse button causes block count to go negative
 - **[MC-80966](https://bugs.mojang.com/browse/MC-80966)**: Lightcalculation of ChunkSelection faulty implemented resulting in client bugs (empty chunks don’t show light/render dark)
 - **[MC-81738](https://bugs.mojang.com/browse/MC-81738)**: Crash: IndexOutOfBoundsException on Tesselating block in world
 - **[MC-81876](https://bugs.mojang.com/browse/MC-81876)**: Number of characters before line cutoff in chat is not same when unicode mode is enabled and when it is off
 - **[MC-84774](https://bugs.mojang.com/browse/MC-84774)**: Cobblestone wall fence gate facing south has different texture mapping (uvlock tag issue)
-- **[MC-85132*](https://bugs.mojang.com/browse/MC-85132)*: Leaves are not culled in fast mode
+- **[MC-85132](https://bugs.mojang.com/browse/MC-85132)**: Leaves are not culled in fast mode
 - **[MC-86385](https://bugs.mojang.com/browse/MC-86385)**: Leading zeroes omitted on dyed leather armor colour
 - **[MC-90560](https://bugs.mojang.com/browse/MC-90560)**: Custom Payload Packet Memory Leak
-- **[MC-92057](uhttps://bugs.mojang.com/browse/MC-92057)**: particles/entities at y>=256 are dark
+- **[MC-92057](https://bugs.mojang.com/browse/MC-92057)**: particles/entities at y>=256 are dark
 - **[MC-94535](https://bugs.mojang.com/browse/MC-94535)**: Flying and holding CTRL really close to the ground, emits walking particles
 - **[MC-98093](https://bugs.mojang.com/browse/MC-98093)**: Distorted Pistons
 - **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak.
