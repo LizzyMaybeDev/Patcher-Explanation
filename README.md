@@ -189,7 +189,6 @@
 - **Force tooltips to render above potion effects.**
 - **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
 - **Improve faster annotation searching**.
-- **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 - **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve signs flickering while editing them, such as the Hypixel Skyblock Banker's signs. (Credits: DJtheRedstoner)
@@ -250,6 +249,7 @@
 - **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak.
 - **[MC-117412](https://bugs.mojang.com/browse/MC-117412)**: Heightmap min value not set when loading chunk from NBT
 - **[MC-121884](https://bugs.mojang.com/browse/MC-121884)**: Server->Client custom payload packets can leak resources
+- **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 </details>
 <details>
   <summary>Patcher Fixes</summary>
