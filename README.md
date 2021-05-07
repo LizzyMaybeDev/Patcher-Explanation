@@ -37,7 +37,7 @@
 - **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
 - **Crosshair Perspective** - Remove the crosshair when in third person.
 - **Log Optimizer** - Delete all files in the logs folder, as these can usually take up a lot of space. (These files are not recoverable once deleted).
-- **Log Otimizer Amount** - Choose how many days old a file must be before being deleted.
+- **Log Optimizer Amount** - Choose how many days old a file must be before being deleted.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Better F1** - Hide nametags when in F1 mode.
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
