@@ -274,13 +274,13 @@
 - **Patcher fixes not only vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs.
 - **Patcher** was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
 - **Save Chat when toggling fullscreen** was added by UserTeemu.
-- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe).
-- **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
-- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help").
+- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x. - reported by [me](https://inv.wtf/firedotexe)
+- **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version. - Reported by Unknown
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447. - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod.
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1.
-- **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7,
+- **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7.
 - With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 1.3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands.
 - In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
 - In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining.
@@ -301,18 +301,18 @@
  
 # Known Planned Features for Patcher
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
-- **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
-- **Fixed Entity Culling trying to cull particles causing some performance issues**
-- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs**
-- **Fix Scoreboard fix not fixing Scoreboard log spam bug**
-- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**
-- **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png)
-- **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**
-- **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**
+- **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**.
+- **Fixed Entity Culling trying to cull particles causing some performance issues**.
+- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs**.
+- **Fix Scoreboard fix not fixing Scoreboard log spam bug**.
+- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**.
+- **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png).
+- **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**.
+- **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**.
 - **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
 - **Improvements related to resource pack discovery menu** - Unknown.
 - **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
-- **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png) .
+- **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png).
 - **Added unfocused fps & sound volume slider** - Lower FPS and sound when the game is unfocused.
 - **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and it's now fixed: [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
 - **Renamed anti clear chat to remove blank messages** - Self explanatory.
@@ -332,7 +332,6 @@
 - **Disable view bobbing effect when holding map** - Self explanatory.
 - **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
 - **Fix shadows on sized withers** - Properly scale shadows on withers that are not the default size.
-  
 </details>
 <details>
   <summary>Mods Patcher Replaces</summary>
