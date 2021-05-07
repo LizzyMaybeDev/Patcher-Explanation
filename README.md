@@ -202,7 +202,7 @@
 - **Optimized Lightmap Updates**
 - **Optimized Model Rendering**
 - **Optimized Particle Collision**
-- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/)**
+- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/))**
 - **PathFinding optimization** (Cleanup blockaccess once processed).
 - **ReflectionOptimizations** - Unknown
 - **Remove the "Unable to locate sign at (coords)" message from chat.**
@@ -280,7 +280,7 @@
 - **Resolve issues regarding SkyblockAddons & Entity Render Distance, and NotEnoughUpdates & Entity Culling.**
 - **Resolve issues with unicode font rendering with italics.**
 - **Resolve messages with type 1 (Command Blocks and such) not being compacted.**
-- **Resolve most/all complaints about Compact Chat. This may behave weirdly as a result, as it has been entirely rewritten so expect a few issues.** (Credit: [Moulberry](https://github.com/moulberry/)
+- **Resolve most/all complaints about Compact Chat. This may behave weirdly as a result, as it has been entirely rewritten so expect a few issues.** (Credit: [Moulberry](https://github.com/moulberry/))
 - **Resolve not being able to open screenshots folder after deleting a screenshot.**
 - **Resolve not being able to use Drop Modifier in some situations.**
 - **Resolve own nametag rendering while in spectator.**
