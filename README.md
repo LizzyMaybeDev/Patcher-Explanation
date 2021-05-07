@@ -255,6 +255,7 @@
 <details>
   <summary>Patcher Fixes</summary>
   
+# Patcher Fixes
 - **Alert the user when uploading too many screenshots too quickly.**
 - **Better mod support regarding Levelhead, PingTag, and TNT Timer.**
 - **Catch null screenshots from attempting to be deleted.**
@@ -311,7 +312,7 @@
 - In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
 - In Patcher 1.4 they fixed over 40 vanilla bugs.
 - In Patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
-- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues, heres a [list](https://gist.github.com/asbyth/ee15ae790e54ea28754dfc8657c531e9) of some.
+- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z + 1677216, and other related floating precision point issues here's [some](https://github.com/LunaNotdev/Patcher-Explanation/#nonconfigurable-patcher-settings)
 - In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
 - In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
 - /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
