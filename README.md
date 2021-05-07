@@ -37,7 +37,7 @@
 - **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
 - **Crosshair Perspective** - Remove the crosshair when in third person.
 - **Log Optimizer** - Delete all files in the logs folder, as these can usually take up a lot of space. (These files are not recoverable once deleted).
-- **Log Optimizer Amount** - Choose how many days old a file must be before being deleted.
+- **Log Otimizer Amount** - Choose how many days old a file must be before being deleted.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
 - **Better F1** - Hide nametags when in F1 mode.
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
@@ -172,44 +172,56 @@
   <summary>Nonconfigurable Patcher Settings</summary>
  
 # Nonconfigurable Patcher Settings
+- **1.9 Skin Support** - Allow for transparency on secondary skin layers, as done in 1.9+
 - **Async Block & Item Loading** - **Register blocks & items at the same time instead of one after another.**
 - **Async Mod Loading** - Unknown
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
+- **Clear out stored errors after model loading finishes** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/4938)
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
+- **Faster fluid checking** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/5a48ca99b6787c7f811045d1f98b26db6ce073b7#diff-a27ff85fc320f1d8269b133701c1c5b2)
 - **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
 - **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.**
 - **Fix Minecraft sometimes never saving options**
 - **Fix the player not hearing when their own armor breaks**
-- **Fix the possible crash on opening the server menu.**
-- **Fix the possible crash when connecting a server quickly.**
+- **Fix the possible crash on opening the server menu**
+- **Fix the possible crash when connecting a server quickly**
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
-- **Fix the player not hearing when their own armor breaks.**
-- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
-- **Force Chat History Length to always be 32767.**.
-- **Force tooltips to render above potion effects.**
+- **Fix typo in sky rendering causing tons of BlockPos allocations** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3267)
+- **Fix Unclosed Server Stream** - Release server icons buffer, fixing a memory leak.
+- **Fix unclosed stream in AnvilChunkLoader** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766)
+- **Fix unclosed stream in GuiModList** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766)
+- **Force Chat History Length to always be 32767**.
+- **Force tooltips to render above potion effects**
+- **Head Optimization** - Cache custom head layers, improving performance.
 - **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
 - **Improve faster annotation searching**.
+- **Instant Language Swapping** - Swap languages instantly, removing freezing from accidentally changing your language.
 - **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve signs flickering while editing them, such as the Hypixel Skyblock Banker's signs. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve wither particles following your crosshair when using L5 or above. (Credits: DJtheRedstoner)
 - **OptiFine L5-M5:** Resolve a duplicate & useless "Alternate Blocks" button in the Details menu. (Credits: DJtheRedstoner)
-- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
-- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
-- **Optimizations related to armorstands & player states.**
+- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**
+- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players**
+- **Optimizations related to armorstands & player states**
+- **Optimized character stripping** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3907)
 - **Optimized Lightmap Updates**
 - **Optimized Model Rendering**
 - **Optimized Particle Collision**
-- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/))**
-- **PathFinding optimization** (Cleanup blockaccess once processed).
+- **Optimized Skin Loading** - Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/))
+- **PathFinding optimization** - Cleanup blockaccess once processed
+- **Persistent Chunk Check Performance** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5706)
 - **ReflectionOptimizations** - Unknown
-- **Remove the "Unable to locate sign at (coords)" message from chat.**
-- **Resolve Minecraft sometimes never saving options.**
-- **Rewrote data table search**.
-- **Save Chat when toggling fullscreen**.
+- **Remove the "Unable to locate sign at (coords)" message from chat**
+- **Resolve Minecraft sometimes never saving options**
+- **Resource Optimization** - Cache resources to reduce loading startup & pack loading times
+- **Rewrote data table search**
+- **Save Chat when toggling fullscreen**
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Scoreboard Patch** - which fixed log spam but now is force enabled
+- **Settings Enhancement** - Don't change mipmap levels until user leaves GUI, stopping accidental mipmap level changes & freezing the game as a result.
 - **Show Patcher version in the F3 menu**
+- **Skip searching for mods in the JAVA_HOME directory** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/3a48a9cd731238c2a5f664362fb073732b426ef5#diff-9687ac6b081c5d4b560e95a42620a355)
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **Skylight performance being recalculated is very slow.**
 - **Tab Overlay Ping draws with a shadow**
@@ -222,12 +234,14 @@
 - **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black
 - **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode
 - **[MC-10480](https://bugs.mojang.com/browse/MC-10480)**: Blindness + Night-vision Effects Create Complete Blindness
-- **[MC-11519](https://bugs.mojang.com/browse/MC-11519)** & **MC-50304**: collecting too much xp could act as an epilepsy trigger & experience orbs are too low to the ground.
-- **[MC-31222](https://bugs.mojang.com/browse/MC-31222)**: - Crash when pressing a Hotbar slot key & leaving the GUI at the same time.
+- **[MC-11519](https://bugs.mojang.com/browse/MC-11519)** & **[MC-50304](https://bugs.mojang.com/browse/MC-50304)**: collecting too much xp could act as an epilepsy trigger & experience orbs are too low to the ground.
+- **[MC-31222](https://bugs.mojang.com/browse/MC-31222)**: Crash when pressing a Hotbar slot key & leaving the GUI at the same time.
+- **[MC-35714](https://bugs.mojang.com/browse/MC-35714)**: Sounds duplicate when entering/leaving a GUI.
 - **[MC-49628](https://bugs.mojang.com/browse/MC-49628)**: When in spectator mode the head overlay shows even if it is set not to show in the skin customisation options
 - **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time
 - **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody
 - **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
+- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**: False-negatives in frustum culling, leaving empty spots in chunks.
 - **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped
 - **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones
 - **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server
@@ -236,6 +250,7 @@
 - **[MC-72494](https://bugs.mojang.com/browse/MC-72494)**: In Statistics screen 'm' is the same unit for both minutes and meters
 - **[MC-74764](https://bugs.mojang.com/browse/MC-74764)**: Particle "largeexplode", "hugeexplosion" and “sweepattack” not showing when using the front view (twice F5)
 - **[MC-76899](https://bugs.mojang.com/browse/MC-76899)**: Dragging items with the middle mouse button causes block count to go negative
+- **[MC-77759](https://bugs.mojang.com/browse/MC-77759)**: The game takes a screenshot when pressing the "<|>" key on foreign keyboards.
 - **[MC-80966](https://bugs.mojang.com/browse/MC-80966)**: Lightcalculation of ChunkSelection faulty implemented resulting in client bugs (empty chunks don’t show light/render dark)
 - **[MC-81738](https://bugs.mojang.com/browse/MC-81738)**: Crash: IndexOutOfBoundsException on Tesselating block in world
 - **[MC-81876](https://bugs.mojang.com/browse/MC-81876)**: Number of characters before line cutoff in chat is not same when unicode mode is enabled and when it is off
@@ -252,6 +267,44 @@
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 </details>
 <details>
+  <summary>Patcher Fixes</summary>
+  
+# Patcher Fixes
+- **Alert the user when uploading too many screenshots too quickly.**
+- **Better mod support regarding Levelhead, PingTag, and TNT Timer.**
+- **Catch null screenshots from attempting to be deleted.**
+- **Fix blacklisted servers not being blacklisted when restarting.**
+- **Fixed player sprint particles being removed when using "Disable Block Breaking Particles".**
+- **Fixed Screenshot Preview utilizing other threads to display the image.**
+- **Fixed skulls not respecting skin transparency.**
+- **Fix ResourceExploitFix functionality.**
+- **Fix VoidFlickerFix functionality.**
+- **Imgur Uploading no longer blocks the client while uploading.**
+- **Made Hotbar Utilities look more consistent.**
+- **Make sure the entity is in the same world as the player before culling.**
+- **ReplayMod, CustomMainMenu, 5zigReborn, & bspkrscore Compatibility.**
+- **Resolve a few transformer issues and the way they interact with other mods.**
+- **Resolve Alternate Text Shadow not affecting Shadowed Nametags.**
+- **Resolve Chat Height issues with Vanilla Enhancements.**
+- **Resolve crash when running /patcher debugfps.**
+- **Resolve Crop Hitbox issues.**
+- **Resolve dropped items never rendering with Labymod.**
+- **Resolve FOV setting not saving when using /fov.**
+- **Resolve Inventory Position being overwritten by Spiderfrog's Old Animations.**
+- **Resolve issues regarding SkyblockAddons & Entity Render Distance, and NotEnoughUpdates & Entity Culling.**
+- **Resolve issues with unicode font rendering with italics.**
+- **Resolve messages with type 1 (Command Blocks and such) not being compacted.**
+- **Resolve most/all complaints about Compact Chat. This may behave weirdly as a result, as it has been entirely rewritten so expect a few issues.** (Credit: [Moulberry](https://github.com/moulberry/))
+- **Resolve not being able to open screenshots folder after deleting a screenshot.**
+- **Resolve not being able to use Drop Modifier in some situations.**
+- **Resolve own nametag rendering while in spectator.**
+- **Resolve Patcher's interaction with Levelhead & PingTag.**
+- **Resolve Z-Fighting on Shadowed Nametags.**
+- **Screenshot Preview now functions properly.**
+- **Stop Hotbar Glances from appearing while in spectator mode.**
+- **Stop rendering the nametag twice when using Entity Culling & Don't Cull Nametags.**
+</details>
+<details>
   <summary>Patcher FunFacts</summary>
 
 # Patcher FunFacts
@@ -262,7 +315,7 @@
 - **Save Chat when toggling fullscreen** was added by UserTeemu
 - **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe)
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
-- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
