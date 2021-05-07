@@ -1,5 +1,4 @@
 # Patcher Features
-<!--suppress HtmlDeprecatedAttribute -->
 
 <details>
   <summary>Bug Fixes</summary>
