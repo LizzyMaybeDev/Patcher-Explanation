@@ -23,7 +23,6 @@
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
 - **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
-  
 </details>
 <details>
   <summary>Miscellaneous</summary>
@@ -105,7 +104,7 @@
 - **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default
 - **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default
 - **Instant World Swapping** - Remove the dirt screen and waiting time when switching a world. *default
-- **Limit Chunk Updates** - Limit the amount of chunk updates that happen a second. - **Was planned, wasn't able to implement until [Moulberry](https://moulberry.codes/) presented a way, public suggester is [Darkr#4233](https://canary.discord.com/channels/411619823445999637/411620521382510592/776726232162893844) [and](https://canary.discord.com/channels/411619823445999637/411620457754787841/776865329086464040) [and](https://canary.discord.com/channels/411619823445999637/411620521382510592/783764217869369376) / Geek#8405 (?)**
+- **Limit Chunk Updates** - Limit the amount of chunk updates that happen a second. - **Was planned, wasn't able to implement until [Moulberry](https://github.com/moulberry/) presented a way, public suggester is [Darkr#4233](https://canary.discord.com/channels/411619823445999637/411620521382510592/776726232162893844) [and](https://canary.discord.com/channels/411619823445999637/411620457754787841/776865329086464040) [and](https://canary.discord.com/channels/411619823445999637/411620521382510592/783764217869369376) / Geek#8405 (?)**
 - **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
 - **Static Fog Color** - Simplify fog color creation with a static fog color. *default
 - **Low Animation Tick** - Lowers the amount of animations that happen a second from 1000 to 500. *default
@@ -159,7 +158,7 @@
 # Screenshots
 - **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
-- **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. \*default
+- **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
 - **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken - **Suggested by [mdash#0001](https://canary.discord.com/channels/411619823445999637/411620521382510592/772087167488622603) / DJtheRedstoner#6408 had a [similar suggestion](https://canary.discord.com/channels/411619823445999637/411620521382510592/770318489012928552) so dont get confused with both**
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
 - **Preview Time** - Adjust how long the preview should stay on screen before sliding out. time is measured in seconds.
@@ -174,86 +173,155 @@
   <summary>Nonconfigurable Patcher Settings</summary>
  
 # Nonconfigurable Patcher Settings
-- **Scoreboard Patch** - which fixed log spam but now is force enabled 
-- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
-- **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
-- **Startup Optimization** - Don't refresh resources twice during startup.
-- **PathFinding optimization** (Cleanup blockaccess once processed).
-- **TileEntity optimization** (Cleanup removable tile entities).
+- **Async Block & Item Loading** - **Register blocks & items at the same time instead of one after another.**
+- **Async Mod Loading** - Unknown
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
-- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
-- **Improve faster annotation searching**.
-- **Rewrote data table search**.
+- **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
+- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.
+- **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.
+- **Fix Minecraft sometimes never saving options**
+- **Fix the player not hearing when their own armor breaks**
+- **Fix the possible crash on opening the server menu.**
+- **Fix the possible crash when connecting a server quickly.**
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
-- **Save Chat when toggling fullscreen**.
-- **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
+- **Fix the player not hearing when their own armor breaks.**
+- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
+- **Force Chat History Length to always be 32767.**.
 - **Force tooltips to render above potion effects.**
-- **Optimized Skin Loading.**
-- **Resolve the player not hearing when their own armor breaks.**
-- **Resolve Minecraft sometimes never saving options.**
-- **Resolve bleeding text color, causing several rendering issues with transparent HUD elements.**
-- **Optimizations related to armorstands & player states.**
+- **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
+- **Improve faster annotation searching**.
+- **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
+- **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
+- **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
+- **OptiFine L5-L6:** Resolve signs flickering while editing them, such as the Hypixel Skyblock Banker's signs. (Credits: DJtheRedstoner)
+- **OptiFine L5-L6:** Resolve wither particles following your crosshair when using L5 or above. (Credits: DJtheRedstoner)
+- **OptiFine L5-M5:** Resolve a duplicate & useless "Alternate Blocks" button in the Details menu. (Credits: DJtheRedstoner)
+- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
 - **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
-- **AsyncModDiscoverer** - Unknown
-- **AsyncBlockAndItems** - Register blocks & items at the same time instead of one after another
+- **Optimizations related to armorstands & player states.**
+- **Optimized Lightmap Updates**
+- **Optimized Model Rendering**
+- **Optimized Particle Collision**
+- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/)**
+- **PathFinding optimization** (Cleanup blockaccess once processed).
 - **ReflectionOptimizations** - Unknown
-- **Note that this is all public information and there is many many stuff that are in the code but are not made public**.
-- **Optimized Skin Loading: Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: Moulberry)**
-- **Force Chat History Length to always be 32767**.
+- **Remove the "Unable to locate sign at (coords)" message from chat.**
+- **Resolve Minecraft sometimes never saving options.**
+- **Rewrote data table search**.
+- **Save Chat when toggling fullscreen**.
+- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
+- **Scoreboard Patch** - which fixed log spam but now is force enabled
+- **Show Patcher version in the F3 menu**
+- **Startup Optimization** - Don't refresh resources twice during startup.
+- **Skylight performance being recalculated is very slow.**
+- **Tab Overlay Ping draws with a shadow**
+- **TileEntity optimization** (Cleanup removable tile entities).
+- **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second
+- **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
+- **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
+- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**: player camera is too far back, making things appear the way they shouldnt. (Fixes -> Parallax Fix)
+- **[MC-2781](https://bugs.mojang.com/browse/MC-2781)**: languages using Windows IME to type (chinese, korean, japanese, etc.) cannot speak in chat.
+- **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black
+- **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode
+- **[MC-10480](https://bugs.mojang.com/browse/MC-10480)**: Blindness + Night-vision Effects Create Complete Blindness
+- **[MC-11519](https://bugs.mojang.com/browse/MC-11519)** & **MC-50304**: collecting too much xp could act as an epilepsy trigger & experience orbs are too low to the ground.
+- **[MC-31222](https://bugs.mojang.com/browse/MC-31222)**: - Crash when pressing a Hotbar slot key & leaving the GUI at the same time.
+- **[MC-49628](https://bugs.mojang.com/browse/MC-49628)**: When in spectator mode the head overlay shows even if it is set not to show in the skin customisation options
+- **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time
+- **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody
+- **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
+- **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped
+- **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones
+- **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server
+- **[MC-71990](https://bugs.mojang.com/browse/MC-71990)**: In tab list, spectators and distant players are always hatless
+- **[MC-72397](https://bugs.mojang.com/browse/MC-72397)**: Alex Model Displays Items Incorrectly
+- **[MC-72494](https://bugs.mojang.com/browse/MC-72494)**: In Statistics screen 'm' is the same unit for both minutes and meters
+- **[MC-74764](https://bugs.mojang.com/browse/MC-74764)**: Particle "largeexplode", "hugeexplosion" and “sweepattack” not showing when using the front view (twice F5)
+- **[MC-76899*](https://bugs.mojang.com/browse/MC-76899)*: Dragging items with the middle mouse button causes block count to go negative
+- **[MC-80966](https://bugs.mojang.com/browse/MC-80966)**: Lightcalculation of ChunkSelection faulty implemented resulting in client bugs (empty chunks don’t show light/render dark)
+- **[MC-81738](https://bugs.mojang.com/browse/MC-81738)**: Crash: IndexOutOfBoundsException on Tesselating block in world
+- **[MC-81876](https://bugs.mojang.com/browse/MC-81876)**: Number of characters before line cutoff in chat is not same when unicode mode is enabled and when it is off
+- **[MC-84774](https://bugs.mojang.com/browse/MC-84774)**: Cobblestone wall fence gate facing south has different texture mapping (uvlock tag issue)
+- **[MC-85132*](https://bugs.mojang.com/browse/MC-85132)*: Leaves are not culled in fast mode
+- **[MC-86385](https://bugs.mojang.com/browse/MC-86385)**: Leading zeroes omitted on dyed leather armor colour
+- **[MC-90560](https://bugs.mojang.com/browse/MC-90560)**: Custom Payload Packet Memory Leak
+- **[MC-92057](uhttps://bugs.mojang.com/browse/MC-92057)**: particles/entities at y>=256 are dark
+- **[MC-94535](https://bugs.mojang.com/browse/MC-94535)**: Flying and holding CTRL really close to the ground, emits walking particles
+- **[MC-98093](https://bugs.mojang.com/browse/MC-98093)**: Distorted Pistons
+- **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak.
+- **[MC-117412](https://bugs.mojang.com/browse/MC-117412)**: Heightmap min value not set when loading chunk from NBT
+- **[MC-121884](https://bugs.mojang.com/browse/MC-121884)**: Server->Client custom payload packets can leak resources
 </details>
-
+<details>
+  <summary>Patcher Fixes</summary>
+  
+- **Alert the user when uploading too many screenshots too quickly.**
+- **Better mod support regarding Levelhead, PingTag, and TNT Timer.**
+- **Catch null screenshots from attempting to be deleted.**
+- **Fix blacklisted servers not being blacklisted when restarting.**
+- **Fixed player sprint particles being removed when using "Disable Block Breaking Particles".**
+- **Fixed Screenshot Preview utilizing other threads to display the image.**
+- **Fixed skulls not respecting skin transparency.**
+- **Fix ResourceExploitFix functionality.**
+- **Fix VoidFlickerFix functionality.**
+- **Imgur Uploading no longer blocks the client while uploading.**
+- **Made Hotbar Utilities look more consistent.**
+- **Make sure the entity is in the same world as the player before culling.**
+- **ReplayMod, CustomMainMenu, 5zigReborn, & bspkrscore Compatibility.**
+- **Resolve a few transformer issues and the way they interact with other mods.**
+- **Resolve Alternate Text Shadow not affecting Shadowed Nametags.**
+- **Resolve Chat Height issues with Vanilla Enhancements.**
+- **Resolve crash when running /patcher debugfps.**
+- **Resolve Crop Hitbox issues.**
+- **Resolve dropped items never rendering with Labymod.**
+- **Resolve FOV setting not saving when using /fov.**
+- **Resolve Inventory Position being overwritten by Spiderfrog's Old Animations.**
+- **Resolve issues regarding SkyblockAddons & Entity Render Distance, and NotEnoughUpdates & Entity Culling.**
+- **Resolve issues with unicode font rendering with italics.**
+- **Resolve messages with type 1 (Command Blocks and such) not being compacted.**
+- **Resolve most/all complaints about Compact Chat. This may behave weirdly as a result, as it has been entirely rewritten so expect a few issues.** (Credit: [Moulberry](https://github.com/moulberry/)
+- **Resolve not being able to open screenshots folder after deleting a screenshot.**
+- **Resolve not being able to use Drop Modifier in some situations.**
+- **Resolve own nametag rendering while in spectator.**
+- **Resolve Patcher's interaction with Levelhead & PingTag.**
+- **Resolve Z-Fighting on Shadowed Nametags.**
+- **Screenshot Preview now functions properly.**
+- **Stop Hotbar Glances from appearing while in spectator mode.**
+- **Stop rendering the nametag twice when using Entity Culling & Don't Cull Nametags.**
+</details>
 <details>
   <summary>Patcher FunFacts</summary>
 
 # Patcher FunFacts
 - Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
-
 - **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
-
 - **Patcher fixes not only vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs
-
 - **Patcher** was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
-
 - **Save Chat when toggling fullscreen** was added by UserTeemu
-
 - **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe)
-
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
-
-- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is which is /fov 340282356779733661637539395458142568447
-
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
+- Patcher fixes an issue with the sun sometimes being black when using a Powns mod
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
-
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7,
-
 - With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 1.3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
-
 - In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
-
 - In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining
-
 - In Patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
-
 - In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
-
 - In Patcher 1.4 they fixed over 40 vanilla bugs.
-
 - In Patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
-
 - Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z +/// 1677216, and other related floating precision point issues, heres a [list](https://gist.github.com/asbyth/ee15ae790e54ea28754dfc8657c531e9) of some.
-
 - In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
-
 - In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
-
 - /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
-
-- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](moulberry.codes/)
-
+- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](https://github.com/moulberry/)
+- In Patcher 1.5 they forced max FOV through /fov to be 110 to stop things from being broken when too high.
+- In Patcher 1.5 the Name History menu was completely redesigned
 </details>
 <details>
   <summary>Known Planned Features for Patcher</summary>
-  
+ 
 # Known Planned Features for Patcher
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**
@@ -325,7 +393,7 @@
 
 - **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
 
-- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - Moulberry
+- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - [Moulberry](https://github.com/moulberry/)
 
 - **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
 
@@ -333,7 +401,7 @@
 
 # Credits to
 
-- [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part.
+- [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part and a TON of other things that i took which i forgot.
 - [SirNapkin1334](https://github.com/sirnapkin1334) for having a cool readme that I can steal from.
 - [Chachy](https://github.com/ChachyDev), [Microcontrollers](https://www.youtube.com/watch?v=dQw4w9WgXcQ), [Proudmuslim](https://github.com/proudmuslim-dev) for contributing.
 <div align = "center">
