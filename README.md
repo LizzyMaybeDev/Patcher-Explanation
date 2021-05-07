@@ -172,130 +172,129 @@
   <summary>Nonconfigurable Patcher Settings</summary>
  
 # Nonconfigurable Patcher Settings
-- **1.9 Skin Support** - Allow for transparency on secondary skin layers, as done in 1.9+
+- **1.9 Skin Support** - Allow for transparency on secondary skin layers, as done in 1.9+.
 - **Async Block & Item Loading** - **Register blocks & items at the same time instead of one after another.**
-- **Async Mod Loading** - Unknown
+- **Async Mod Loading** - Unknown.
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
-- **Clear out stored errors after model loading finishes** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/4938)
+- **Clear out stored errors after model loading finishes** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/4938).
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
-- **Faster fluid checking** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/5a48ca99b6787c7f811045d1f98b26db6ce073b7#diff-a27ff85fc320f1d8269b133701c1c5b2)
+- **Faster fluid checking** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/5a48ca99b6787c7f811045d1f98b26db6ce073b7#diff-a27ff85fc320f1d8269b133701c1c5b2).
 - **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
 - **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.**
-- **Fix Minecraft sometimes never saving options**
-- **Fix the player not hearing when their own armor breaks**
-- **Fix the possible crash on opening the server menu**
-- **Fix the possible crash when connecting a server quickly**
+- **Fix Minecraft sometimes never saving options**.
+- **Fix the player not hearing when their own armor breaks**.
+- **Fix the possible crash on opening the server menu**.
+- **Fix the possible crash when connecting a server quickly**.
 - **Fix typo in Forge's mod list** by changing “Search:\\” to “Search:”.
-- **Fix typo in sky rendering causing tons of BlockPos allocations** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3267)
+- **Fix typo in sky rendering causing tons of BlockPos allocations** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3267).
 - **Fix Unclosed Server Stream** - Release server icons buffer, fixing a memory leak.
-- **Fix unclosed stream in AnvilChunkLoader** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766)
-- **Fix unclosed stream in GuiModList** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766)
+- **Fix unclosed stream in AnvilChunkLoader** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766).
+- **Fix unclosed stream in GuiModList** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766).
 - **Force Chat History Length to always be 32767**.
-- **Force tooltips to render above potion effects**
+- **Force tooltips to render above potion effects**.
 - **Head Optimization** - Cache custom head layers, improving performance.
 - **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
 - **Improve faster annotation searching**.
-- **Instant Language Swapping** - Swap languages instantly, removing freezing from accidentally changing your language.
 - **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve signs flickering while editing them, such as the Hypixel Skyblock Banker's signs. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve wither particles following your crosshair when using L5 or above. (Credits: DJtheRedstoner)
 - **OptiFine L5-M5:** Resolve a duplicate & useless "Alternate Blocks" button in the Details menu. (Credits: DJtheRedstoner)
-- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**
-- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players**
+- **Optimizations made to GameRules$Value and EntityOtherPlayerMP**.
+- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players**.
 - **Optimizations related to armorstands & player states**
-- **Optimized character stripping** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3907)
-- **Optimized Lightmap Updates**
-- **Optimized Model Rendering**
-- **Optimized Particle Collision**
+- **Optimized character stripping** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/3907).
+- **Optimized Lightmap Updates**.
+- **Optimized Model Rendering**.
+- **Optimized Particle Collision**.
 - **Optimized Skin Loading** - Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/))
-- **PathFinding optimization** - Cleanup blockaccess once processed
-- **Persistent Chunk Check Performance** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5706)
-- **ReflectionOptimizations** - Unknown
-- **Remove the "Unable to locate sign at (coords)" message from chat**
-- **Resolve Minecraft sometimes never saving options**
-- **Resource Optimization** - Cache resources to reduce loading startup & pack loading times
-- **Rewrote data table search**
-- **Save Chat when toggling fullscreen**
+- **PathFinding optimization** - Cleanup blockaccess once processed.
+- **Persistent Chunk Check Performance** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5706).
+- **ReflectionOptimizations** - Unknown.
+- **Remove the "Unable to locate sign at (coords)" message from chat**.
+- **Resolve Minecraft sometimes never saving options**.
+- **Resource Optimization** - Cache resources to reduce loading startup & pack loading times.
+- **Rewrote data table search**.
+- **Save Chat when toggling fullscreen**.
 - **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
 - **Scoreboard Patch** - which fixed log spam but now is force enabled
 - **Settings Enhancement** - Don't change mipmap levels until user leaves GUI, stopping accidental mipmap level changes & freezing the game as a result.
-- **Show Patcher version in the F3 menu**
+- **Show Patcher version in the F3 menu**.
 - **Skip searching for mods in the JAVA_HOME directory** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/3a48a9cd731238c2a5f664362fb073732b426ef5#diff-9687ac6b081c5d4b560e95a42620a355)
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **Skylight performance being recalculated is very slow.**
-- **Tab Overlay Ping draws with a shadow**
+- **Tab Overlay Ping draws with a shadow**.
 - **TileEntity optimization** (Cleanup removable tile entities).
-- **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second
+- **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
 - **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
 - **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
 - **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**: player camera is too far back, making things appear the way they shouldnt. (Fixes -> Parallax Fix)
 - **[MC-2781](https://bugs.mojang.com/browse/MC-2781)**: languages using Windows IME to type (chinese, korean, japanese, etc.) cannot speak in chat.
-- **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black
-- **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode
-- **[MC-10480](https://bugs.mojang.com/browse/MC-10480)**: Blindness + Night-vision Effects Create Complete Blindness
+- **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black.
+- **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode.
+- **[MC-10480](https://bugs.mojang.com/browse/MC-10480)**: Blindness + Night-vision Effects Create Complete Blindness.
 - **[MC-11519](https://bugs.mojang.com/browse/MC-11519)** & **[MC-50304](https://bugs.mojang.com/browse/MC-50304)**: collecting too much xp could act as an epilepsy trigger & experience orbs are too low to the ground.
 - **[MC-31222](https://bugs.mojang.com/browse/MC-31222)**: Crash when pressing a Hotbar slot key & leaving the GUI at the same time.
 - **[MC-35714](https://bugs.mojang.com/browse/MC-35714)**: Sounds duplicate when entering/leaving a GUI.
-- **[MC-49628](https://bugs.mojang.com/browse/MC-49628)**: When in spectator mode the head overlay shows even if it is set not to show in the skin customisation options
-- **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time
-- **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody
+- **[MC-49628](https://bugs.mojang.com/browse/MC-49628)**: When in spectator mode the head overlay shows even if it is set not to show in the skin customisation options.
+- **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time.
+- **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody.
 - **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
 - **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**: False-negatives in frustum culling, leaving empty spots in chunks.
-- **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped
-- **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones
-- **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server
-- **[MC-71990](https://bugs.mojang.com/browse/MC-71990)**: In tab list, spectators and distant players are always hatless
-- **[MC-72397](https://bugs.mojang.com/browse/MC-72397)**: Alex Model Displays Items Incorrectly
-- **[MC-72494](https://bugs.mojang.com/browse/MC-72494)**: In Statistics screen 'm' is the same unit for both minutes and meters
-- **[MC-74764](https://bugs.mojang.com/browse/MC-74764)**: Particle "largeexplode", "hugeexplosion" and “sweepattack” not showing when using the front view (twice F5)
-- **[MC-76899](https://bugs.mojang.com/browse/MC-76899)**: Dragging items with the middle mouse button causes block count to go negative
+- **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped.
+- **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones.
+- **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server.
+- **[MC-71990](https://bugs.mojang.com/browse/MC-71990)**: In tab list, spectators and distant players are always hatless.
+- **[MC-72397](https://bugs.mojang.com/browse/MC-72397)**: Alex Model Displays Items Incorrectly.
+- **[MC-72494](https://bugs.mojang.com/browse/MC-72494)**: In Statistics screen 'm' is the same unit for both minutes and meters.
+- **[MC-74764](https://bugs.mojang.com/browse/MC-74764)**: Particle "largeexplode", "hugeexplosion" and “sweepattack” not showing when using the front view. (twice F5)
+- **[MC-76899](https://bugs.mojang.com/browse/MC-76899)**: Dragging items with the middle mouse button causes block count to go negative.
 - **[MC-77759](https://bugs.mojang.com/browse/MC-77759)**: The game takes a screenshot when pressing the "<|>" key on foreign keyboards.
-- **[MC-80966](https://bugs.mojang.com/browse/MC-80966)**: Lightcalculation of ChunkSelection faulty implemented resulting in client bugs (empty chunks don’t show light/render dark)
-- **[MC-81738](https://bugs.mojang.com/browse/MC-81738)**: Crash: IndexOutOfBoundsException on Tesselating block in world
-- **[MC-81876](https://bugs.mojang.com/browse/MC-81876)**: Number of characters before line cutoff in chat is not same when unicode mode is enabled and when it is off
-- **[MC-84774](https://bugs.mojang.com/browse/MC-84774)**: Cobblestone wall fence gate facing south has different texture mapping (uvlock tag issue)
-- **[MC-85132](https://bugs.mojang.com/browse/MC-85132)**: Leaves are not culled in fast mode
-- **[MC-86385](https://bugs.mojang.com/browse/MC-86385)**: Leading zeroes omitted on dyed leather armor colour
-- **[MC-90560](https://bugs.mojang.com/browse/MC-90560)**: Custom Payload Packet Memory Leak
-- **[MC-92057](https://bugs.mojang.com/browse/MC-92057)**: particles/entities at y>=256 are dark
-- **[MC-94535](https://bugs.mojang.com/browse/MC-94535)**: Flying and holding CTRL really close to the ground, emits walking particles
-- **[MC-98093](https://bugs.mojang.com/browse/MC-98093)**: Distorted Pistons
-- **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak.
-- **[MC-117412](https://bugs.mojang.com/browse/MC-117412)**: Heightmap min value not set when loading chunk from NBT
-- **[MC-121884](https://bugs.mojang.com/browse/MC-121884)**: Server->Client custom payload packets can leak resources
+- **[MC-80966](https://bugs.mojang.com/browse/MC-80966)**: Lightcalculation of ChunkSelection faulty implemented resulting in client bugs. (empty chunks don’t show light/render dark)
+- **[MC-81738](https://bugs.mojang.com/browse/MC-81738)**: Crash: IndexOutOfBoundsException on Tesselating block in world.
+- **[MC-81876](https://bugs.mojang.com/browse/MC-81876)**: Number of characters before line cutoff in chat is not same when unicode mode is enabled and when it is off.
+- **[MC-84774](https://bugs.mojang.com/browse/MC-84774)**: Cobblestone wall fence gate facing south has different texture mapping. (uvlock tag issue)
+- **[MC-85132](https://bugs.mojang.com/browse/MC-85132)**: Leaves are not culled in fast mode.
+- **[MC-86385](https://bugs.mojang.com/browse/MC-86385)**: Leading zeroes omitted on dyed leather armor colour.
+- **[MC-90560](https://bugs.mojang.com/browse/MC-90560)**: Custom Payload Packet Memory Leak.
+- **[MC-92057](https://bugs.mojang.com/browse/MC-92057)**: particles/entities at y>=256 are dark.
+- **[MC-94535](https://bugs.mojang.com/browse/MC-94535)**: Flying and holding CTRL really close to the ground, emits walking particles.
+- **[MC-98093](https://bugs.mojang.com/browse/MC-98093)**: Distorted Pistons.
+- **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak..
+- **[MC-117412](https://bugs.mojang.com/browse/MC-117412)**: Heightmap min value not set when loading chunk from NBT.
+- **[MC-121884](https://bugs.mojang.com/browse/MC-121884)**: Server->Client custom payload packets can leak resources.
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 </details>
 <details>
   <summary>Patcher FunFacts</summary>
 
 # Patcher FunFacts
-- Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods
-- **Fastchat**, **Fast Language Swap**, **Better Keybind Handling** pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it
-- **Patcher fixes not only vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs
+- Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods.
+- **Fastchat**, **Better Keybind Handling**, pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it.
+- **Patcher fixes not only vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs.
 - **Patcher** was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
-- **Save Chat when toggling fullscreen** was added by UserTeemu
-- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe)
+- **Save Chat when toggling fullscreen** was added by UserTeemu.
+- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe).
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
-- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
-- Patcher fixes an issue with the sun sometimes being black when using a Powns mod
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help").
+- Patcher fixes an issue with the sun sometimes being black when using a Powns mod.
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
-- **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
+- **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1.
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7,
-- With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 1.3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands
+- With the release of Patcher 1.1 beta 9 they Renamed /blacklist to /pblacklist and Removed /history alias to name history later on in Patcher 1.3 beta 16 they Renamed /name to /pname due to it potentially messing up normal server/client commands.
 - In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
-- In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining
+- In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining.
 - In Patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
-- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version
+- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version.
 - In Patcher 1.4 they fixed over 40 vanilla bugs.
 - In Patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
-- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z + 1677216, and other related floating precision point issues here's [some](https://github.com/LunaNotdev/Patcher-Explanation/#nonconfigurable-patcher-settings)
-- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar
-- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering
-- /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud
-- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](https://github.com/moulberry/)
+- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z + 1677216, and other related floating precision point issues here's [some](https://github.com/LunaNotdev/Patcher-Explanation/#nonconfigurable-patcher-settings).
+- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar.
+- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering.
+- /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud.
+- The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](https://github.com/moulberry/).
 - In Patcher 1.5 they forced max FOV through /fov to be 110 to stop things from being broken when too high.
-- In Patcher 1.5 the Name History menu was completely redesigned
+- In Patcher 1.5 the Name History menu was completely redesigned.
 </details>
 <details>
   <summary>Known Planned Features for Patcher</summary>
