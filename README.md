@@ -143,7 +143,7 @@
 - **Replace Open to Lan** - Remove the Open to Lan button when in multiplayer server with a button to quickly open your server list. (Will be reworked in the future to not kick you from the server).
 - **Replaced Mods Warning** - Display on startup what mods you may have that are replaced by Patcher. *default
 - **Smart Disconnect -** Choose between disconnecting or relogging when clicking the disconnect button. (Only works on multiplayer servers). - **Suggested by [Pug#5853](https://canary.discord.com/channels/411619823445999637/411620521382510592/705222390338158682)**
-- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots).
+- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen and Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots).
 - **Image Preview Width** - The % of screen width to be used for image preview.
 - **Inventory Position** - Stop potion effects from shifting your inventory to the right. *default
 - **Custom Tab Opacity** - Change the tab list opacity.
