@@ -252,44 +252,6 @@
 - **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 </details>
 <details>
-  <summary>Patcher Fixes</summary>
-  
-# Patcher Fixes
-- **Alert the user when uploading too many screenshots too quickly.**
-- **Better mod support regarding Levelhead, PingTag, and TNT Timer.**
-- **Catch null screenshots from attempting to be deleted.**
-- **Fix blacklisted servers not being blacklisted when restarting.**
-- **Fixed player sprint particles being removed when using "Disable Block Breaking Particles".**
-- **Fixed Screenshot Preview utilizing other threads to display the image.**
-- **Fixed skulls not respecting skin transparency.**
-- **Fix ResourceExploitFix functionality.**
-- **Fix VoidFlickerFix functionality.**
-- **Imgur Uploading no longer blocks the client while uploading.**
-- **Made Hotbar Utilities look more consistent.**
-- **Make sure the entity is in the same world as the player before culling.**
-- **ReplayMod, CustomMainMenu, 5zigReborn, & bspkrscore Compatibility.**
-- **Resolve a few transformer issues and the way they interact with other mods.**
-- **Resolve Alternate Text Shadow not affecting Shadowed Nametags.**
-- **Resolve Chat Height issues with Vanilla Enhancements.**
-- **Resolve crash when running /patcher debugfps.**
-- **Resolve Crop Hitbox issues.**
-- **Resolve dropped items never rendering with Labymod.**
-- **Resolve FOV setting not saving when using /fov.**
-- **Resolve Inventory Position being overwritten by Spiderfrog's Old Animations.**
-- **Resolve issues regarding SkyblockAddons & Entity Render Distance, and NotEnoughUpdates & Entity Culling.**
-- **Resolve issues with unicode font rendering with italics.**
-- **Resolve messages with type 1 (Command Blocks and such) not being compacted.**
-- **Resolve most/all complaints about Compact Chat. This may behave weirdly as a result, as it has been entirely rewritten so expect a few issues.** (Credit: [Moulberry](https://github.com/moulberry/))
-- **Resolve not being able to open screenshots folder after deleting a screenshot.**
-- **Resolve not being able to use Drop Modifier in some situations.**
-- **Resolve own nametag rendering while in spectator.**
-- **Resolve Patcher's interaction with Levelhead & PingTag.**
-- **Resolve Z-Fighting on Shadowed Nametags.**
-- **Screenshot Preview now functions properly.**
-- **Stop Hotbar Glances from appearing while in spectator mode.**
-- **Stop rendering the nametag twice when using Entity Culling & Don't Cull Nametags.**
-</details>
-<details>
   <summary>Patcher FunFacts</summary>
 
 # Patcher FunFacts
