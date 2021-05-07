@@ -176,8 +176,8 @@
 - **Async Mod Loading** - Unknown
 - **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
-- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.
-- **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.
+- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
+- **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.**
 - **Fix Minecraft sometimes never saving options**
 - **Fix the player not hearing when their own armor breaks**
 - **Fix the possible crash on opening the server menu.**
