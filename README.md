@@ -300,7 +300,7 @@
 - **Save Chat when toggling fullscreen** was added by UserTeemu
 - **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x - reported by [me](https://inv.wtf/firedotexe)
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version - Reported by Unknown
-- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
+- **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447 - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1
