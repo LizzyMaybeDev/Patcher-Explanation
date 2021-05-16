@@ -332,6 +332,7 @@
 - **Disable view bobbing effect when holding map** - Self explanatory.
 - **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
 - **Fix shadows on sized withers** - Properly scale shadows on withers that are not the default size.
+- **Hide projectiles for a few frames after thrown** - Hides snowballs, eggs, ender pearls, ender eyes, splash potions, exp bottles, and firework rockets for a few frames after being thrown to prevent them from taking up a majority of the screen.
 </details>
 <details>
   <summary>Mods Patcher Replaces</summary>
