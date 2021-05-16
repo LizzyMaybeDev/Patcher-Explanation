@@ -270,8 +270,9 @@
 
 # Patcher FunFacts
 - Patcher has 49 Default options and 136 options in general, 16 of those are bug fixes, (note that those are the only bug fixes that you can enable and disable there is over 70 bug fixes which are force enabled) 41 QOL features and 41 Performance features (note that again those are the only visible ones) and Patcher also [replaces](https://github.com/LunaNotdev/Patcher-Explanation#mods-patcher-replaces) 17 mods.
+- Optimized Font Renderer has been forcefully disabled in a recent sba beta.
 - **Fastchat**, **Better Keybind Handling**, pretty much all **OptiFine zoom stuff** were added by Llamalad7 along with fixing ssmanager by making it take priority over VanillaEnhancements since it completely broke it.
-- **Patcher fixes not only vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs.
+- **Patcher not only fixes vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs.
 - **Patcher** was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
 - **Save Chat when toggling fullscreen** was added by UserTeemu.
 - **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x. - reported by [me](https://inv.wtf/firedotexe)
