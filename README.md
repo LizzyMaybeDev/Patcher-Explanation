@@ -304,10 +304,10 @@
 # Known Planned Features for Patcher
 - **Entity backface culling** -  Hides parts of the entity model that you cant see.
 - **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**.
-- **Fixed Entity Culling trying to cull particles causing some performance issues**.
-- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs**.
-- **Fix Scoreboard fix not fixing Scoreboard log spam bug**.
-- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP**.
+- **Fixed Entity Culling trying to cull particles causing some performance issues** - Self explanatory.
+- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs** - Self explanatory.
+- **Fix Scoreboard fix not fixing Scoreboard log spam bug** - Self explanatory.
+- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP** - Self explanatory.
 - **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png).
 - **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**.
 - **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**.
@@ -324,8 +324,8 @@
 - **Removed disable mob spawning** - It was useless.
 - **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
 - **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
-- **Remove optifine's custom ALT+F3** - Self explanatory.
-- **Fix crashing issue with hychat** - Self explanatory.
+- **Remove OptiFine's custom ALT+F3** - Self explanatory.
+- **Fix crashing issue with Hychat** - Self explanatory.
 - **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
 - **Cache current CPU information** - Unknown.
 - **Save a bit of rendering time** - Unknown.
@@ -335,6 +335,8 @@
 - **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
 - **Fix shadows on sized withers** - Properly scale shadows on withers that are not the default size.
 - **Hide projectiles for a few frames after thrown** - Hides snowballs, eggs, ender pearls, ender eyes, splash potions, exp bottles, and firework rockets for a few frames after being thrown to prevent them from taking up a majority of the screen.
+- **Ability to toggle off certain buttons from screenshot manager** - Self explanatory.
+- **Fix Villager/zombie villager/witch robes not rendering the last two rows of pixels** - Fixes [MC-53312](https://bugs.mojang.com/browse/MC-53312).
 </details>
 <details>
   <summary>Mods Patcher Replaces</summary>
