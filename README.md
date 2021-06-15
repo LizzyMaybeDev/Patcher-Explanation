@@ -58,7 +58,7 @@
 - **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright). - Suggested by [jacob#9999](https://canary.discord.com/channels/411619823445999637/411620521382510592/761567628388335626)
 - **Show Own Nametag** - See your own nametag in third person.
 - **Numerical Enchantments** - Use readable numbers instead of Roman numerals on enchants. *default
-- **Clean View** - Stop rendering your own potion effect particles.
+- **Clean View** - Stop rendering your own potion effect particles. (Integration by LianMI)
 - **Disable Breaking Particles** - Remove block breaking particles for visibility.
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side. - **Suggested by [Aktimoose#3001](https://canary.discord.com/channels/411619823445999637/411620521382510592/762279014303662090) with a [visual example](https://media.discordapp.net/attachments/411620521382510592/762279100915908629/unknown.png)**
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text. - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/705408054920871966) / [4Fluffin#2181](https://canary.discord.com/channels/411619823445999637/411620521382510592/712753614497644634) / [LRX#6974](https://canary.discord.com/channels/411619823445999637/411620521382510592/743866604088983563)**
