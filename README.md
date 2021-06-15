@@ -327,8 +327,6 @@
 - **Remove OptiFine's custom ALT+F3** - Self explanatory.
 - **Fix crashing issue with Hychat** - Self explanatory.
 - **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
-- **Cache current CPU information** - Unknown.
-- **Save a bit of rendering time** - Unknown.
 - **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved.
 - **Resolve issues with commands that have casing in them** - any command with a case in its name broke because of the case insensitive commands feature, that will change in the next version(s).
 - **Disable view bobbing effect when holding map** - Self explanatory.
