@@ -100,8 +100,8 @@
 - **Optimized Item Renderer** - Cache information about items, avoiding recalculating everything about it every frame. *default
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
 - **Downscale Pack Images** - Change all pack icons to 64x64 to reduce memory usage. *default
-- **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default ([Optimization Test](https://streamable.com/0oype9 "tony reindeer is FAST fr fr")
-- **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default ([Optimization Test](https://streamable.com/0oype9 "this da uhhh optimization test")
+- **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default ([Optimization Test](https://streamable.com/0oype9 "tony reindeer is FAST fr fr"))
+- **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default ([Optimization Test](https://streamable.com/0oype9 "this da uhhh optimization test"))
 - **Instant World Swapping** - Remove the dirt screen and waiting time when switching a world. *default
 - **Limit Chunk Updates** - Limit the amount of chunk updates that happen a second. - **Was planned, wasn't able to implement until [Moulberry](https://github.com/moulberry/) presented a way, public suggester is [Darkr#4233](https://canary.discord.com/channels/411619823445999637/411620521382510592/776726232162893844) [and](https://canary.discord.com/channels/411619823445999637/411620457754787841/776865329086464040) [and](https://canary.discord.com/channels/411619823445999637/411620521382510592/783764217869369376) / Geek#8405 (?)**
 - **Chunk Update Limit** - Specify the amount of updates that can happen a second.  
@@ -225,6 +225,7 @@
 - **Skylight performance being recalculated is very slow.**
 - **Tab Overlay Ping draws with a shadow**.
 - **TileEntity optimization** (Cleanup removable tile entities).
+- **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
 - **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
 - **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
