@@ -284,6 +284,7 @@
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7.
 - With the release of Patcher 1.1 beta 9 they renamed /blacklist to /pblacklist and removed /history alias to name history later on in Patcher 1.3 beta 16 they renamed /name to /pname due to it potentially messing up normal server/client commands.
 - In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
+- Patcher 1.2 improved startup time significantly, 66 mods, patcher 1.1 -> 81 seconds, 66 mods, patcher 1.2 -> 52 seconds
 - In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining.
 - In Patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
 - In Patcher 1.3 they moved commands such as /patchersounds to /patcher sounds, /name to /patcher name, /pblacklist to /patcher blacklist.
