@@ -174,13 +174,9 @@
 # Nonconfigurable Patcher Settings
 - **1.9 Skin Support** - Allow for transparency on secondary skin layers, as done in 1.9+.
 - **Async Block & Item Loading** - **Register blocks & items at the same time instead of one after another.**
-- **Async Mod Loading** - Unknown.
-- **Cleanup resources when leaving a world**, fixing a vanilla OpenGL buffer leak.
 - **Clear out stored errors after model loading finishes** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/4938).
 - **Disable Constant Fog Color Checking** - still a thing but renamed to static fov color which simplifies fog color creation with a static fog color.
 - **Faster fluid checking** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/5a48ca99b6787c7f811045d1f98b26db6ce073b7#diff-a27ff85fc320f1d8269b133701c1c5b2).
-- **Fix bleeding text color, causing several rendering issues with transparent HUD elements.**
-- **Fix keybinds being loaded too early, resolving issues with mods that use Mixins on KeyBinding.**
 - **Fix Minecraft sometimes never saving options**.
 - **Fix the player not hearing when their own armor breaks**.
 - **Fix the possible crash on opening the server menu**.
@@ -193,8 +189,6 @@
 - **Force Chat History Length to always be 32767**.
 - **Force tooltips to render above potion effects**.
 - **Head Optimization** - Cache custom head layers, improving performance.
-- **Implement new fast-graphics leaf culling** - [Before](https://cdn.discordapp.com/attachments/530585040120315924/747852737856798800/2020-08-25_12.14.06.png), [After](https://cdn.discordapp.com/attachments/530585040120315924/747852760241799168/2020-08-25_12.18.34.png).
-- **Improve faster annotation searching**.
 - **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve signs flickering while editing them, such as the Hypixel Skyblock Banker's signs. (Credits: DJtheRedstoner)
@@ -210,26 +204,22 @@
 - **Optimized Skin Loading** - Reduce the amount of stutter when loading into a world with a lot of players, caused by fetching the skin file and applying it. (Credits: [Moulberry](https://github.com/moulberry/))
 - **PathFinding optimization** - Cleanup blockaccess once processed.
 - **Persistent Chunk Check Performance** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5706).
-- **ReflectionOptimizations** - Unknown.
+- **Reflection Optimizations** - OptiFine uses Reflection to communicate with Forge and implement Forge's changes when present. We already know we're in a Forge-environment, so remove any instance of reflection done by OptiFine to improve performance.
 - **Remove the "Unable to locate sign at (coords)" message from chat**.
 - **Resolve Minecraft sometimes never saving options**.
 - **Resource Optimization** - Cache resources to reduce loading startup & pack loading times.
-- **Rewrote data table search**.
 - **Save Chat when toggling fullscreen**.
-- **Scoreboard Optimization** - Render the whole scoreboard in one draw call, rather than creating a separate rectangle for every score, which at the time wasnt compatible with Powns & Canelex's scoreboard mod.
-- **Scoreboard Patch** - which fixed log spam but now is force enabled
+- **Scoreboard Patch** - Resolve scoreboard packets constantly spamming logs.
 - **Settings Enhancement** - Don't change mipmap levels until user leaves GUI, stopping accidental mipmap level changes & freezing the game as a result.
 - **Show Patcher version in the F3 menu**.
 - **Skip searching for mods in the JAVA_HOME directory** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/3a48a9cd731238c2a5f664362fb073732b426ef5#diff-9687ac6b081c5d4b560e95a42620a355)
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **Skylight performance being recalculated is very slow.**
-- **Tab Overlay Ping draws with a shadow**.
 - **TileEntity optimization** (Cleanup removable tile entities).
 - **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
 - **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
 - **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
-- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**: player camera is too far back, making things appear the way they shouldnt. (Fixes -> Parallax Fix) (originally fixed by mojang in 15w46a)
 - **[MC-2781](https://bugs.mojang.com/browse/MC-2781)**: languages using Windows IME to type (chinese, korean, japanese, etc.) cannot speak in chat.
 - **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black.
 - **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode.
@@ -241,7 +231,6 @@
 - **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time.
 - **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody.
 - **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
-- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**: False-negatives in frustum culling, leaving empty spots in chunks.
 - **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped.
 - **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones.
 - **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server.
