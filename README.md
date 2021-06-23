@@ -188,7 +188,6 @@
 - **Fix unclosed stream in GuiModList** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/pull/5766).
 - **Force Chat History Length to always be 32767**.
 - **Force tooltips to render above potion effects**.
-- **Improve faster annotation searching**.
 - **Head Optimization** - Cache custom head layers, improving performance.
 - **OptiFine I7-M5:** Resolve OptiFine causing resourcepacks that edit the XP bar color to be the Vanilla color. (Credits: DJtheRedstoner)
 - **OptiFine L5-L6:** Resolve horses sometimes never rendering, and hitting said horse would cause the screen to have a red tint. (Credits: rbrick & DJtheRedstoner)
