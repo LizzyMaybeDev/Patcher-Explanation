@@ -10,8 +10,8 @@
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
 - **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
-- **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head.
-- **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance)
+- **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head. **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**. (originally fixed by mojang in 15w46a)
+- **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance) **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**
 - **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
 - **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
 - **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
@@ -271,8 +271,6 @@
 - **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447. - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod.
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
-- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)** was fixed in patcher 1.4 which is now Parallax Fix. (originally fixed by mojang in 15w46a)
-- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)** were fixed in patcher 1.4 which are now under Culling Fix.
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1.
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7.
 - With the release of Patcher 1.1 beta 9 they renamed /blacklist to /pblacklist and removed /history alias to name history later on in Patcher 1.3 beta 16 they renamed /name to /pname due to it potentially messing up normal server/client commands.
