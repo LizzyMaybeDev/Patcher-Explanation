@@ -221,7 +221,6 @@
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
 - **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
 - **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
-- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**: player camera is too far back, making things appear the way they shouldnt. (Fixes -> Parallax Fix) (originally fixed by mojang in 15w46a)
 - **[MC-2781](https://bugs.mojang.com/browse/MC-2781)**: languages using Windows IME to type (chinese, korean, japanese, etc.) cannot speak in chat.
 - **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black.
 - **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode.
@@ -233,8 +232,7 @@
 - **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time.
 - **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody.
 - **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
-- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**: False-negatives in frustum culling, leaving empty spots in chunks.
- - **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped.
+- **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped.
 - **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones.
 - **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server.
 - **[MC-71990](https://bugs.mojang.com/browse/MC-71990)**: In tab list, spectators and distant players are always hatless.
@@ -273,6 +271,8 @@
 - **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447. - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod.
 - **Optimized Resource Packs Menu** - Is force disabled with the presence of labymod as the developers of the RP24 addon have no intentions of fixing their addon because it does things very poorly.
+- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)** was fixed in patcher 1.4 which is now Parallax Fix. (originally fixed by mojang in 15w46a)
+- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)** were fixed in patcher 1.4 which are now under Culling Fix.
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1.
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7.
 - With the release of Patcher 1.1 beta 9 they renamed /blacklist to /pblacklist and removed /history alias to name history later on in Patcher 1.3 beta 16 they renamed /name to /pname due to it potentially messing up normal server/client commands.
