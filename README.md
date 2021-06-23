@@ -221,7 +221,6 @@
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
 - **[MC-234](https://bugs.mojang.com/browse/MC-234)**: z-fighting when digging straight down.
 - **[MC-417](https://bugs.mojang.com/browse/MC-417)**: arrows bounce back then appear at correct location.
-- **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**: player camera is too far back, making things appear the way they shouldnt. (Fixes -> Parallax Fix) (originally fixed by mojang in 15w46a)
 - **[MC-2781](https://bugs.mojang.com/browse/MC-2781)**: languages using Windows IME to type (chinese, korean, japanese, etc.) cannot speak in chat.
 - **[MC-4647](https://bugs.mojang.com/browse/MC-4647)**: Having both underwater/Night vision and Blindness turns the world black.
 - **[MC-5404](https://bugs.mojang.com/browse/MC-5404)**: Name Tags/XP Orbs/Splash Potions are angled in third-person mode.
@@ -233,7 +232,6 @@
 - **[MC-51150](https://bugs.mojang.com/browse/MC-51150)**: Swimming in water, riding a minecart or standing on soul sand and snow layers 8 darkens the sky at day time.
 - **[MC-58177](https://bugs.mojang.com/browse/MC-58177)**: Night vision rendered darker and orange when nearing light sources with brightness on moody.
 - **[MC-58614](https://bugs.mojang.com/browse/MC-58614)**: xp bar isnt transparent when crosshair isnt visible.
-- **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**: False-negatives in frustum culling, leaving empty spots in chunks.
  - **[MC-67017](https://bugs.mojang.com/browse/MC-67017)**: The small cube in slime blocks isn't displayed in inventory and when dropped.
 - **[MC-67406](https://bugs.mojang.com/browse/MC-67406)**: Small armor stands display items differently than normal ones.
 - **[MC-68381](https://bugs.mojang.com/browse/MC-68381)**: NullPointerException: group when connecting to MP server.
