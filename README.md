@@ -215,6 +215,7 @@
 - **Skip searching for mods in the JAVA_HOME directory** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/3a48a9cd731238c2a5f664362fb073732b426ef5#diff-9687ac6b081c5d4b560e95a42620a355)
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **Skylight performance being recalculated is very slow.**
+- **If you enable Fullbright the game will not have to regenerate lightmap every frame as well as not running a lot of the actual lighting engine**
 - **TileEntity optimization** (Cleanup removable tile entities).
 - **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
