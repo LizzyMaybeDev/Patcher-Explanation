@@ -80,7 +80,6 @@
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
 - **Check Armorstand Rules** - Don't cull armorstands that have a marker set in their entity rules. This will result in a lot of unculled armorstands in places like Hypixel Skyblock, but will provide better entity visibility while losing out on some performance improvements.
-- **Particle Culling** - Stop particles that aren't visible to the player from rendering. *default
 - **Disable Armorstands** - Stop armorstands from rendering (armorstands are commonly used for NPC nametag rendering. Enabling this will stop those from rendering as well).
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
@@ -215,7 +214,7 @@
 - **Skip searching for mods in the JAVA_HOME directory** - [Forge optimization](https://github.com/MinecraftForge/MinecraftForge/commit/3a48a9cd731238c2a5f664362fb073732b426ef5#diff-9687ac6b081c5d4b560e95a42620a355)
 - **Startup Optimization** - Don't refresh resources twice during startup.
 - **Skylight performance being recalculated is very slow.**
-- **If you enable Fullbright the game will not have to regenerate lightmap every frame as well as not running a lot of the actual lighting engine**
+- **If you enable Fullbright the game will stop regenerating the lightmap every frame as well as not running a lot of the actual lighting engine which can improve fps by noticeable amounts.**
 - **TileEntity optimization** (Cleanup removable tile entities).
 - **Optimizations regarding PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.**
 - **[MC-185](https://bugs.mojang.com/browse/MC-185)**: Creating or loading a singleplayer world shows the main menu for a brief second.
