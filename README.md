@@ -373,7 +373,7 @@
 # Credits to
 
 - [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part and a TON of other things that i took which i forgot.
-- [SirNapkin1334](https://github.com/sirnapkin1334) for having a cool readme that I can steal from.
+- [moire](https://github.com/moire9) for having a cool readme that I can steal from.
 - [Chachy](https://github.com/ChachyDev), [Microcontrollers](https://www.youtube.com/watch?v=dQw4w9WgXcQ), [Proudmuslim](https://github.com/proudmuslim-dev) for contributing.
 <div align = "center">
 
