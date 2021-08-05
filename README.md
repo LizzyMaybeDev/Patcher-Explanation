@@ -4,7 +4,7 @@
   <summary>Bug Fixes</summary>
   
 # Bug Fixes
-~~- **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
+- **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
 - **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
 - **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
@@ -21,7 +21,7 @@
 - **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
 - **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
 - **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
-- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default~~
+~~- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default~~
 </details>
 <details>
   <summary>Experimental</summary>
