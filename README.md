@@ -69,7 +69,7 @@
 - **Disable Breaking Particles** - Remove block breaking particles for visibility.
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side. - **Suggested by [Aktimoose#3001](https://canary.discord.com/channels/411619823445999637/411620521382510592/762279014303662090) with a [visual example](https://media.discordapp.net/attachments/411620521382510592/762279100915908629/unknown.png)**
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text. - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/705408054920871966) / [4Fluffin#2181](https://canary.discord.com/channels/411619823445999637/411620521382510592/712753614497644634) / [LRX#6974](https://canary.discord.com/channels/411619823445999637/411620521382510592/743866604088983563)**
-- **Add Text Shadow to Actionbar - Render actionbar messages with shadowed text.
+- **Add Text Shadow to Actionbar** - Render actionbar messages with shadowed text.
 - **Disable Text shadow** - Remove shadows from text. (Can positively impact performance).
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Number Ping** - Show a readable ping number in tab instead of bars.
