@@ -10,7 +10,7 @@
 - **Layers In Tab** - Resolves players sometimes not having a hat layer in Tab. *default
 - **Player Void Rendering** - Resolve the black box around the player while in the void. *default
 - **Alex Arm Position** - Resolve Alex-model arms being shifted down further than Steve-model arms. *default
-- **Resource Exploit Fix** - Resolve an exploit in 1.8 allowing servers to look through directories. *default
+~~- **Resource Exploit Fix** - Resolve an exploit in 1.8 allowing servers to look through directories. *default~~
 </details>
 <details>
   <summary>Experimental</summary>
