@@ -4,8 +4,8 @@
   <summary>Bug Fixes</summary>
   
 # Bug Fixes
-~~- **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command.~~
-~~- **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity.~~
+-~~ **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command.~~
+-~~ **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity.~~
 - **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
 ~~- **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories.~~
 - **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
