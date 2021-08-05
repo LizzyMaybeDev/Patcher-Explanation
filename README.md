@@ -4,70 +4,79 @@
   <summary>Bug Fixes</summary>
 
 # Bug Fixes
-- **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command. *default
-- **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity. *default
-- **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
-- **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories. *default
-- **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
-- **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+. *default
-- **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head. **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**. (originally fixed by mojang in 15w46a)
-- **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance) **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**
-- **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
-- **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position. *default
-- **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity. *default
-- **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity. *default
-- **Player Void Rendering** - Remove the black box around the player while in the void. *default
-- **Fluid Stitching** - Fix missing edges in fluids. “Requires Chunk reload (F3+a)”. (May cause Z—Fighting against blocks that aren't full size). *default
-- **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons. *default
-- **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
-- **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen. *default
-- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default
+- **Keep Shaders on Perspective change** - Resolve Vanilla shaders being cleared when changing perspective. *default
+- **Parallax Fix** - Resolve the camera being too far back, seemingly making your eyes be in the back of your head. (Currently makes the F3 crosshair disappear.) **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**. (originally fixed by mojang in 15w46a)
+- **Culling Fix** - Resolve false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance.) **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**
+- **Layers In Tab** - Resolves players sometimes not having a hat layer in Tab. *default
+- **Player Void Rendering** - Resolve the black box around the player while in the void. *default
+- **Alex Arm Position** - Resolve Alex-model arms being shifted down further than Steve-model arms. *default
+- **Resource Exploit Fix** - Resolve an exploit in 1.8 allowing servers to look through directories. *default
+
+</details>
+<details>
+  <summary>Experimental</summary>
+
+- **HUD Caching** - Reuse frames from the HUD instead of constantly recreating it every frame, as most HUD elements will stay the same for a long amount of time. (This may cause stuff with animations to feel "choppy".)
+
 </details>
 <details>
   <summary>Miscellaneous</summary>
 
 # Miscellaneous
-- **Remove Ground Foliage** - Stop plants/flower from rendering. (Requires chunk reload (F3+A)).
-- **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer). *default
+- **Remove Ground Foliage** - Stop plants/flower from rendering.
+- **1.12 Farm Selection Boxes** - Replace the selection box for crops with the 1.12 variant. (Only works on hypixel & Singleplayer.) *default
 - **FOV Modifier** - Allow for modifying FOV change states.
 - **Sprinting FOV** - Modify your FOV when sprinting.
 - **Bow FOV** - Modify your FOV when pulling back a bow.
 - **Speed FOV** - Modify your FOV when having the speed effect.
 - **Slowness FOV** - Modify Your FOV when having the slowness effect.
-- **Remove Water FOV** - Remove the change of FOV when underwater (Does not require FOV Modifier to be enabled)
+- **Remove Water FOV** - Remove the change of FOV when underwater.
+- **Better Keybind Handling** - Makes keys re-register when closing a GUI, like in 1.12+. (Does not work on macOS due to LWJGL issues.) *default
+- **Disable Hotbar Scrolling** - Remove the ability to scroll through your hotbar.
 - **Crosshair Perspective** - Remove the crosshair when in third person.
-- **Log Optimizer** - Delete all files in the logs folder, as these can usually take up a lot of space. (These files are not recoverable once deleted).
+- **Unfocused Sounds** - Change the volume of sounds when you're not tabbed into the window.
+- **Unfocused FPS** - Toggle changing your FPS to whatever Unfocused FPS is set to when not tabbed into the window.**
+- **Unfocused FPS Amount** - Change the maximum FPS when you're not tabbed into the window, saving resources.
+- **Log Optimizer** - Delete all files in the logs folder, as these can usually take up a lot of space. (These files are not recoverable once deleted.)
 - **Log Optimizer Amount** - Choose how many days old a file must be before being deleted.
 - **Better Camera** - Stop blocks such as grass and tall plants from affecting your FOV as done in 1.14+. *default
-- **Better F1** - Hide nametags when in F1 mode.
+- **Better F1** - Hide nametags when in F1 mode. *default
 - **Remove Screen Bobbing** - While using View Bobbing, only remove the view aspect but have the hand still bounce around. - **Suggested by [Akinsoft](https://www.youtube.com/channel/UCNMigEMQWTYEsRThvKYfoMQ)**
-- **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level.
-- **Zoom Smooth Camera** - Remove the smooth camera effect when using zoom.
+- **Remove Map Bobbing** - While using View Bobbing, remove the hand bobbing when holding a map.
+- **Static Items** - Stop items from bobbing up and down when dropped on the ground.
+- **Modify Every Sound** - Open a separate GUI allowing you to mute or amplify individual sounds.
+- **Zoom Adjustment** - Scroll when using OptiFine's zoom to adjust the zoom level. *default
+- **Remove Smooth Camera While Zoomed** - Remove the smooth camera effect when using zoom.
+- **Render Hand While Zoomed** - Keep your hand on screen when you zoom in.
 - **Zoom Sensitivity** - Use a custom mouse sensitivity value when zoomed in. This is a percentage of your normal sensitivity.
 - **Smooth Zoom Animation** - Add a smooth animation when you zoom in and out. - **Suggested by Pug#5853**
 - **Smooth Scroll-to-Zoom Animation** - Add a smooth animation when you scroll in and out while zoomed.
 - **Smooth Zoom Function** - Change the smoothing function used in the smooth zooming animation.
 - **Toggle to Zoom** - Make OptiFine's zoom key a toggle instead of requiring you to hold it. - **Suggested by [Microcontrollers#6733](https://canary.discord.com/channels/411619823445999637/411620521382510592/727392685563838475) / [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/768100485210177556) / [me](https://inv.wtf/firedotexe)**
 - **Simplify FPS Counter** - Remove the additions OptiFine L5 and above makes to the debug screen fps counter. *default
+- **Use Vanilla Metrics Renderer** - Replace Optifine's ALT+F3 metrics renderer with the Vanilla renderer. *default
 - **Nausea Effect** - Remove the nether portal effect appearing when clearing nausea.
 - **Disable Achievements** - Remove achievement notification.
 - **Fire Overlay Height** - Change the height of the fire overlay.
 - **Remove Water Overlay** - Remove the water texture overlay when underwater.
 - **Remove Inverted Colors from Crosshair** - Remove the inverted color effect on the crosshair.
-- **Fullbright** - Remove lighting updates, increasing visibility. “Requires chunk reload (F3+A)”. (Can positively impact performance). *default
-- **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright). - Suggested by [jacob#9999](https://canary.discord.com/channels/411619823445999637/411620521382510592/761567628388335626)
+- **Fullbright** - Remove lighting updates, increasing visibility. (Can positively impact performance. May conflict with minimaps.) *default
+- **Smart Fullbright** - Automatically Disable the Fullbright Effect when using OptiFine Shaders. (Requires Fullbright.) *default - Suggested by [jacob#9999](https://canary.discord.com/channels/411619823445999637/411620521382510592/761567628388335626)
 - **Show Own Nametag** - See your own nametag in third person.
+- **Clean Projectiles** - Show projectiles 2 ticks after they're shot up to stop them from obstructing your view.
+- **Ridden Horse Opacity** - change the opacity of the horse you're currently riding for visibility. - **Suggest by [Microcontrollers](https://canary.discord.com/channels/411619823445999637/411620521382510592/803357278459265054)**
 - **Numerical Enchantments** - Use readable numbers instead of Roman numerals on enchants. *default
 - **Clean View** - Stop rendering your own potion effect particles. (Integration by LianMI)
 - **Disable Breaking Particles** - Remove block breaking particles for visibility.
 - **Alternate Text Shadow** - Change the text shadow to only move down rather than moving to the side. - **Suggested by [Aktimoose#3001](https://canary.discord.com/channels/411619823445999637/411620521382510592/762279014303662090) with a [visual example](https://media.discordapp.net/attachments/411620521382510592/762279100915908629/unknown.png)**
 - **Add Text Shadow to Nametags** - Render nametag with shadowed text. - **Suggested by [Twens#9340](https://canary.discord.com/channels/411619823445999637/411620521382510592/705408054920871966) / [4Fluffin#2181](https://canary.discord.com/channels/411619823445999637/411620521382510592/712753614497644634) / [LRX#6974](https://canary.discord.com/channels/411619823445999637/411620521382510592/743866604088983563)**
+- **Add Text Shadow to Actionbar - Render actionbar messages with shadowed text.
 - **Disable Text shadow** - Remove shadows from text. (Can positively impact performance).
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Number Ping** - Show a readable ping number in tab instead of bars.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
-- **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes. (Windowed Fullscreen must also be enabled for this to work).
-  
+- **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes.
+
 </details>
 <details>
   <summary>Performance</summary>
@@ -80,7 +89,9 @@
 - **Don't Cull Entity Nametags** - Render nametags even when the entity and nametag are occluded.
 - **Don't Cull Armorstand Nametags** - Render nametags even when the armour stand is occluded.
 - **Check Armorstand Rules** - Don't cull armorstands that have a marker set in their entity rules. This will result in a lot of unculled armorstands in places like Hypixel Skyblock, but will provide better entity visibility while losing out on some performance improvements.
-- **Disable Armorstands** - Stop armorstands from rendering (armorstands are commonly used for NPC nametag rendering. Enabling this will stop those from rendering as well).
+- **Entity Bakc-face Culling** - Stop rendering sides of entities that you cannot see. Being inside an entity will cause that body part to be invisible. (Some models may have a transparent face and will cause the back face to not show, such as Wither Skeletons.)
+- **Player Back-face Culling** - Stop rendering sides of players that you cannot see. Being inside a player will cause that body part to be invisible.
+- **Disable Armorstands** - Stop armorstands from rendering. (Armorstands are commonly used for NPC nametag rendering. Enabling this will stop those from rendering as well.)
 - **Disable Semitransparent Players** - Stop semitransparent players from rendering.
 - **Disable Enchantment Books** - Stop enchantment table books from rendering.
 - **Disable Item Frames** - Stop item frames from rendering.
@@ -89,15 +100,16 @@
 - **Disable Attached Arrows** - Stop arrows that are attached to a player from Rendering. 
 - **Disable Skulls** - Stop skulls from rendering. 
 - **Disable Nametags Boxes** - Remove the transparent box around the nametag. 
+- **Unstacked Items** - Render stacks of items on the ground as just one instead of having up to 5 copies in one stack.
 - **Entity Render Distance Toggle** - Toggle allowing a custom entity render distance.
-- **Entity Render Distance** - Stop rendering entities outside a specified radius.
+- **Hostile Entity Render Distance** - Stop rendering hostile entities outside a specified radius.
+- **Passive Entity Render Distance** - Stop rendering passive entities outside a specified radius.
+- **Player Entity Render Distance** - Stop rendering player entities outside a specified radius.
+- **Global Entity Render Distance** - Stop rendering all entities outside a specified radius. This will ignore the distance of other entity render distances if smaller.
 - **Disable End Portals** - Stop end portals from rendering.
 - **Disable Enchantment Glint** - Disable the enchantment glint on enchanted items/potions.
-- **Disable Gl Error Checking** - Disable unnecessary constant checking for errors in OpenGL. (Requires restart once toggled). *default
-- **Optimized Resource Pack Discovery** - Optimize the time it takes to open the resource packs GUI. (Does not work with Labymod's RP24 addon). *default - **I'd like to feel like I inspired this**
-- **Item Searching** - Stop items from searching for extra items to combine with when the stack is already full. *default
-- **Optimized Item Renderer** - Cache information about items, avoiding recalculating everything about it every frame. *default
 - **Static Particle Color** - Disable particle lighting checks each frame. *default
+- **Max Particle Limit** - Stop additional particles from appearing when there's too many at once.
 - **Downscale Pack Images** - Change all pack icons to 64x64 to reduce memory usage. *default
 - **Optimized Font Renderer** - Use modern rendering techniques to improve font renderer performance. *default ([Optimization Test](https://streamable.com/0oype9 "tony reindeer is FAST fr fr"))
 - **Cache Font Data** - Cache font data allowing for it to be reused multiple times before needing recalculation. *default ([Optimization Test](https://streamable.com/0oype9 "this da uhhh optimization test"))
@@ -109,41 +121,44 @@
 - **Batch Model Rendering** - Render models in a single draw call, reducing the amount of OpenGL instructions performed a second. *default
 - **Optimized Cloud Renderer** - Use modern rendering techniques to improve cloud renderer performance. *default - Alternative explanation: **[Upload cloud geometry to the GPU, resulting in much faster cloud rendering](https://twitter.com/asbythh/status/1249024695846023168).**
 - **Remove Cloud Transparency** - Remove transparency from clouds.
-- **Disable Mob Spawning** - Reduce memory usage by disabling the check for mob spawning despite the set game rule. (this will disable mob spawning in single player).
   
 </details>
 <details>
   <summary>Screens</summary>
 
 # Screens
+- **1.11 Chat Length** - Extend the amount of characters you can type from 100 to 256 on supported servers. (Supported servers are servers that support 1.11 or above. Some servers may kick you for this despite supporting 1.11 or above.) *default
 - **Transparent Chat** - Remove the background from chat. (Can positively impact performance).
 - **Transparent Chat input field** - Remove the background from chat's input field. (Can positively impact performance).
-- **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod). *default
+- **Compact Chat** - Clean up chat by stacking duplicate messages (Does not work with Labymod.) *default
+- **Consecutive Compact Chat** - Only compact messages if they're consecutive.
 - **Compact Chat time** - Change the amount of time old messages take to stop being compacted. (Measured in seconds.)
-- **Anti Clear Chat** - Remove blank messages from chat.
+- **Remove Blank Messages** - Remove blank messages from chat.
 - **Shift Chat** - Holding shift while pressing enter will keep chat open.
-- **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+.
+- **Chat Delay** - Delay chat messages if they're sent within the selected timeframe after the previous message. (Measured in seconds.)
+- **Chat Position** - Move the chat up 12 pixels to stop it from overlapping the health bar, as done in 1.12+. *default
 - **Chat Timestamps** - Add timestamps before a message.
-- **Chat Timestamps Format** - Change the time format of Chat Timestamps, Examples: [3:24 PM] Steve: Hey!, [15:24] Steve: Hey!
-- **Cross Chat** - Stop clearing chat when switching servers. *default
-- **Chat Keeper** - Keep chat when toggling fullscreen. *default
+- **Chat Timestamps Style** - Choose how Chat Timestamps should appear.
+- **Chat Timestamps Format** - Change the time format of Chat Timestamps.
 - **Safe Chat Clicks** - Show the command or link that is ran/opened on click. 
-- **Damage Glance** - View the damage value of the currently held item above your hotbar. *default
-- **Item Count Glance** - View the amount of the currently held item above your hotbar. *default
-- **Enchantment Glance** - View the enchantments of the currently held item above your hotbar. *default
-- **Protection Percentage** - View how much total armor protection you have inside of your inventory. *default
-- **Projectile Protection Percentage** - View how much total projectile protection you have inside of your inventory. *default
+- **Damage Glance** - View the damage value of the currently held item above your hotbar.
+- **Item Count Glance** - View the amount of the currently held item above your hotbar.
+- **Enchantment Glance** - View the enchantments of the currently held item above your hotbar.
+- **Protection Percentage** - View how much total armor protection you have inside of your inventory.
+- **Projectile Protection Percentage** - View how much total projectile protection you have inside of your inventory.
+- **Name History Style** - Choose how Name History should appear.
 - **Container Backgrounds** - Remove the dark background inside of a container.
 - **GUI Crosshair** - Stop rendering the crosshair when in a GUI.
-- **Startup Notification** - Notify how long the game took to startup with a notification *default
-- **Clean Main Menu** - Remove the Realms button on the main menu as you need to be on the latest Mnecraft version to use Realms. *default
-- **Skin Refresher** - Add a button to the escape menu to refresh your current skin without needing to leave the server. (Also accessible with the command “/refreshskin”).
+- **Startup Notification** - Notify how long the game took to start. *default
+- **Clean Main Menu** - Remove the Realms button on the main menu as it's useless on 1.8.9. *default
+- **Skin Refresher** - Add a button to the escape menu to refresh your current skin without needing to leave the server. (Also accessible with the command “/refreshskin”.)
 - **Replace Open to Lan** - Remove the Open to Lan button when in multiplayer server with a button to quickly open your server list. (Will be reworked in the future to not kick you from the server).
 - **Replaced Mods Warning** - Display on startup what mods you may have that are replaced by Patcher. *default
-- **Smart Disconnect -** Choose between disconnecting or relogging when clicking the disconnect button. (Only works on multiplayer servers). - **Suggested by [Pug#5853](https://canary.discord.com/channels/411619823445999637/411620521382510592/705222390338158682)**
-- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen and Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots).
+- **Smart Disconnect -** Choose between disconnecting or relogging when clicking the disconnect button. (Only works on multiplayer servers.) - **Suggested by [Pug#5853](https://canary.discord.com/channels/411619823445999637/411620521382510592/705222390338158682)**
+- **Image Preview** - Preview image links when hovering over a supported URL. Press shift to use fullscreen and Control to render in native image resolution. (Currently supported: Imgur, Discord, Badlion screenshots.)
 - **Image Preview Width** - The % of screen width to be used for image preview.
 - **Inventory Position** - Stop potion effects from shifting your inventory to the right. *default
+- **Click Out of Containers** - Click outside of a container to close the menu.
 - **Custom Tab Opacity** - Change the tab list opacity.
 - **Tab Opacity** - Allow for customizing tab opacity.
 - **Tab Height** - Move the tab overlay down n amount of pixels when there's an active bossbar.
@@ -154,8 +169,13 @@
   <summary>Screenshots</summary>
 
 # Screenshots
-- **Compact Response** - Compact the message given when screenshotting.
 - **No Feedback** - Remove the messages from screenshots entirely.
+- **Compact Response** - Compact the message given when screenshotting.
+- **Favorite Screenshot** - Show a text component that allows you to delete a screenshot. *default
+- **Delete Screenshot** - Show a text component that allows you to delete. *default
+- **Upload Screenshot** - Show a text component that allows you to upload a screenshot to Imgur. *default
+- **Copy Screenshot** - Show a text component that allows you to copy a screenshot. *default
+- **Open Screenshots Folder** - Show a text component that allows you to open the screenshots folder. *default
 - **Screenshot Manager** - Change the way screenshotting works as a whole, creating a whole new process to screenshotting such as uploading to imgur, copying to clipboard, etc. *default
 - **Auto Copy Screenshot** - Automatically copy screenshots to the clipboard when taken - **Suggested by [mdash#0001](https://canary.discord.com/channels/411619823445999637/411620521382510592/772087167488622603) / DJtheRedstoner#6408 had a [similar suggestion](https://canary.discord.com/channels/411619823445999637/411620521382510592/770318489012928552) so dont get confused with both**
 - **Screenshot Preview** - Preview the look of your screenshot when taken in the bottom right corner.
@@ -294,39 +314,10 @@
   <summary>Known Planned Features for Patcher</summary>
  
 # Known Planned Features for Patcher
-- **Entity backface culling** -  Hides parts of the entity model that you cant see.
-- **Chat timestamps on hover** - Show timestamp for messages when you hover over them like [this](https://i.imgur.com/pR3aDv4.png) **(this isnt a concrete example its just to show the idea of what the final feature might look like)**.
-- **Fixed Entity Culling trying to cull particles causing some performance issues** - Self explanatory.
-- **The ability to change entity render distance separately per category, globally, players, hostile mobs, passive mobs** - Self explanatory.
-- **Fix Scoreboard fix not fixing Scoreboard log spam bug** - Self explanatory.
-- **1.12.2 Farm Selection Boxes now supports the hypixel.io IP** - Self explanatory.
-- **Fix z-fighting issues with fluid stitching** - As seen [here](https://i.imgur.com/EOxQKKD.png).
-- **Fix some [formatting issues](https://media.discordapp.net/attachments/485175582854873132/799656306599919636/unknown.png)**.
-- **Fixed some [smooth lighting issues](https://media.discordapp.net/attachments/728064513605369866/820918408643870720/unknown.png)**.
-- **Port chat send delay** - Port the new [chat send delay feature](https://imgur.com/a/ewt6Gq1) from newer Minecraft versions.
-- **Improvements related to resource pack discovery menu** - Unknown.
-- **Improvements related to resource pack loading** - Uses vanilla's resource pack loading instead of forge's.
-- **Horse transparency when riding it** - Like [this](https://media.discordapp.net/attachments/411620521382510592/803366568658337812/unknown.png) and [this](https://media.discordapp.net/attachments/411620521382510592/803369980405219388/unknown.png).
-- **Added unfocused fps & sound volume slider** - Lower FPS and sound when the game is unfocused.
-- **Fixed DebugFPS feature killing performance** - The feature to debug fps significantly [drops fps](https://media.discordapp.net/attachments/728064513605369866/820912978500386866/unknown.png) by a ton and it's now fixed: [Line responsible](https://media.discordapp.net/attachments/411620521382510592/801545071568748584/unknown.png), [Before](https://media.discordapp.net/attachments/411620521382510592/801550165474541630/unknown.png), [After](https://media.discordapp.net/attachments/411620521382510592/801550190536294470/unknown.png).
-- **Renamed anti clear chat to remove blank messages** - Self explanatory.
-- **Renamed container backgrounds to remove container backgrounds** - Self explanatory.
-- **Reworked a lot of option descriptions** - Unknown
-- **Force enabled some options** - For example Disable GL Error Checking, Head Rotations, Sky Height, MouseBindFix, Arrow Lighting, Fluid Stitching, Fullscreen Fix, Reset Death Timers, Command Handling, MouseDelayFix, Arm Rotation, Item Searching, Cross Chat, Chat Keeper, Particle Culling, Static Fog Color, Optimized Resourcepack Discovery.
-- **Removed disable mob spawning** - It was useless.
-- **Fixed parallax fix from removing crosshair on F3** - Self explanatory.
-- **Clicking out of containers** - The ability to click out of guis instead of having to press esc etc...
-- **Remove OptiFine's custom ALT+F3** - Self explanatory.
-- **Fix crashing issue with Hychat** - Self explanatory.
+- **Fix parallax fix from removing crosshair on F3** - Self explanatory.
 - **Opacity silder for chat transparency instead of the current option**. - Current option is just transparency with no configurable slider, that will change in the next version(s).
 - **Save chatbox content when closed** - For when you're randomly warped the text you were typing in the chatbox gets saved.
-- **Resolve issues with commands that have casing in them** - any command with a case in its name broke because of the case insensitive commands feature, that will change in the next version(s).
-- **Disable view bobbing effect when holding map** - Self explanatory.
-- **Linux LWJGL key registration fix** - Fixes a LWJGL bug causing incorrect registration of Shift+2 and Shift+6 on Linux systems.
-- **Fix shadows on sized withers** - Properly scale shadows on withers that are not the default size.
-- **Hide projectiles for a few frames after thrown** - Hides snowballs, eggs, ender pearls, ender eyes, splash potions, exp bottles, and firework rockets for a few frames after being thrown to prevent them from taking up a majority of the screen.
-- **Ability to toggle off certain buttons from screenshot manager** - Self explanatory.
-- **Fix Villager/zombie villager/witch robes not rendering the last two rows of pixels** - Fixes [MC-53312](https://bugs.mojang.com/browse/MC-53312).
+
 </details>
 <details>
   <summary>Mods Patcher Replaces</summary>
@@ -341,6 +332,8 @@
 - **[CrossChat](https://sk1er.club/mods/cross_chat)** - Sk1er LLC
 
 - **[Frames+](https://frames.sk1er.club/)** - Sk1er LLC
+  
+- **[HUDCaching](https://github.com/Moulberry/MCHUDCaching) - [Moulberry](https://github.com/moulberry)
 
 - **[ItemOptimizations](https://sk1er.club/mods/item_optimization)** - Sk1er LLC
 
@@ -364,7 +357,7 @@
 
 - **[VoidChat](https://skyerzz.com/minecraft/mods/voidchat/)** - skyerzz
 
-- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - [Moulberry](https://github.com/moulberry/)
+- **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - [Moulberry](https://github.com/moulberry)
 
 - **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
 
@@ -372,7 +365,7 @@
 
 # Credits to
 
-- [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part and a TON of other things that i took which i forgot.
+- [asbyth](https://github.com/asbyth/) and [Sk1erLLC](https://github.com/sk1erllc) for making this awesome mod and the “[mods it replaces](https://gist.github.com/asbyth/bcdb67d8f0ed18878c3916f15f4ddf9b "Mods Patcher Replaces")” part and a TON of other things that I took which I forgot.
 - [moire](https://github.com/moire9) for having a cool readme that I can steal from.
 - [Chachy](https://github.com/ChachyDev), [Microcontrollers](https://www.youtube.com/watch?v=dQw4w9WgXcQ), [Proudmuslim](https://github.com/proudmuslim-dev) for contributing.
 <div align = "center">
