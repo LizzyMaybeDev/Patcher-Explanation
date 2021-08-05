@@ -4,24 +4,13 @@
   <summary>Bug Fixes</summary>
   
 # Bug Fixes
--~~ **Command Handling** - Fix Forge's command handler not checking for a '/' at the start of a command.~~
--~~ **Case Insensitive Commands** - Stop vanilla commands from forcing case sensitivity.~~
-- **Arrow Lighting** - Stop arrows attached to an entity from messing up entity lighting.
-~~- **Mouse Bind Fix** - Fixes an issue where keybinds bound to mouse buttons do not work in inventories.~~
-- **Keep Shaders on Perspective change** - Keep vanilla shaders you're currently using while also being able to toggle perspective. *default
-~~- **Better Keybind Handling** - Make keys re-register when closing a GUI, like in 1.12+.~~
-- **Parallax Fix** - Fix the camera being too far back, seemingly making your eyes be in the back of your head. **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**. (originally fixed by mojang in 15w46a)
-- **Culling Fix** - Fix false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance) **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**
-- **Layers In Tab** - Fixes sometimes players not having a hat layer on tab. *default
-~~- **Mouse Delay Fix** - Resolve an issue where your crosshair is a tick behind your head position.~~
-~~- **Arm Rotations** - Resolve an issue where your arm rotation would be angled upwards when mounting an entity.~~
-~~- **Head Rotations** - Resolve an issue where your head would not properly rotate while riding an entity.~~
-- **Player Void Rendering** - Remove the black box around the player while in the void. *default
-~~- **Fluid Stitching** - Fix missing edges in fluids. “Requires Chunk reload (F3+a)”. (May cause Z—Fighting against blocks that aren't full size).~~
-~~- **Reset Death Timers** - Resolve an issue where changing the fullscreen state on the Game Over screen would lock the buttons.~~
-- **Resource Exploit Fix** - Fix an exploit in 1.8 allowing servers to look through directories. *default
-~~- **Fullscreen Fix** - Resolve an issue where you could not maximize the game once toggling fullscreen.~~
-~~- **Sky Height** - Remove the flickering effect from the void when passing between Y level 63. *default~~
+- **Keep Shaders on Perspective change** - Resolve Vanilla shaders being cleared when changing perspective. *default
+- **Parallax Fix** - Resolve the camera being too far back, seemingly making your eyes be in the back of your head. (Currently makes the F3 crosshair disappear.) **[MC-1846](https://bugs.mojang.com/browse/MC-1846)**. (originally fixed by mojang in 15w46a)
+- **Culling Fix** - Resolve false negatives in frustum culling, creating invisible chunks in some cases. (Can negatively impact performance.) **[MC-63020](https://bugs.mojang.com/browse/MC-63020)** & **[MC-70850](https://bugs.mojang.com/browse/MC-70850)**
+- **Layers In Tab** - Resolves players sometimes not having a hat layer in Tab. *default
+- **Player Void Rendering** - Resolve the black box around the player while in the void. *default
+- **Alex Arm Position** - Resolve Alex-model arms being shifted down further than Steve-model arms. *default
+- **Resource Exploit Fix** - Resolve an exploit in 1.8 allowing servers to look through directories. *default
 </details>
 <details>
   <summary>Experimental</summary>
