@@ -2,8 +2,6 @@
 
 <details>
   <summary>Bug Fixes</summary>
-
-  ~~test~~
   
 # Bug Fixes
 - **Keep Shaders on Perspective change** - Resolve Vanilla shaders being cleared when changing perspective. *default
