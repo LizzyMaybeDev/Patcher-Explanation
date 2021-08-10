@@ -293,21 +293,21 @@
 - **Fire Overlay Height** - option was originally named Fire Height then got renamed with the release of Patcher 1.1 beta 1.
 - **Downscale Pack Images** - option was originally named Pack Images then later on got renamed with the release of Patcher 1.1 beta 7.
 - With the release of Patcher 1.1 beta 9 they renamed /blacklist to /pblacklist and removed /history alias to name history later on in Patcher 1.3 beta 16 they renamed /name to /pname due to it potentially messing up normal server/client commands.
-- In Patcher 1.1 they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
+- In Patcher 1.1, they added optimizations regarding TileEntities, PathFinding memory leak, BlockEntities removal, Resource loading, Entity capability checks, GameRules, and other players.
 - Patcher 1.2 improved startup time significantly, 66 mods, patcher 1.1 -> 81 seconds, 66 mods, patcher 1.2 -> 52 seconds
-- In Patcher 1.3 beta 14 the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining.
-- In Patcher 1.3 they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
-- In Patcher 1.3 they moved commands such as /patchersounds to /patcher sounds, /name to /patcher name, /pblacklist to /patcher blacklist.
-- In Patcher 1.3.1 beta 1 the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version.
-- In Patcher 1.4 they fixed over 40 vanilla bugs.
-- In Patcher 1.4 they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
-- Speaking of Patcher 1.4 beta 1 this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z + 1677216, and other related floating precision point issues here's [some](https://github.com/LunaNotdev/Patcher-Explanation/#nonconfigurable-patcher-settings).
-- In Patcher 1.4 beta 6 the file size got reduce by an incredible amount from 3.3mb to ~600kb by asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar.
-- In Patcher 1.5 beta 3 they Removed Chunk Lighting Fix due to complaints of stuttering.
+- In Patcher 1.3 beta 14, the disable armorstands option's description was extended to note that this setting will also disable most NPC names on most servers due to a ton of idiots complaining.
+- In Patcher 1.3, they fixed the annoying Vanilla bug that would crash the game when closing a GUI and pressing a hotbar key slot at the same time.
+- In Patcher 1.3, they moved commands such as /patchersounds to /patcher sounds, /name to /patcher name, /pblacklist to /patcher blacklist.
+- In Patcher 1.3.1 beta 1, the Blaze Culling Algorithm was released which performs some extra checks to see if entities are hidden behind others to not render them to later on get removed in Patcher 1.4 beta 1 then integrated in entity culling after it being redone in Unknown Patcher Version.
+- In Patcher 1.4, they fixed over 40 vanilla bugs.
+- In Patcher 1.4, they rewrote Entity Culling to use Depth Buffer Sampling, resulting in much better culling performance.
+- Speaking of Patcher 1.4 beta 1, this version had 24+ vanilla bugs that were reported there is others that were unreported including the hitbox rendering of Cactus after x/z + 1677216, and other related floating precision point issues here's [some](https://github.com/LunaNotdev/Patcher-Explanation/#nonconfigurable-patcher-settings).
+- In Patcher 1.4 beta 6, the file size got reduced by an incredible amount from 3.3mb to ~600kb. This was the result of Asbyth requesting permission from sk1er to bundle coroutines and caffeine then removing them from the Patcher jar.
+- In Patcher 1.5 beta 3, they Removed Chunk Lighting Fix due to complaints of stuttering.
 - /coords was changed to /sendcoords in a Patcher 1.5 beta after the user Microcontrollers complained about it being first in tab complete ahead of /coordshud.
 - The Compact Chat rewrite and Limit Chunk Updates were pretty much done by [Moulberry](https://github.com/moulberry/).
-- In Patcher 1.5 they forced max FOV through /fov to be 110 to stop things from being broken when too high.
-- In Patcher 1.5 the Name History menu was completely redesigned.
+- In Patcher 1.5, they forced max FOV through /fov to be 110 to stop things from being broken when too high.
+- In Patcher 1.5, the Name History menu was completely redesigned.
 </details>
 <details>
   <summary>Known Planned Features for Patcher</summary>
