@@ -272,6 +272,8 @@
 - **[MC-101233](https://bugs.mojang.com/browse/MC-101233)**: burned out Redstone torch map causes a memory leak..
 - **[MC-117412](https://bugs.mojang.com/browse/MC-117412)**: Heightmap min value not set when loading chunk from NBT.
 - **[MC-121884](https://bugs.mojang.com/browse/MC-121884)**: Server->Client custom payload packets can leak resources.
+- Resolve Minecraft sometimes never saving options.
+- Resolve the player not hearing when their own armor breaks.
 - **bakes you a cookie**
   - **Note that this is all public information and there is many many stuff that are in the code but are not made public.**
 </details>
