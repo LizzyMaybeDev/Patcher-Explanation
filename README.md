@@ -360,7 +360,7 @@
 
 - **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - [Moulberry](https://github.com/moulberry)
 
-- **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Unknown
+- **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Fr3ddy
 
 </details>
 
