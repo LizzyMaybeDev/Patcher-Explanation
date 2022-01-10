@@ -334,7 +334,7 @@
 
 - **[Frames+](https://frames.sk1er.club/)** - Sk1er LLC
   
-- **[HUDCaching](https://github.com/Moulberry/MCHUDCaching) - [Moulberry](https://github.com/moulberry)
+- **[HUDCaching](https://github.com/Moulberry/MCHUDCaching)** - [Moulberry](https://github.com/moulberry)
 
 - **[ItemOptimizations](https://sk1er.club/mods/item_optimization)** - Sk1er LLC
 
@@ -361,6 +361,8 @@
 - **[BetterScaledGUI](https://www.youtube.com/watch?v=E1VsQ3-xkF8)** - [Moulberry](https://github.com/moulberry)
 
 - **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Fr3ddy
+
+- **[Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)** - tr9zw
 
 </details>
 
