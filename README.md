@@ -74,7 +74,7 @@
 - **Toggle Tab** - Hold tab open without needing to hold down the tab key.
 - **Number Ping** - Show a readable ping number in tab instead of bars.
 - **Windowed Fullscreen** - Implement Windowed Fullscreen in Minecraft allowing you to drag your mouse outside the window
-- **Instant Fullscreen** (Windows Only) - Instant switching between full screen and non fullscreen modes.
+- **Instant Fullscreen** **(Windows Only)** - Instant switching between full screen and non fullscreen modes.
 
 </details>
 <details>
