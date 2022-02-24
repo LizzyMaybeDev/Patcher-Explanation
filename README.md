@@ -287,7 +287,7 @@
 - **Patcher not only fixes vanilla bugs but even other mod's bugs** suprisingly enough patcher fixes forge bugs and vanilla bugs and even optifine bugs.
 - **Patcher** was originally called tweaker as a project [Asbyth](https://github.com/asbyth/) the now main patcher developer was working on and then introduced tweaker 2.0 and Patcher which was then superseded by the now known patcher which has been worked on in the span of an entire year and more to come in the future.
 - **Save Chat when toggling fullscreen** was added by UserTeemu.
-- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x. - reported by [me](https://inv.wtf/firedotexe)
+- **Downscale Pack Images** - Used to upscale packs to 64x if they were less than 64x. - Reported by [me](https://inv.wtf/firedotexe)
 - **Resource Exploit Fix** - Had a problem where servers were actually able to workaround which was later on fixed in an unknown patcher version. - Reported by Unknown
 - **Old /FOV** - Many people believe the /fov command had unlimited posibilities which isnt true, the command actually has a limit which is /fov 340282356779733661637539395458142568447. - Discovery by [me](https://inv.wtf/firedotexe "i need serious help")
 - Patcher fixes an issue with the sun sometimes being black when using a Powns mod.
