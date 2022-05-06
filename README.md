@@ -362,7 +362,7 @@
 
 - **[Fullbright](https://www.curseforge.com/minecraft/mc-mods/fullbright)** - Fr3ddy
 
-- **[Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)** - tr9zw
+- **[Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)** - tr7zw
 
 </details>
 
